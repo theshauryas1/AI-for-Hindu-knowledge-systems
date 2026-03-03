@@ -1,0 +1,1049 @@
+[
+    // ===== CONCEPT IS_DEFINED_IN TEXT =====
+    {
+        "subject": "atman",
+        "predicate": "is_defined_in",
+        "object": "chandogya_up",
+        "source": "CU 6.8.7 'tat tvam asi'",
+        "confidence": 1.0
+    },
+    {
+        "subject": "atman",
+        "predicate": "is_defined_in",
+        "object": "brihadaranyaka_up",
+        "source": "BAU 1.4.10",
+        "confidence": 1.0
+    },
+    {
+        "subject": "atman",
+        "predicate": "is_defined_in",
+        "object": "katha_up",
+        "source": "KU 1.2.18",
+        "confidence": 1.0
+    },
+    {
+        "subject": "brahman",
+        "predicate": "is_defined_in",
+        "object": "brahma_sutras",
+        "source": "BS 1.1.2",
+        "confidence": 1.0
+    },
+    {
+        "subject": "brahman",
+        "predicate": "is_defined_in",
+        "object": "mandukya_up",
+        "source": "MU 1",
+        "confidence": 1.0
+    },
+    {
+        "subject": "brahman",
+        "predicate": "is_defined_in",
+        "object": "chandogya_up",
+        "source": "CU 3.14.1",
+        "confidence": 1.0
+    },
+    {
+        "subject": "maya",
+        "predicate": "is_defined_in",
+        "object": "vivekachudamani",
+        "source": "VC 109",
+        "confidence": 1.0
+    },
+    {
+        "subject": "maya",
+        "predicate": "is_defined_in",
+        "object": "mandukya_karika",
+        "source": "MK 1.17",
+        "confidence": 0.95
+    },
+    {
+        "subject": "moksha",
+        "predicate": "is_defined_in",
+        "object": "bhagavad_gita",
+        "source": "BG 18.66",
+        "confidence": 1.0
+    },
+    {
+        "subject": "moksha",
+        "predicate": "is_defined_in",
+        "object": "katha_up",
+        "source": "KU 2.3.14",
+        "confidence": 0.95
+    },
+    {
+        "subject": "karma",
+        "predicate": "is_defined_in",
+        "object": "bhagavad_gita",
+        "source": "BG 3.5",
+        "confidence": 1.0
+    },
+    {
+        "subject": "dharma",
+        "predicate": "is_defined_in",
+        "object": "manusmriti",
+        "source": "MS 1.10",
+        "confidence": 1.0
+    },
+    {
+        "subject": "dharma",
+        "predicate": "is_defined_in",
+        "object": "bhagavad_gita",
+        "source": "BG 4.7",
+        "confidence": 1.0
+    },
+    {
+        "subject": "ahimsa",
+        "predicate": "is_defined_in",
+        "object": "yoga_sutras",
+        "source": "YS 2.30",
+        "confidence": 1.0
+    },
+    {
+        "subject": "ahimsa",
+        "predicate": "is_defined_in",
+        "object": "manusmriti",
+        "source": "MS 5.45",
+        "confidence": 0.9
+    },
+    {
+        "subject": "satya",
+        "predicate": "is_defined_in",
+        "object": "yoga_sutras",
+        "source": "YS 2.30",
+        "confidence": 1.0
+    },
+    {
+        "subject": "asteya",
+        "predicate": "is_defined_in",
+        "object": "yoga_sutras",
+        "source": "YS 2.30",
+        "confidence": 1.0
+    },
+    {
+        "subject": "brahmacharya",
+        "predicate": "is_defined_in",
+        "object": "yoga_sutras",
+        "source": "YS 2.30",
+        "confidence": 1.0
+    },
+    {
+        "subject": "aparigraha",
+        "predicate": "is_defined_in",
+        "object": "yoga_sutras",
+        "source": "YS 2.30",
+        "confidence": 1.0
+    },
+    {
+        "subject": "samsara",
+        "predicate": "is_defined_in",
+        "object": "bhagavad_gita",
+        "source": "BG 9.21",
+        "confidence": 1.0
+    },
+    {
+        "subject": "jiva",
+        "predicate": "is_defined_in",
+        "object": "brahma_sutras",
+        "source": "BS 2.3.17",
+        "confidence": 1.0
+    },
+    {
+        "subject": "ishvara",
+        "predicate": "is_defined_in",
+        "object": "brahma_sutras",
+        "source": "BS 1.1.2",
+        "confidence": 1.0
+    },
+    {
+        "subject": "prakriti",
+        "predicate": "is_defined_in",
+        "object": "samkhya_karika",
+        "source": "SK 3",
+        "confidence": 1.0
+    },
+    {
+        "subject": "purusha",
+        "predicate": "is_defined_in",
+        "object": "samkhya_karika",
+        "source": "SK 11",
+        "confidence": 1.0
+    },
+    {
+        "subject": "avidya",
+        "predicate": "is_defined_in",
+        "object": "vivekachudamani",
+        "source": "VC 130",
+        "confidence": 1.0
+    },
+    {
+        "subject": "pratyaksha",
+        "predicate": "is_defined_in",
+        "object": "nyaya_sutras",
+        "source": "NS 1.1.4",
+        "confidence": 1.0
+    },
+    {
+        "subject": "anumana",
+        "predicate": "is_defined_in",
+        "object": "nyaya_sutras",
+        "source": "NS 1.1.5",
+        "confidence": 1.0
+    },
+    {
+        "subject": "shabda",
+        "predicate": "is_defined_in",
+        "object": "nyaya_sutras",
+        "source": "NS 1.1.7",
+        "confidence": 1.0
+    },
+    {
+        "subject": "bhakti",
+        "predicate": "is_defined_in",
+        "object": "bhagavata_purana",
+        "source": "BP 3.29.7",
+        "confidence": 1.0
+    },
+    {
+        "subject": "bhakti",
+        "predicate": "is_defined_in",
+        "object": "narada_bhakti_sutras",
+        "source": "NBS 1",
+        "confidence": 1.0
+    },
+    {
+        "subject": "jnana",
+        "predicate": "is_defined_in",
+        "object": "bhagavad_gita",
+        "source": "BG 4.33",
+        "confidence": 1.0
+    },
+    {
+        "subject": "karma_yoga",
+        "predicate": "is_defined_in",
+        "object": "bhagavad_gita",
+        "source": "BG 3.19",
+        "confidence": 1.0
+    },
+    {
+        "subject": "nishkama_karma",
+        "predicate": "is_defined_in",
+        "object": "bhagavad_gita",
+        "source": "BG 3.19",
+        "confidence": 1.0
+    },
+    {
+        "subject": "varnashrama",
+        "predicate": "is_defined_in",
+        "object": "manusmriti",
+        "source": "MS 1.87",
+        "confidence": 1.0
+    },
+    {
+        "subject": "viveka",
+        "predicate": "is_defined_in",
+        "object": "vivekachudamani",
+        "source": "VC 16",
+        "confidence": 1.0
+    },
+    {
+        "subject": "vairagya",
+        "predicate": "is_defined_in",
+        "object": "vivekachudamani",
+        "source": "VC 22",
+        "confidence": 1.0
+    },
+    {
+        "subject": "gunas",
+        "predicate": "is_defined_in",
+        "object": "samkhya_karika",
+        "source": "SK 13",
+        "confidence": 1.0
+    },
+    {
+        "subject": "gunas",
+        "predicate": "is_defined_in",
+        "object": "bhagavad_gita",
+        "source": "BG 14.5",
+        "confidence": 1.0
+    },
+    {
+        "subject": "turiya",
+        "predicate": "is_defined_in",
+        "object": "mandukya_up",
+        "source": "MU 7",
+        "confidence": 1.0
+    },
+    {
+        "subject": "vivarta",
+        "predicate": "is_defined_in",
+        "object": "vivekachudamani",
+        "source": "VC 234",
+        "confidence": 1.0
+    },
+    {
+        "subject": "parinama",
+        "predicate": "is_defined_in",
+        "object": "sri_bhashya",
+        "source": "SB 1.1.5",
+        "confidence": 1.0
+    },
+    {
+        "subject": "prasad",
+        "predicate": "is_defined_in",
+        "object": "bhagavad_gita",
+        "source": "BG 18.56",
+        "confidence": 1.0
+    },
+    {
+        "subject": "rita",
+        "predicate": "is_defined_in",
+        "object": "rigveda",
+        "source": "RV 1.1.2",
+        "confidence": 0.9
+    },
+    {
+        "subject": "tapas",
+        "predicate": "is_defined_in",
+        "object": "manusmriti",
+        "source": "MS 11.234",
+        "confidence": 0.9
+    },
+    {
+        "subject": "pramana",
+        "predicate": "is_defined_in",
+        "object": "nyaya_sutras",
+        "source": "NS 1.1.3",
+        "confidence": 1.0
+    },
+    {
+        "subject": "sannyasa",
+        "predicate": "is_defined_in",
+        "object": "manusmriti",
+        "source": "MS 6.1",
+        "confidence": 1.0
+    },
+    {
+        "subject": "ahankara",
+        "predicate": "is_defined_in",
+        "object": "samkhya_karika",
+        "source": "SK 24",
+        "confidence": 1.0
+    },
+    {
+        "subject": "chitta",
+        "predicate": "is_defined_in",
+        "object": "yoga_sutras",
+        "source": "YS 1.2",
+        "confidence": 1.0
+    },
+    {
+        "subject": "samskara",
+        "predicate": "is_defined_in",
+        "object": "yoga_sutras",
+        "source": "YS 1.50",
+        "confidence": 1.0
+    },
+    {
+        "subject": "vasana",
+        "predicate": "is_defined_in",
+        "object": "yoga_sutras",
+        "source": "YS 4.24",
+        "confidence": 1.0
+    },
+    // ===== CONCEPT IS_ENDORSED_BY SCHOOL =====
+    {
+        "subject": "atman",
+        "predicate": "is_endorsed_by",
+        "object": "advaita",
+        "note": "Advaita: ātman = brahman"
+    },
+    {
+        "subject": "atman",
+        "predicate": "is_endorsed_by",
+        "object": "dvaita",
+        "note": "Dvaita: ātman eternally distinct from Brahman"
+    },
+    {
+        "subject": "atman",
+        "predicate": "is_endorsed_by",
+        "object": "vishishtadvaita",
+        "note": "Viśiṣṭādvaita: ātman is attribute of Brahman"
+    },
+    {
+        "subject": "atman",
+        "predicate": "is_endorsed_by",
+        "object": "nyaya",
+        "note": "Nyāya: ātman is an eternal substance"
+    },
+    {
+        "subject": "brahman",
+        "predicate": "is_endorsed_by",
+        "object": "advaita",
+        "note": "Advaita: Nirguna Brahman alone real"
+    },
+    {
+        "subject": "brahman",
+        "predicate": "is_endorsed_by",
+        "object": "dvaita",
+        "note": "Dvaita: Saguna Brahman (Viṣṇu) is supreme"
+    },
+    {
+        "subject": "brahman",
+        "predicate": "is_endorsed_by",
+        "object": "vishishtadvaita",
+        "note": "Viśiṣṭādvaita: Saguna Brahman with jīva/jagat as body"
+    },
+    {
+        "subject": "maya",
+        "predicate": "is_endorsed_by",
+        "object": "advaita",
+        "note": "Central to Advaita cosmology"
+    },
+    {
+        "subject": "maya",
+        "predicate": "is_rejected_by",
+        "object": "dvaita",
+        "note": "Madhva rejects māyā; world is real"
+    },
+    {
+        "subject": "maya",
+        "predicate": "is_rejected_by",
+        "object": "vishishtadvaita",
+        "note": "Rāmānuja: world is real transformation of Brahman"
+    },
+    {
+        "subject": "maya",
+        "predicate": "is_rejected_by",
+        "object": "nyaya",
+        "note": "Nyāya: external world is fully real"
+    },
+    {
+        "subject": "maya",
+        "predicate": "is_rejected_by",
+        "object": "mimamsa",
+        "note": "Mīmāṃsā: world is real, Vedas are eternal"
+    },
+    {
+        "subject": "moksha",
+        "predicate": "is_endorsed_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "moksha",
+        "predicate": "is_endorsed_by",
+        "object": "dvaita"
+    },
+    {
+        "subject": "moksha",
+        "predicate": "is_endorsed_by",
+        "object": "vishishtadvaita"
+    },
+    {
+        "subject": "moksha",
+        "predicate": "is_endorsed_by",
+        "object": "nyaya"
+    },
+    {
+        "subject": "moksha",
+        "predicate": "is_endorsed_by",
+        "object": "bhakti"
+    },
+    {
+        "subject": "karma",
+        "predicate": "is_endorsed_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "karma",
+        "predicate": "is_endorsed_by",
+        "object": "dvaita"
+    },
+    {
+        "subject": "karma",
+        "predicate": "is_endorsed_by",
+        "object": "mimamsa"
+    },
+    {
+        "subject": "bhakti",
+        "predicate": "is_endorsed_by",
+        "object": "bhakti"
+    },
+    {
+        "subject": "bhakti",
+        "predicate": "is_endorsed_by",
+        "object": "dvaita"
+    },
+    {
+        "subject": "bhakti",
+        "predicate": "is_endorsed_by",
+        "object": "vishishtadvaita"
+    },
+    {
+        "subject": "jnana",
+        "predicate": "is_endorsed_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "karma_yoga",
+        "predicate": "is_endorsed_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "karma_yoga",
+        "predicate": "is_endorsed_by",
+        "object": "mimamsa"
+    },
+    {
+        "subject": "ahimsa",
+        "predicate": "is_endorsed_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "ahimsa",
+        "predicate": "is_endorsed_by",
+        "object": "bhakti"
+    },
+    {
+        "subject": "ahimsa",
+        "predicate": "is_endorsed_by",
+        "object": "nyaya"
+    },
+    {
+        "subject": "anumana",
+        "predicate": "is_endorsed_by",
+        "object": "nyaya"
+    },
+    {
+        "subject": "shabda",
+        "predicate": "is_endorsed_by",
+        "object": "mimamsa"
+    },
+    {
+        "subject": "prasad",
+        "predicate": "is_endorsed_by",
+        "object": "bhakti"
+    },
+    {
+        "subject": "prasad",
+        "predicate": "is_endorsed_by",
+        "object": "dvaita"
+    },
+    {
+        "subject": "viveka",
+        "predicate": "is_endorsed_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "vairagya",
+        "predicate": "is_endorsed_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "parinama",
+        "predicate": "is_endorsed_by",
+        "object": "vishishtadvaita"
+    },
+    {
+        "subject": "parinama",
+        "predicate": "is_rejected_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "vivarta",
+        "predicate": "is_endorsed_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "vivarta",
+        "predicate": "is_rejected_by",
+        "object": "dvaita"
+    },
+    {
+        "subject": "vivarta",
+        "predicate": "is_rejected_by",
+        "object": "vishishtadvaita"
+    },
+    {
+        "subject": "nishkama_karma",
+        "predicate": "is_endorsed_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "nishkama_karma",
+        "predicate": "is_endorsed_by",
+        "object": "bhakti"
+    },
+    {
+        "subject": "dharma",
+        "predicate": "is_endorsed_by",
+        "object": "mimamsa"
+    },
+    {
+        "subject": "dharma",
+        "predicate": "is_endorsed_by",
+        "object": "advaita"
+    },
+    {
+        "subject": "dharma",
+        "predicate": "is_endorsed_by",
+        "object": "nyaya"
+    },
+    // ===== SCHOOL CONTRADICTS SCHOOL =====
+    {
+        "subject": "advaita",
+        "predicate": "contradicts",
+        "object": "dvaita",
+        "note": "Advaita: atman=brahman; Dvaita: eternally distinct",
+        "concept": "atman_brahman_identity"
+    },
+    {
+        "subject": "dvaita",
+        "predicate": "contradicts",
+        "object": "advaita",
+        "note": "Dvaita rejects maya and non-dual identity",
+        "concept": "maya_reality"
+    },
+    {
+        "subject": "advaita",
+        "predicate": "contradicts",
+        "object": "nyaya",
+        "note": "Advaita rejects external world as ultimately real",
+        "concept": "world_reality"
+    },
+    {
+        "subject": "mimamsa",
+        "predicate": "contradicts",
+        "object": "advaita",
+        "note": "Mīmāṃsā: Vedas eternal and authorless; Advaita uses them for jñāna",
+        "concept": "veda_purpose"
+    },
+    {
+        "subject": "nyaya",
+        "predicate": "contradicts",
+        "object": "mimamsa",
+        "note": "Nyāya argues for Isvara; Mīmāṃsā denies",
+        "concept": "ishvara_existence"
+    },
+    {
+        "subject": "advaita",
+        "predicate": "contradicts",
+        "object": "vishishtadvaita",
+        "note": "Advaita: world is maya-vivarta; Vishishtadvaita: world is real parinama of Brahman"
+    },
+    {
+        "subject": "dvaita",
+        "predicate": "contradicts",
+        "object": "vishishtadvaita",
+        "note": "Dvaita: jiva never merges with God; Vishishtadvaita: jiva is body of God"
+    },
+    // ===== SCHOOL SUPPORTS / EMBODIES =====
+    {
+        "subject": "advaita",
+        "predicate": "supports",
+        "object": "jnana",
+        "note": "Jñāna is primary path"
+    },
+    {
+        "subject": "dvaita",
+        "predicate": "supports",
+        "object": "bhakti",
+        "note": "Bhakti + Isvara grace = moksha"
+    },
+    {
+        "subject": "mimamsa",
+        "predicate": "supports",
+        "object": "karma_yoga",
+        "note": "Ritual action (karma-kanda) is central"
+    },
+    {
+        "subject": "bhakti",
+        "predicate": "supports",
+        "object": "prasad",
+        "note": "Grace is essential for liberation"
+    },
+    {
+        "subject": "nyaya",
+        "predicate": "supports",
+        "object": "anumana",
+        "note": "Inference is king pramana"
+    },
+    // ===== COMMENTATOR INTERPRETS TEXT =====
+    {
+        "subject": "shankara",
+        "predicate": "interprets",
+        "object": "brahma_sutras",
+        "source": "Brahma Sutra Bhashya"
+    },
+    {
+        "subject": "shankara",
+        "predicate": "interprets",
+        "object": "bhagavad_gita",
+        "source": "Gita Bhashya"
+    },
+    {
+        "subject": "shankara",
+        "predicate": "interprets",
+        "object": "mandukya_up",
+        "source": "Mandukya Bhashya"
+    },
+    {
+        "subject": "shankara",
+        "predicate": "interprets",
+        "object": "chandogya_up",
+        "source": "Chandogya Bhashya"
+    },
+    {
+        "subject": "ramanuja",
+        "predicate": "interprets",
+        "object": "brahma_sutras",
+        "source": "Sri Bhashya"
+    },
+    {
+        "subject": "ramanuja",
+        "predicate": "interprets",
+        "object": "bhagavad_gita",
+        "source": "Gita Bhashya (Ramanuja)"
+    },
+    {
+        "subject": "madhva",
+        "predicate": "interprets",
+        "object": "brahma_sutras",
+        "source": "Brahma Sutra Bhashya (Madhva)"
+    },
+    {
+        "subject": "madhva",
+        "predicate": "interprets",
+        "object": "mahabharata",
+        "source": "Mahabharata Tatparya Nirnaya"
+    },
+    {
+        "subject": "gaudapada",
+        "predicate": "interprets",
+        "object": "mandukya_up",
+        "source": "Mandukya Karika"
+    },
+    {
+        "subject": "patanjali",
+        "predicate": "interprets",
+        "object": "yoga_sutras",
+        "source": "Self-authored"
+    },
+    {
+        "subject": "jaimini",
+        "predicate": "interprets",
+        "object": "rigveda",
+        "source": "Mimamsa Sutras"
+    },
+    {
+        "subject": "kumarila_bhatta",
+        "predicate": "interprets",
+        "object": "mimamsa_sutras",
+        "source": "Shlokavartika"
+    },
+    {
+        "subject": "vedanta_desika",
+        "predicate": "interprets",
+        "object": "sri_bhashya",
+        "source": "Nyaya Siddhanjana"
+    },
+    // ===== COMMENTATOR BELONGS TO SCHOOL =====
+    {
+        "subject": "shankara",
+        "predicate": "belongsTo",
+        "object": "advaita"
+    },
+    {
+        "subject": "gaudapada",
+        "predicate": "belongsTo",
+        "object": "advaita"
+    },
+    {
+        "subject": "ramanuja",
+        "predicate": "belongsTo",
+        "object": "vishishtadvaita"
+    },
+    {
+        "subject": "vedanta_desika",
+        "predicate": "belongsTo",
+        "object": "vishishtadvaita"
+    },
+    {
+        "subject": "madhva",
+        "predicate": "belongsTo",
+        "object": "dvaita"
+    },
+    {
+        "subject": "jayatirtha",
+        "predicate": "belongsTo",
+        "object": "dvaita"
+    },
+    {
+        "subject": "gautama",
+        "predicate": "belongsTo",
+        "object": "nyaya"
+    },
+    {
+        "subject": "kanada",
+        "predicate": "belongsTo",
+        "object": "nyaya"
+    },
+    {
+        "subject": "patanjali",
+        "predicate": "belongsTo",
+        "object": "nyaya"
+    },
+    {
+        "subject": "jaimini",
+        "predicate": "belongsTo",
+        "object": "mimamsa"
+    },
+    {
+        "subject": "kumarila_bhatta",
+        "predicate": "belongsTo",
+        "object": "mimamsa"
+    },
+    {
+        "subject": "caitanya",
+        "predicate": "belongsTo",
+        "object": "bhakti"
+    },
+    // ===== SCHOOL EVOLVES_FROM =====
+    {
+        "subject": "vishishtadvaita",
+        "predicate": "evolves_from",
+        "object": "advaita",
+        "note": "Rāmānuja responds to Śaṅkara"
+    },
+    {
+        "subject": "dvaita",
+        "predicate": "evolves_from",
+        "object": "vishishtadvaita",
+        "note": "Madhva responds to Rāmānuja"
+    },
+    {
+        "subject": "nyaya",
+        "predicate": "evolves_from",
+        "object": "nyaya",
+        "note": "Navya-Nyāya evolved from classical Nyāya"
+    },
+    // ===== CONCEPT RELATED_TO CONCEPT =====
+    {
+        "subject": "atman",
+        "predicate": "related_to",
+        "object": "brahman",
+        "note": "Identity (Advaita) vs distinction (Dvaita)"
+    },
+    {
+        "subject": "atman",
+        "predicate": "related_to",
+        "object": "jiva"
+    },
+    {
+        "subject": "karma",
+        "predicate": "related_to",
+        "object": "samsara"
+    },
+    {
+        "subject": "karma",
+        "predicate": "related_to",
+        "object": "dharma"
+    },
+    {
+        "subject": "dharma",
+        "predicate": "related_to",
+        "object": "rita"
+    },
+    {
+        "subject": "maya",
+        "predicate": "related_to",
+        "object": "avidya"
+    },
+    {
+        "subject": "maya",
+        "predicate": "related_to",
+        "object": "brahman"
+    },
+    {
+        "subject": "gunas",
+        "predicate": "related_to",
+        "object": "prakriti"
+    },
+    {
+        "subject": "sattva",
+        "predicate": "related_to",
+        "object": "gunas"
+    },
+    {
+        "subject": "rajas",
+        "predicate": "related_to",
+        "object": "gunas"
+    },
+    {
+        "subject": "tamas",
+        "predicate": "related_to",
+        "object": "gunas"
+    },
+    {
+        "subject": "ahankara",
+        "predicate": "related_to",
+        "object": "chitta"
+    },
+    {
+        "subject": "samskara",
+        "predicate": "related_to",
+        "object": "vasana"
+    },
+    {
+        "subject": "jnana",
+        "predicate": "related_to",
+        "object": "viveka"
+    },
+    {
+        "subject": "bhakti",
+        "predicate": "related_to",
+        "object": "prasad"
+    },
+    {
+        "subject": "tapas",
+        "predicate": "related_to",
+        "object": "vairagya"
+    },
+    {
+        "subject": "karma_yoga",
+        "predicate": "related_to",
+        "object": "nishkama_karma"
+    },
+    // ===== CONCEPT RESULTS_IN CONCEPT =====
+    {
+        "subject": "avidya",
+        "predicate": "results_in",
+        "object": "samsara"
+    },
+    {
+        "subject": "karma",
+        "predicate": "results_in",
+        "object": "samsara"
+    },
+    {
+        "subject": "jnana",
+        "predicate": "results_in",
+        "object": "moksha"
+    },
+    {
+        "subject": "bhakti",
+        "predicate": "results_in",
+        "object": "moksha"
+    },
+    {
+        "subject": "karma_yoga",
+        "predicate": "results_in",
+        "object": "moksha"
+    },
+    {
+        "subject": "viveka",
+        "predicate": "results_in",
+        "object": "vairagya"
+    },
+    {
+        "subject": "vairagya",
+        "predicate": "results_in",
+        "object": "sannyasa"
+    },
+    {
+        "subject": "tapas",
+        "predicate": "results_in",
+        "object": "viveka"
+    },
+    {
+        "subject": "nishkama_karma",
+        "predicate": "results_in",
+        "object": "chitta"
+    },
+    // ===== CONCEPT IS_PREREQUISITE_FOR CONCEPT =====
+    {
+        "subject": "viveka",
+        "predicate": "is_prerequisite_for",
+        "object": "jnana"
+    },
+    {
+        "subject": "vairagya",
+        "predicate": "is_prerequisite_for",
+        "object": "moksha"
+    },
+    {
+        "subject": "ahimsa",
+        "predicate": "is_prerequisite_for",
+        "object": "raja_yoga"
+    },
+    {
+        "subject": "satya",
+        "predicate": "is_prerequisite_for",
+        "object": "raja_yoga"
+    },
+    {
+        "subject": "dharma",
+        "predicate": "is_prerequisite_for",
+        "object": "moksha"
+    },
+    {
+        "subject": "pramana",
+        "predicate": "is_prerequisite_for",
+        "object": "vidya"
+    },
+    {
+        "subject": "sraddha",
+        "predicate": "is_prerequisite_for",
+        "object": "bhakti"
+    },
+    // ===== TEXT SUPPORTS CONCEPT =====
+    {
+        "subject": "bhagavad_gita",
+        "predicate": "supports",
+        "object": "karma_yoga"
+    },
+    {
+        "subject": "bhagavad_gita",
+        "predicate": "supports",
+        "object": "nishkama_karma"
+    },
+    {
+        "subject": "bhagavad_gita",
+        "predicate": "supports",
+        "object": "bhakti"
+    },
+    {
+        "subject": "bhagavad_gita",
+        "predicate": "supports",
+        "object": "jnana"
+    },
+    {
+        "subject": "vivekachudamani",
+        "predicate": "supports",
+        "object": "viveka"
+    },
+    {
+        "subject": "vivekachudamani",
+        "predicate": "supports",
+        "object": "vairagya"
+    },
+    {
+        "subject": "nyaya_sutras",
+        "predicate": "supports",
+        "object": "anumana"
+    },
+    {
+        "subject": "yoga_sutras",
+        "predicate": "supports",
+        "object": "raja_yoga"
+    },
+    {
+        "subject": "manusmriti",
+        "predicate": "supports",
+        "object": "dharma"
+    },
+    {
+        "subject": "manusmriti",
+        "predicate": "supports",
+        "object": "varnashrama"
+    }
+]

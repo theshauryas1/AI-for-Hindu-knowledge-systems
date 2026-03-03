@@ -1,0 +1,220 @@
+[
+  {
+    "text_id": "manusmriti",
+    "section": "1.88",
+    "verse_id": "MS 1.88",
+    "sanskrit": "adhyāpanaṃ brahmayajño pitṛyajñaś ca tarpaṇam",
+    "translation_en": "Teaching, studying the Vedas, performing sacrifices, giving gifts — these are the duties of the Brahmin.",
+    "concepts": [
+      "dharma",
+      "varnashrama"
+    ],
+    "school_relevance": [
+      "mimamsa",
+      "nyaya"
+    ],
+    "source": "MS 1.88",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "manusmriti",
+    "section": "5.45",
+    "verse_id": "MS 5.45",
+    "sanskrit": "nākṛtvā prāṇināṃ hiṃsāṃ māṃsam utpadyate kvacit",
+    "translation_en": "Meat cannot be obtained without injury to living beings; killing living beings is against dharmic prosperity; therefore one should abstain from meat.",
+    "concepts": [
+      "ahimsa",
+      "dharma",
+      "karma"
+    ],
+    "school_relevance": [
+      "advaita",
+      "mimamsa"
+    ],
+    "source": "MS 5.45",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "manusmriti",
+    "section": "7.2",
+    "verse_id": "MS 7.2",
+    "sanskrit": "kṣatriyasya paraṃ dharmaṃ prajānāṃ ca parirakṣaṇam",
+    "translation_en": "The highest dharma of the Kṣatriya is the protection of his subjects.",
+    "concepts": [
+      "dharma",
+      "varnashrama",
+      "karma_yoga"
+    ],
+    "school_relevance": [
+      "mimamsa",
+      "nyaya"
+    ],
+    "source": "MS 7.2",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "manusmriti",
+    "section": "8.15",
+    "verse_id": "MS 8.15",
+    "sanskrit": "yas tu doṣam ajānānaḥ sāhasaṃ kurute naraḥ",
+    "translation_en": "A king who, without investigation, punishes innocent men, quickly departs from fame and goes to hell.",
+    "concepts": [
+      "dharma",
+      "karma",
+      "varnashrama",
+      "satya"
+    ],
+    "school_relevance": [
+      "nyaya",
+      "mimamsa"
+    ],
+    "source": "MS 8.15",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "manusmriti",
+    "section": "8.349",
+    "verse_id": "MS 8.349",
+    "translation_en": "A man who has committed an illegal act, wounded, or has been struck, and kills his attacker — is not guilty of killing.",
+    "concepts": [
+      "dharma",
+      "ahimsa",
+      "karma"
+    ],
+    "school_relevance": [
+      "nyaya",
+      "mimamsa"
+    ],
+    "source": "MS 8.349",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "yoga_sutras",
+    "section": "1.2",
+    "verse_id": "YS 1.2",
+    "sanskrit": "yogaś citta-vṛtti-nirodhaḥ",
+    "translation_en": "Yoga is the cessation of the modifications (vṛttis) of the mind (citta).",
+    "concepts": [
+      "chitta",
+      "raja_yoga",
+      "vairagya"
+    ],
+    "school_relevance": [
+      "nyaya",
+      "advaita"
+    ],
+    "source": "YS 1.2",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "yoga_sutras",
+    "section": "2.30",
+    "verse_id": "YS 2.30",
+    "sanskrit": "ahiṃsā satyam asteyam brahmacaryam aparigrahaḥ yamāḥ",
+    "translation_en": "Non-violence, truthfulness, non-stealing, celibacy, non-possessiveness — these are the five yamas (restraints).",
+    "concepts": [
+      "ahimsa",
+      "satya",
+      "asteya",
+      "brahmacharya",
+      "aparigraha"
+    ],
+    "school_relevance": [
+      "advaita",
+      "nyaya",
+      "bhakti"
+    ],
+    "source": "YS 2.30",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "yoga_sutras",
+    "section": "2.31",
+    "verse_id": "YS 2.31",
+    "sanskrit": "jāti deśa kāla samayānavacchinnāḥ sārvabhaumā mahāvratam",
+    "translation_en": "These (yamas), not conditioned by class, place, time, or consequence, are the great vow (mahāvrata), universal in scope.",
+    "concepts": [
+      "ahimsa",
+      "dharma",
+      "satya"
+    ],
+    "school_relevance": [
+      "advaita",
+      "nyaya"
+    ],
+    "source": "YS 2.31",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "brahma_sutras",
+    "section": "1.1.1",
+    "verse_id": "BS 1.1.1",
+    "sanskrit": "athāto brahmajijñāsā",
+    "translation_en": "Now, therefore, the inquiry into Brahman.",
+    "concepts": [
+      "brahman",
+      "jnana",
+      "vedanta"
+    ],
+    "school_relevance": [
+      "advaita",
+      "vishishtadvaita",
+      "dvaita"
+    ],
+    "source": "BS 1.1.1",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "brahma_sutras",
+    "section": "1.1.2",
+    "verse_id": "BS 1.1.2",
+    "sanskrit": "janmādy asya yataḥ",
+    "translation_en": "Brahman is that from which the origin, sustenance, and dissolution of this universe proceed.",
+    "concepts": [
+      "brahman",
+      "ishvara",
+      "prakriti"
+    ],
+    "school_relevance": [
+      "advaita",
+      "dvaita",
+      "vishishtadvaita"
+    ],
+    "source": "BS 1.1.2",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "nyaya_sutras",
+    "section": "1.1.1",
+    "verse_id": "NS 1.1.1",
+    "sanskrit": "pramāṇa prameya saṃśaya prayojana",
+    "translation_en": "The means of right knowledge, the objects of right knowledge, doubt, purpose (are the sixteen categories of Nyāya).",
+    "concepts": [
+      "pramana",
+      "jnana",
+      "anumana"
+    ],
+    "school_relevance": [
+      "nyaya"
+    ],
+    "source": "NS 1.1.1",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "arthashastra",
+    "section": "1.19",
+    "verse_id": "AS 1.19",
+    "translation_en": "The king shall consider as good anything that pleases his subjects. The root of happiness is virtue (dharma); the root of virtue is wealth (artha); the root of wealth is an effective administration.",
+    "concepts": [
+      "dharma",
+      "karma",
+      "varnashrama"
+    ],
+    "school_relevance": [
+      "nyaya",
+      "mimamsa"
+    ],
+    "source": "AS 1.19",
+    "loader": "embedded"
+  }
+]

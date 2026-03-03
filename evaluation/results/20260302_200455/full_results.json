@@ -1,0 +1,4021 @@
+[
+  {
+    "run_id": "20260302_200455_symbolic_A01",
+    "timestamp": "2026-03-02T20:04:55.608219",
+    "model": "symbolic",
+    "scenario_id": "A01",
+    "group": "direct_textual",
+    "question": "Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 6.92",
+        "Applied Dharmaśāstra (derived)",
+        "Applied Dharmaśāstra (derived)",
+        "Bhagavad Gītā 2.47"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "O",
+        "bhakti": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 30
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 26
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 26
+        },
+        {
+          "rule_id": "modern_genetic_mod",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "modify genetic material solely to cure disease and relieve suffering",
+          "score": 25
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 24
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 1.0,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": true
+      },
+      "citations_claimed_count": 4,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.31",
+        "BG 2.33",
+        "BG 3.35",
+        "MS 1.89",
+        "MS 7.87"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_A02",
+    "timestamp": "2026-03-02T20:04:55.609883",
+    "model": "symbolic",
+    "scenario_id": "A02",
+    "group": "direct_textual",
+    "question": "What does BG 2.47 say about one's right to action versus results?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma\n\nSchool verdicts: {'advaita': 'F', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'F'}",
+      "citations_claimed": [
+        "Bhagavad Gītā 2.47",
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 2.6",
+        "Bhagavad Gītā 3.19",
+        "Manusmṛti 4.85"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "F"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 7
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 6
+        },
+        {
+          "rule_id": "ms_2_6_dharma_sources",
+          "source": "Manusmṛti 2.6",
+          "operator": "O",
+          "action": "follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma",
+          "score": 5
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 3
+        },
+        {
+          "rule_id": "ms_4_85_theft",
+          "source": "Manusmṛti 4.85",
+          "operator": "F",
+          "action": "steal or take what is not given",
+          "score": 3
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 3.19"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "karma_yoga",
+        "nishkama_karma",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_A03",
+    "timestamp": "2026-03-02T20:04:55.611712",
+    "model": "symbolic",
+    "scenario_id": "A03",
+    "group": "direct_textual",
+    "question": "What is the Advaita Vedanta teaching on the identity of Atman and Brahman?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma\n  [Arthaśāstra 1.4] Action is OBLIGATORY: use proportionate punishment (daṇḍa) to maintain order\n\nSchool verdicts: {'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}",
+      "citations_claimed": [
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 2.6",
+        "Arthaśāstra 1.4",
+        "Arthaśāstra 1.19.34",
+        "Bhagavad Gītā 2.47"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "bhakti": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 13
+        },
+        {
+          "rule_id": "ms_2_6_dharma_sources",
+          "source": "Manusmṛti 2.6",
+          "operator": "O",
+          "action": "follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma",
+          "score": 12
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 12
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 12
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 11
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.25,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "F",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BAU 1.4.10",
+        "CU 6.8.7",
+        "MU 2.2.5"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "valid_concepts": [
+        "atman",
+        "brahman",
+        "avidya",
+        "maya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_A04",
+    "timestamp": "2026-03-02T20:04:55.613727",
+    "model": "symbolic",
+    "scenario_id": "A04",
+    "group": "direct_textual",
+    "question": "According to Manusmriti, what are the daily obligatory duties of a householder?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Arthaśāstra 1.19.34",
+        "Manusmṛti 6.92",
+        "Manusmṛti 3.69",
+        "Yoga Sūtras 2.30"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "O",
+        "bhakti": "O",
+        "mimamsa": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 26
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 24
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 23
+        },
+        {
+          "rule_id": "ms_3_69_panchayajna",
+          "source": "Manusmṛti 3.69",
+          "operator": "O",
+          "action": "perform the five great sacrifices daily",
+          "score": 22
+        },
+        {
+          "rule_id": "ys_2_30_yama",
+          "source": "Yoga Sūtras 2.30",
+          "operator": "O",
+          "action": "practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha",
+          "score": 22
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.5,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "P",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 3.69",
+        "MS 3.70",
+        "MS 3.77",
+        "MS 2.101"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "grihastha_ashrama",
+        "panchayajna",
+        "nitya_karma",
+        "sandhyavandana"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_A05",
+    "timestamp": "2026-03-02T20:04:55.615540",
+    "model": "symbolic",
+    "scenario_id": "A05",
+    "group": "direct_textual",
+    "question": "What are the five yamas prescribed in Patanjali's Yoga Sutras?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.30] Action is OBLIGATORY: practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'bhakti': 'P'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.30",
+        "Bhagavad Gītā 2.47",
+        "Arthaśāstra 1.19.34",
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 3.69"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "bhakti": "P"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_30_yama",
+          "source": "Yoga Sūtras 2.30",
+          "operator": "O",
+          "action": "practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha",
+          "score": 10
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 9
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 8
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 8
+        },
+        {
+          "rule_id": "ms_3_69_panchayajna",
+          "source": "Manusmṛti 3.69",
+          "operator": "O",
+          "action": "perform the five great sacrifices daily",
+          "score": 7
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.5,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": false,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "YS 2.30",
+        "YS 2.31"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "ahimsa",
+        "satya",
+        "asteya",
+        "brahmacharya",
+        "aparigraha"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_A06",
+    "timestamp": "2026-03-02T20:04:55.615540",
+    "model": "symbolic",
+    "scenario_id": "A06",
+    "group": "direct_textual",
+    "question": "What is Rama's teaching on moksha in Ramanuja's Vishishtadvaita?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma\n\nSchool verdicts: {'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O'}",
+      "citations_claimed": [
+        "Applied Dharmaśāstra (derived)",
+        "Bhagavad Gītā 2.47",
+        "Manusmṛti 2.6",
+        "Arthaśāstra 1.4",
+        "Manusmṛti 1.90"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "bhakti": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 12
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 11
+        },
+        {
+          "rule_id": "ms_2_6_dharma_sources",
+          "source": "Manusmṛti 2.6",
+          "operator": "O",
+          "action": "follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma",
+          "score": 9
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 9
+        },
+        {
+          "rule_id": "ms_1_90_vaishya",
+          "source": "Manusmṛti 1.90",
+          "operator": "O",
+          "action": "tend cattle, trade, farm, lend at interest",
+          "score": 8
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.5,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": true,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": true
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "P",
+        "vishishtadvaita": "O",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "Ramanuja Sri Bhashya 3.3.53",
+        "Bhagavata 3.29.13"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "vishishtadvaita"
+      ],
+      "valid_concepts": [
+        "sayujya",
+        "bhakti_yoga",
+        "prapatti",
+        "moksha"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_A07",
+    "timestamp": "2026-03-02T20:04:55.619473",
+    "model": "symbolic",
+    "scenario_id": "A07",
+    "group": "direct_textual",
+    "question": "What does Madhvacharya teach about the relationship between the individual soul and God?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily\n  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)\n  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma\n\nSchool verdicts: {'mimamsa': 'F', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': 'F'}\nCONFLICT DETECTED: Schools ['advaita', 'vishishtadvaita', 'dvaita'] hold O while ['mimamsa', 'nyaya'] hold F",
+      "citations_claimed": [
+        "Manusmṛti 2.101",
+        "Manusmṛti 7.1",
+        "Manusmṛti 2.6",
+        "Manusmṛti 1.88",
+        "Manusmṛti 7.14"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "mimamsa": "F",
+        "advaita": "O",
+        "vishishtadvaita": "O",
+        "dvaita": "O",
+        "nyaya": "F"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "Schools ['advaita', 'vishishtadvaita', 'dvaita'] hold O while ['mimamsa', 'nyaya'] hold F",
+      "matched_rules": [
+        {
+          "rule_id": "ms_2_101_sandhya",
+          "source": "Manusmṛti 2.101",
+          "operator": "O",
+          "action": "perform sandhyavandana thrice daily",
+          "score": 7
+        },
+        {
+          "rule_id": "ms_7_1_kingduty",
+          "source": "Manusmṛti 7.1",
+          "operator": "O",
+          "action": "protect subjects and uphold law (daṇḍa)",
+          "score": 7
+        },
+        {
+          "rule_id": "ms_2_6_dharma_sources",
+          "source": "Manusmṛti 2.6",
+          "operator": "O",
+          "action": "follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma",
+          "score": 6
+        },
+        {
+          "rule_id": "ms_1_88_brahmin",
+          "source": "Manusmṛti 1.88",
+          "operator": "O",
+          "action": "teach Vedas, study, perform yajna, accept gifts",
+          "score": 5
+        },
+        {
+          "rule_id": "ms_7_14_corruption",
+          "source": "Manusmṛti 7.14",
+          "operator": "F",
+          "action": "accept bribes or favour relatives against dharma",
+          "score": 5
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.2,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": true,
+      "conflict_correct": true,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "O",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "P",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "Madhva Tattvaviveka 1",
+        "Madhva Anuvyakhyana"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita",
+        "vishishtadvaita"
+      ],
+      "valid_concepts": [
+        "vishesa",
+        "jiva",
+        "ishvara",
+        "dvaita"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_A08",
+    "timestamp": "2026-03-02T20:04:55.623501",
+    "model": "symbolic",
+    "scenario_id": "A08",
+    "group": "direct_textual",
+    "question": "According to Mimamsa, what is the epistemic status of the Vedas?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'P', 'bhakti': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Bhagavad Gītā 2.47",
+        "Arthaśāstra 1.19.34",
+        "Bhagavad Gītā 4.7-8",
+        "Applied Dharmaśāstra (derived)"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "P",
+        "bhakti": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 12
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 10
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 9
+        },
+        {
+          "rule_id": "bg_4_8_avatar_rule",
+          "source": "Bhagavad Gītā 4.7-8",
+          "operator": "O",
+          "action": "whenever dharma declines, the divine re-establishes it",
+          "score": 8
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 8
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.5,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "P",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "Mimamsa Sutras 1.1.2",
+        "Shabara Bhashya 1.1.2"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "mimamsa",
+        "nyaya"
+      ],
+      "valid_concepts": [
+        "vedas",
+        "sabda",
+        "svatah_pramanya",
+        "paratah_pramanya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_A09",
+    "timestamp": "2026-03-02T20:04:55.625653",
+    "model": "symbolic",
+    "scenario_id": "A09",
+    "group": "direct_textual",
+    "question": "What does the Bhagavad Gita say about the three gunas and their effect on human action?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily\n  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)\n  [Manusmṛti 4.180] Action is OBLIGATORY: honour and support parents in old age\n\nSchool verdicts: {'mimamsa': 'O', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Manusmṛti 2.101",
+        "Manusmṛti 7.1",
+        "Manusmṛti 4.180",
+        "Manusmṛti 2.6",
+        "Arthaśāstra 1.4"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "mimamsa": "O",
+        "advaita": "O",
+        "vishishtadvaita": "O",
+        "dvaita": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ms_2_101_sandhya",
+          "source": "Manusmṛti 2.101",
+          "operator": "O",
+          "action": "perform sandhyavandana thrice daily",
+          "score": 9
+        },
+        {
+          "rule_id": "ms_7_1_kingduty",
+          "source": "Manusmṛti 7.1",
+          "operator": "O",
+          "action": "protect subjects and uphold law (daṇḍa)",
+          "score": 9
+        },
+        {
+          "rule_id": "ms_4_180_parents",
+          "source": "Manusmṛti 4.180",
+          "operator": "O",
+          "action": "honour and support parents in old age",
+          "score": 9
+        },
+        {
+          "rule_id": "ms_2_6_dharma_sources",
+          "source": "Manusmṛti 2.6",
+          "operator": "O",
+          "action": "follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma",
+          "score": 8
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 8
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.833,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": false,
+        "nyaya": true,
+        "bhakti": true
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 14.5",
+        "BG 14.6",
+        "BG 14.7",
+        "BG 14.8",
+        "BG 18.40"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "trigunas",
+        "sattva",
+        "rajas",
+        "tamas",
+        "prakriti"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_A10",
+    "timestamp": "2026-03-02T20:04:55.627887",
+    "model": "symbolic",
+    "scenario_id": "A10",
+    "group": "direct_textual",
+    "question": "How does the Nyaya school define valid inference (anumana) and its requirements?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily\n  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)\n  [Manusmṛti 7.14] Action is FORBIDDEN: accept bribes or favour relatives against dharma\n\nSchool verdicts: {'mimamsa': 'O', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Manusmṛti 2.101",
+        "Manusmṛti 7.1",
+        "Manusmṛti 7.14",
+        "Bhagavad Gītā 2.47",
+        "Arthaśāstra 1.4"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "mimamsa": "O",
+        "advaita": "O",
+        "vishishtadvaita": "O",
+        "dvaita": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ms_2_101_sandhya",
+          "source": "Manusmṛti 2.101",
+          "operator": "O",
+          "action": "perform sandhyavandana thrice daily",
+          "score": 7
+        },
+        {
+          "rule_id": "ms_7_1_kingduty",
+          "source": "Manusmṛti 7.1",
+          "operator": "O",
+          "action": "protect subjects and uphold law (daṇḍa)",
+          "score": 7
+        },
+        {
+          "rule_id": "ms_7_14_corruption",
+          "source": "Manusmṛti 7.14",
+          "operator": "F",
+          "action": "accept bribes or favour relatives against dharma",
+          "score": 5
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 5
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 5
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.2,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "P",
+        "vishishtadvaita": "P",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "N"
+      },
+      "supporting_verses": [
+        "Nyaya Sutras 1.1.5",
+        "Nyaya Sutras 1.1.32-38"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "anumana",
+        "vyapti",
+        "pratyaksha",
+        "yukti"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_B01",
+    "timestamp": "2026-03-02T20:04:55.630756",
+    "model": "symbolic",
+    "scenario_id": "B01",
+    "group": "contextual_extension",
+    "question": "Is lying to protect an innocent person from a murderer ethically justified according to Hindu texts?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)\n\nSchool verdicts: {'nyaya': 'P', 'advaita': 'P', 'bhakti': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 6.92",
+        "Manusmṛti 7.1",
+        "Applied Dharmaśāstra (derived)",
+        "Applied Dharmaśāstra (derived)"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "P",
+        "advaita": "P",
+        "bhakti": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 38
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 29
+        },
+        {
+          "rule_id": "ms_7_1_kingduty",
+          "source": "Manusmṛti 7.1",
+          "operator": "O",
+          "action": "protect subjects and uphold law (daṇḍa)",
+          "score": 27
+        },
+        {
+          "rule_id": "modern_genetic_mod",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "modify genetic material solely to cure disease and relieve suffering",
+          "score": 27
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 26
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.5,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": true,
+        "bhakti": true
+      },
+      "citations_claimed_count": 4,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "P",
+        "vishishtadvaita": "P",
+        "mimamsa": "F",
+        "nyaya": "P",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 4.138",
+        "YS 2.30",
+        "Mahabharata Vana Parva 297"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "mimamsa",
+        "advaita"
+      ],
+      "valid_concepts": [
+        "satya",
+        "ahimsa",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_B02",
+    "timestamp": "2026-03-02T20:04:55.631355",
+    "model": "symbolic",
+    "scenario_id": "B02",
+    "group": "contextual_extension",
+    "question": "Can a renunciate (sannyasi) accumulate wealth for charitable purposes?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Manusmṛti 1.88] Action is OBLIGATORY: teach Vedas, study, perform yajna, accept gifts\n  [Manusmṛti 3.77] Action is OBLIGATORY: perform panchayajna, support dependents, offer hospitality\n\nSchool verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Manusmṛti 6.92",
+        "Manusmṛti 1.88",
+        "Manusmṛti 3.77",
+        "Manusmṛti 3.69",
+        "Bhagavad Gītā 3.19"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 22
+        },
+        {
+          "rule_id": "ms_1_88_brahmin",
+          "source": "Manusmṛti 1.88",
+          "operator": "O",
+          "action": "teach Vedas, study, perform yajna, accept gifts",
+          "score": 18
+        },
+        {
+          "rule_id": "ms_3_77_householder",
+          "source": "Manusmṛti 3.77",
+          "operator": "O",
+          "action": "perform panchayajna, support dependents, offer hospitality",
+          "score": 18
+        },
+        {
+          "rule_id": "ms_3_69_panchayajna",
+          "source": "Manusmṛti 3.69",
+          "operator": "O",
+          "action": "perform the five great sacrifices daily",
+          "score": 18
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 18
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "P",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "P",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 6.33",
+        "MS 6.38",
+        "BG 12.13"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "valid_concepts": [
+        "sannyasa_ashrama",
+        "aparigraha",
+        "dana",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_B03",
+    "timestamp": "2026-03-02T20:04:55.633877",
+    "model": "symbolic",
+    "scenario_id": "B03",
+    "group": "contextual_extension",
+    "question": "Is it dharmic for a king to execute a brahmin who commits murder?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure\n  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Arthaśāstra 1.19.34",
+        "Bhagavad Gītā 3.19",
+        "Bhagavad Gītā 2.47",
+        "Manusmṛti 6.92"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "O",
+        "bhakti": "O",
+        "mimamsa": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 30
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 27
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 26
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 26
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 25
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.667,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 8.380",
+        "MS 7.14",
+        "Arthashastra 3.17",
+        "MS 8.270"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "mimamsa"
+      ],
+      "valid_concepts": [
+        "raja_dharma",
+        "danda_niti",
+        "brahmin_dharma",
+        "ahimsa"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_B04",
+    "timestamp": "2026-03-02T20:04:55.634882",
+    "model": "symbolic",
+    "scenario_id": "B04",
+    "group": "contextual_extension",
+    "question": "Should a student prioritize worldly success (artha) over scriptural study during the brahmacharya ashrama?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 2.36] Action is OBLIGATORY: study Vedas, serve guru, observe celibacy\n  [Yoga Sūtras 2.30] Action is OBLIGATORY: practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n\nSchool verdicts: {'mimamsa': 'O', 'advaita': 'O', 'nyaya': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Manusmṛti 2.36",
+        "Yoga Sūtras 2.30",
+        "Manusmṛti 6.92",
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 1.88"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "mimamsa": "O",
+        "advaita": "O",
+        "nyaya": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ms_2_36_student",
+          "source": "Manusmṛti 2.36",
+          "operator": "O",
+          "action": "study Vedas, serve guru, observe celibacy",
+          "score": 26
+        },
+        {
+          "rule_id": "ys_2_30_yama",
+          "source": "Yoga Sūtras 2.30",
+          "operator": "O",
+          "action": "practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha",
+          "score": 26
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 22
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 20
+        },
+        {
+          "rule_id": "ms_1_88_brahmin",
+          "source": "Manusmṛti 1.88",
+          "operator": "O",
+          "action": "teach Vedas, study, perform yajna, accept gifts",
+          "score": 19
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "MS 2.36",
+        "MS 2.69",
+        "BG 4.34"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "brahmacharya_ashrama",
+        "svadhyaya",
+        "artha",
+        "brahmacharya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_B05",
+    "timestamp": "2026-03-02T20:04:55.637943",
+    "model": "symbolic",
+    "scenario_id": "B05",
+    "group": "contextual_extension",
+    "question": "Is it ethically permissible to eat meat in Hindu dharmic thought?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n  [Manusmṛti 5.56] Action is FORBIDDEN: eat meat obtained through violence without ritual sanction\n\nSchool verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Bhagavad Gītā 2.47",
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 5.56",
+        "Yoga Sūtras 2.32",
+        "Arthaśāstra 1.4"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 14
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 14
+        },
+        {
+          "rule_id": "ms_5_56_food",
+          "source": "Manusmṛti 5.56",
+          "operator": "F",
+          "action": "eat meat obtained through violence without ritual sanction",
+          "score": 13
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 12
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 12
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "P",
+        "vishishtadvaita": "P",
+        "mimamsa": "P",
+        "nyaya": "P",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "MS 5.47",
+        "MS 5.51",
+        "MS 5.56",
+        "BG 17.8-9"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "bhakti",
+        "mimamsa"
+      ],
+      "valid_concepts": [
+        "ahimsa",
+        "dharma",
+        "karma",
+        "shaucha"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_B06",
+    "timestamp": "2026-03-02T20:04:55.639958",
+    "model": "symbolic",
+    "scenario_id": "B06",
+    "group": "contextual_extension",
+    "question": "Can a woman take up sannyasa and pursue moksha independently?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 6.33] Action is OBLIGATORY: renounce all possessions, wander, meditate\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)\n\nSchool verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Manusmṛti 6.33",
+        "Manusmṛti 6.92",
+        "Manusmṛti 7.1",
+        "Bhagavad Gītā 3.19",
+        "Yoga Sūtras 2.30"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ms_6_33_renunciate",
+          "source": "Manusmṛti 6.33",
+          "operator": "O",
+          "action": "renounce all possessions, wander, meditate",
+          "score": 24
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 23
+        },
+        {
+          "rule_id": "ms_7_1_kingduty",
+          "source": "Manusmṛti 7.1",
+          "operator": "O",
+          "action": "protect subjects and uphold law (daṇḍa)",
+          "score": 23
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 19
+        },
+        {
+          "rule_id": "ys_2_30_yama",
+          "source": "Yoga Sūtras 2.30",
+          "operator": "O",
+          "action": "practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha",
+          "score": 19
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.333,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": true
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "P",
+        "vishishtadvaita": "P",
+        "mimamsa": "F",
+        "nyaya": "P",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "MS 5.147",
+        "BG 9.32",
+        "Narada Bhakti Sutras 73"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "mimamsa",
+        "advaita",
+        "bhakti"
+      ],
+      "valid_concepts": [
+        "sannyasa_ashrama",
+        "moksha",
+        "bhakti_yoga",
+        "sadharana_dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_B07",
+    "timestamp": "2026-03-02T20:04:55.639958",
+    "model": "symbolic",
+    "scenario_id": "B07",
+    "group": "contextual_extension",
+    "question": "Is anger (krodha) ever justified in dharmic action, such as a ruler punishing wrongdoers?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n\nSchool verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'P'}",
+      "citations_claimed": [
+        "Manusmṛti 6.92",
+        "Yoga Sūtras 2.32",
+        "Applied Dharmaśāstra (derived)",
+        "Yoga Sūtras 2.30",
+        "Manusmṛti 1.88"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "P"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 34
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 29
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 27
+        },
+        {
+          "rule_id": "ys_2_30_yama",
+          "source": "Yoga Sūtras 2.30",
+          "operator": "O",
+          "action": "practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha",
+          "score": 26
+        },
+        {
+          "rule_id": "ms_1_88_brahmin",
+          "source": "Manusmṛti 1.88",
+          "operator": "O",
+          "action": "teach Vedas, study, perform yajna, accept gifts",
+          "score": 24
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "P",
+        "vishishtadvaita": "P",
+        "mimamsa": "P",
+        "nyaya": "P",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BG 2.62-63",
+        "MS 7.14",
+        "Arthashastra 1.6",
+        "Mahabharata Udyoga 33.60"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "mimamsa"
+      ],
+      "valid_concepts": [
+        "krodha",
+        "raja_dharma",
+        "danda_niti",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_B08",
+    "timestamp": "2026-03-02T20:04:55.645868",
+    "model": "symbolic",
+    "scenario_id": "B08",
+    "group": "contextual_extension",
+    "question": "What is the dharmic obligation of a soldier who is ordered to kill civilians?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'P', 'bhakti': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 6.92",
+        "Arthaśāstra 1.19.34",
+        "Yoga Sūtras 2.30",
+        "Applied Dharmaśāstra (derived)"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "P",
+        "bhakti": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 30
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 26
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 24
+        },
+        {
+          "rule_id": "ys_2_30_yama",
+          "source": "Yoga Sūtras 2.30",
+          "operator": "O",
+          "action": "practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha",
+          "score": 23
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 23
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.01
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "MS 7.87",
+        "Arthashastra 10.3",
+        "MS 7.90"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "ahimsa",
+        "dharma",
+        "raja_dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_B09",
+    "timestamp": "2026-03-02T20:04:55.645868",
+    "model": "symbolic",
+    "scenario_id": "B09",
+    "group": "contextual_extension",
+    "question": "Is it permissible to perform nishkama karma (desireless action) even in commercial contexts?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n\nSchool verdicts: {'advaita': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'P', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Bhagavad Gītā 2.47",
+        "Bhagavad Gītā 3.19",
+        "Applied Dharmaśāstra (derived)",
+        "Applied Dharmaśāstra (derived)",
+        "Bhagavad Gītā 4.7-8"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "P",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 26
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 21
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 21
+        },
+        {
+          "rule_id": "modern_genetic_mod",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "modify genetic material solely to cure disease and relieve suffering",
+          "score": 14
+        },
+        {
+          "rule_id": "bg_4_8_avatar_rule",
+          "source": "Bhagavad Gītā 4.7-8",
+          "operator": "O",
+          "action": "whenever dharma declines, the divine re-establishes it",
+          "score": 12
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.5,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": true
+      },
+      "citations_claimed_count": 4,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 3.19",
+        "BG 18.9"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "nishkama_karma",
+        "karma_yoga",
+        "artha",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_B10",
+    "timestamp": "2026-03-02T20:04:55.649852",
+    "model": "symbolic",
+    "scenario_id": "B10",
+    "group": "contextual_extension",
+    "question": "Does the doctrine of karma mean that suffering victims deserve their fate and should not be helped?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n\nSchool verdicts: {'advaita': 'F', 'bhakti': 'F', 'mimamsa': 'F', 'vishishtadvaita': 'F', 'dvaita': 'F', 'nyaya': 'F'}",
+      "citations_claimed": [
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 2.101",
+        "Bhagavad Gītā 2.47",
+        "Applied Dharmaśāstra (derived)",
+        "Applied Dharmaśāstra (derived)"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "F",
+        "bhakti": "F",
+        "mimamsa": "F",
+        "vishishtadvaita": "F",
+        "dvaita": "F",
+        "nyaya": "F"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 15
+        },
+        {
+          "rule_id": "ms_2_101_sandhya",
+          "source": "Manusmṛti 2.101",
+          "operator": "O",
+          "action": "perform sandhyavandana thrice daily",
+          "score": 11
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 11
+        },
+        {
+          "rule_id": "modern_genetic_mod",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "modify genetic material solely to cure disease and relieve suffering",
+          "score": 11
+        },
+        {
+          "rule_id": "modern_environment",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "F",
+          "action": "destroy natural ecosystems for commercial profit",
+          "score": 11
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 1.0,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": true
+      },
+      "citations_claimed_count": 3,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "MS 4.180",
+        "YS 2.30",
+        "Narada Bhakti Sutras 61",
+        "BG 16.1-3"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "daya",
+        "ahimsa",
+        "karma",
+        "dharma",
+        "sadharana_dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_C01",
+    "timestamp": "2026-03-02T20:04:55.653084",
+    "model": "symbolic",
+    "scenario_id": "C01",
+    "group": "modern_analog",
+    "question": "Is mass AI surveillance of citizens justified for public safety according to Hindu dharmic principles?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Manusmṛti 1.90] Action is OBLIGATORY: tend cattle, trade, farm, lend at interest\n\nSchool verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Bhagavad Gītā 2.47",
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 1.90",
+        "Applied Dharmaśāstra (derived)",
+        "Bhagavad Gītā 3.19"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 12
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 11
+        },
+        {
+          "rule_id": "ms_1_90_vaishya",
+          "source": "Manusmṛti 1.90",
+          "operator": "O",
+          "action": "tend cattle, trade, farm, lend at interest",
+          "score": 10
+        },
+        {
+          "rule_id": "modern_genetic_mod",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "modify genetic material solely to cure disease and relieve suffering",
+          "score": 9
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 8
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "P",
+        "nyaya": "F",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "MS 7.14",
+        "Arthashastra 1.19.34",
+        "YS 2.30",
+        "MS 4.138"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "mimamsa",
+        "advaita"
+      ],
+      "valid_concepts": [
+        "ahimsa",
+        "satya",
+        "raja_dharma",
+        "danda_niti"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_C02",
+    "timestamp": "2026-03-02T20:04:55.653084",
+    "model": "symbolic",
+    "scenario_id": "C02",
+    "group": "modern_analog",
+    "question": "Is physician-assisted euthanasia (assisted dying) permissible under dharmic ethics?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n\nSchool verdicts: {'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O'}",
+      "citations_claimed": [
+        "Applied Dharmaśāstra (derived)",
+        "Bhagavad Gītā 2.47",
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 1.90",
+        "Manusmṛti 2.6"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "bhakti": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 6
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 5
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 5
+        },
+        {
+          "rule_id": "ms_1_90_vaishya",
+          "source": "Manusmṛti 1.90",
+          "operator": "O",
+          "action": "tend cattle, trade, farm, lend at interest",
+          "score": 4
+        },
+        {
+          "rule_id": "ms_2_6_dharma_sources",
+          "source": "Manusmṛti 2.6",
+          "operator": "O",
+          "action": "follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma",
+          "score": 3
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "P",
+        "nyaya": "P",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "YS 2.30",
+        "MS 5.47",
+        "BG 3.19",
+        "Narada Bhakti Sutras 61"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita",
+        "bhakti"
+      ],
+      "valid_concepts": [
+        "ahimsa",
+        "daya",
+        "karma_yoga",
+        "nishkama_karma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_C03",
+    "timestamp": "2026-03-02T20:04:55.658747",
+    "model": "symbolic",
+    "scenario_id": "C03",
+    "group": "modern_analog",
+    "question": "Is collecting personal data without informed consent a violation of dharma?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Applied Dharmaśāstra (derived)] Action is FORBIDDEN: harvest personal data without informed consent\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n\nSchool verdicts: {'nyaya': 'O', 'mimamsa': 'O', 'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 6.92",
+        "Applied Dharmaśāstra (derived)",
+        "Yoga Sūtras 2.32",
+        "Bhagavad Gītā 3.19"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "mimamsa": "O",
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "modern_data_privacy",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "F",
+          "action": "harvest personal data without informed consent",
+          "score": 29
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 25
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 25
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 23
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 21
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.01
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 4,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "YS 2.30",
+        "MS 4.85",
+        "MS 4.164",
+        "MS 4.138"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "asteya",
+        "satya",
+        "ahimsa",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_C04",
+    "timestamp": "2026-03-02T20:04:55.658747",
+    "model": "symbolic",
+    "scenario_id": "C04",
+    "group": "modern_analog",
+    "question": "Is genetic modification of crops and animals to reduce starvation ethically justified?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: modify genetic material solely to cure disease and relieve suffering\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Applied Dharmaśāstra (derived)",
+        "Bhagavad Gītā 2.47",
+        "Arthaśāstra 1.4",
+        "Arthaśāstra 1.19.34"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "O",
+        "bhakti": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 12
+        },
+        {
+          "rule_id": "modern_genetic_mod",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "modify genetic material solely to cure disease and relieve suffering",
+          "score": 12
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 10
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 10
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 10
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "P",
+        "vishishtadvaita": "P",
+        "mimamsa": "P",
+        "nyaya": "P",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "YS 2.30",
+        "MS 5.47",
+        "Arthashastra 2.24"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "ahimsa",
+        "daya",
+        "dharma",
+        "karma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_C05",
+    "timestamp": "2026-03-02T20:04:55.662156",
+    "model": "symbolic",
+    "scenario_id": "C05",
+    "group": "modern_analog",
+    "question": "Is environmental destruction for economic development a violation of dharmic duty?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Applied Dharmaśāstra (derived)] Action is FORBIDDEN: destroy natural ecosystems for commercial profit\n\nSchool verdicts: {'advaita': 'P', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'O', 'nyaya': 'F', 'bhakti': 'P'}\nCONFLICT DETECTED: Schools ['mimamsa'] hold O while ['dvaita', 'vishishtadvaita', 'nyaya'] hold F",
+      "citations_claimed": [
+        "Manusmṛti 6.92",
+        "Yoga Sūtras 2.32",
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 3.77",
+        "Applied Dharmaśāstra (derived)"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "P",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "O",
+        "nyaya": "F",
+        "bhakti": "P"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "Schools ['mimamsa'] hold O while ['dvaita', 'vishishtadvaita', 'nyaya'] hold F",
+      "matched_rules": [
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 26
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 23
+        },
+        {
+          "rule_id": "modern_environment",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "F",
+          "action": "destroy natural ecosystems for commercial profit",
+          "score": 23
+        },
+        {
+          "rule_id": "ms_3_77_householder",
+          "source": "Manusmṛti 3.77",
+          "operator": "O",
+          "action": "perform panchayajna, support dependents, offer hospitality",
+          "score": 22
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 22
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.5,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": false,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 4,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": true,
+      "conflict_correct": false,
+      "distinct_verdicts": 3,
+      "pluralism_score": 0.5,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "MS 4.46",
+        "MS 5.45",
+        "YS 2.30",
+        "Arthashastra 2.1"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "ahimsa",
+        "dharma",
+        "karma",
+        "raja_dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_C06",
+    "timestamp": "2026-03-02T20:04:55.664037",
+    "model": "symbolic",
+    "scenario_id": "C06",
+    "group": "modern_analog",
+    "question": "Is cryptocurrency speculation driven by greed (lobha) a form of adharma?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results\n\nSchool verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Manusmṛti 6.92",
+        "Yoga Sūtras 2.32",
+        "Bhagavad Gītā 3.19",
+        "Manusmṛti 3.77",
+        "Bhagavad Gītā 2.47"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 26
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 23
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 22
+        },
+        {
+          "rule_id": "ms_3_77_householder",
+          "source": "Manusmṛti 3.77",
+          "operator": "O",
+          "action": "perform panchayajna, support dependents, offer hospitality",
+          "score": 21
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 21
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "P",
+        "nyaya": "P",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BG 3.37",
+        "MS 4.164",
+        "Arthashastra 3.9",
+        "BG 16.21"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "mimamsa",
+        "advaita",
+        "bhakti"
+      ],
+      "valid_concepts": [
+        "lobha",
+        "artha",
+        "karma",
+        "asteya",
+        "satya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_C07",
+    "timestamp": "2026-03-02T20:04:55.664037",
+    "model": "symbolic",
+    "scenario_id": "C07",
+    "group": "modern_analog",
+    "question": "Does a software engineer have a svadharma (personal duty) in the way Kshatriyas have battle duty?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Yoga Sūtras 2.30] Action is OBLIGATORY: practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha\n  [Manusmṛti 4.164] Action is FORBIDDEN: cheat or defraud others in trade or dealings\n\nSchool verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'F', 'bhakti': 'O'}\nCONFLICT DETECTED: Schools ['advaita', 'dvaita', 'vishishtadvaita', 'mimamsa', 'bhakti'] hold O while ['nyaya'] hold F",
+      "citations_claimed": [
+        "Manusmṛti 6.92",
+        "Yoga Sūtras 2.30",
+        "Manusmṛti 4.164",
+        "Manusmṛti 1.88",
+        "Manusmṛti 3.69"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "F",
+        "bhakti": "O"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "Schools ['advaita', 'dvaita', 'vishishtadvaita', 'mimamsa', 'bhakti'] hold O while ['nyaya'] hold F",
+      "matched_rules": [
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 23
+        },
+        {
+          "rule_id": "ys_2_30_yama",
+          "source": "Yoga Sūtras 2.30",
+          "operator": "O",
+          "action": "practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha",
+          "score": 22
+        },
+        {
+          "rule_id": "ms_4_164_deceit",
+          "source": "Manusmṛti 4.164",
+          "operator": "F",
+          "action": "cheat or defraud others in trade or dealings",
+          "score": 21
+        },
+        {
+          "rule_id": "ms_1_88_brahmin",
+          "source": "Manusmṛti 1.88",
+          "operator": "O",
+          "action": "teach Vedas, study, perform yajna, accept gifts",
+          "score": 20
+        },
+        {
+          "rule_id": "ms_3_69_panchayajna",
+          "source": "Manusmṛti 3.69",
+          "operator": "O",
+          "action": "perform the five great sacrifices daily",
+          "score": 19
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.667,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": true
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": true,
+      "conflict_correct": false,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 3.35",
+        "BG 18.41-44",
+        "MS 1.87-91"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga",
+        "varnashrama"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_C08",
+    "timestamp": "2026-03-02T20:04:55.670628",
+    "model": "symbolic",
+    "scenario_id": "C08",
+    "group": "modern_analog",
+    "question": "Is it dharmic for a doctor to break patient confidentiality to prevent harm to a third party?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure\n  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results\n\nSchool verdicts: {'nyaya': 'F', 'advaita': 'F', 'bhakti': 'F', 'mimamsa': 'F', 'dvaita': 'F', 'vishishtadvaita': 'F'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Arthaśāstra 1.19.34",
+        "Bhagavad Gītā 3.19",
+        "Bhagavad Gītā 2.47",
+        "Applied Dharmaśāstra (derived)"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "F",
+        "advaita": "F",
+        "bhakti": "F",
+        "mimamsa": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 30
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 30
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 29
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 29
+        },
+        {
+          "rule_id": "modern_environment",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "F",
+          "action": "destroy natural ecosystems for commercial profit",
+          "score": 29
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.167,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": true,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "F",
+        "nyaya": "O",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 4.138",
+        "YS 2.30",
+        "MS 7.14",
+        "Caraka Samhita Sutrasthana 1"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "mimamsa",
+        "nyaya"
+      ],
+      "valid_concepts": [
+        "satya",
+        "ahimsa",
+        "daya",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_C09",
+    "timestamp": "2026-03-02T20:04:55.673274",
+    "model": "symbolic",
+    "scenario_id": "C09",
+    "group": "modern_analog",
+    "question": "Does the use of autonomous weapons in war violate dharmic principles of just war?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Applied Dharmaśāstra (derived)] Action is FORBIDDEN: implement AI surveillance that violates privacy without just cause\n  [Manusmṛti 8.17] Action is OBLIGATORY: administer justice impartially regardless of rank\n  [Manusmṛti 7.104] Action is OBLIGATORY: tax subjects moderately — not more than 1/6 of grain\n\nSchool verdicts: {'nyaya': 'O', 'mimamsa': 'O', 'advaita': 'F', 'bhakti': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O'}\nCONFLICT DETECTED: Schools ['nyaya', 'mimamsa', 'bhakti', 'vishishtadvaita', 'dvaita'] hold O while ['advaita'] hold F",
+      "citations_claimed": [
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 8.17",
+        "Manusmṛti 7.104",
+        "Bhagavad Gītā 4.7-8",
+        "Arthaśāstra 1.4"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "mimamsa": "O",
+        "advaita": "F",
+        "bhakti": "O",
+        "vishishtadvaita": "O",
+        "dvaita": "O"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "Schools ['nyaya', 'mimamsa', 'bhakti', 'vishishtadvaita', 'dvaita'] hold O while ['advaita'] hold F",
+      "matched_rules": [
+        {
+          "rule_id": "modern_ai_surveillance",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "F",
+          "action": "implement AI surveillance that violates privacy without just cause",
+          "score": 10
+        },
+        {
+          "rule_id": "ms_8_17_impartial_justice",
+          "source": "Manusmṛti 8.17",
+          "operator": "O",
+          "action": "administer justice impartially regardless of rank",
+          "score": 9
+        },
+        {
+          "rule_id": "ms_7_104_taxation",
+          "source": "Manusmṛti 7.104",
+          "operator": "O",
+          "action": "tax subjects moderately — not more than 1/6 of grain",
+          "score": 7
+        },
+        {
+          "rule_id": "bg_4_8_avatar_rule",
+          "source": "Bhagavad Gītā 4.7-8",
+          "operator": "O",
+          "action": "whenever dharma declines, the divine re-establishes it",
+          "score": 7
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 7
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.167,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": true,
+      "conflict_correct": false,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "MS 7.87",
+        "MS 7.90",
+        "Arthashastra 10.3"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "ahimsa",
+        "dharma",
+        "danda_niti"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_C10",
+    "timestamp": "2026-03-02T20:04:55.676644",
+    "model": "symbolic",
+    "scenario_id": "C10",
+    "group": "modern_analog",
+    "question": "Is organ donation after death dharmic, or does it violate the body's sanctity?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Arthaśāstra 1.4] Action is OBLIGATORY: use proportionate punishment (daṇḍa) to maintain order\n  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure\n\nSchool verdicts: {'advaita': 'F', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'O'}\nCONFLICT DETECTED: Schools ['dvaita', 'vishishtadvaita', 'bhakti'] hold O while ['advaita', 'mimamsa', 'nyaya'] hold F",
+      "citations_claimed": [
+        "Bhagavad Gītā 2.47",
+        "Arthaśāstra 1.4",
+        "Arthaśāstra 1.19.34",
+        "Bhagavad Gītā 3.19",
+        "Applied Dharmaśāstra (derived)"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "F",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "O"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "Schools ['dvaita', 'vishishtadvaita', 'bhakti'] hold O while ['advaita', 'mimamsa', 'nyaya'] hold F",
+      "matched_rules": [
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 12
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 11
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 11
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 10
+        },
+        {
+          "rule_id": "modern_ai_surveillance",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "F",
+          "action": "implement AI surveillance that violates privacy without just cause",
+          "score": 10
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.333,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": true,
+      "conflict_correct": false,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 4.229",
+        "YS 2.30",
+        "BG 16.1-3"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "dana",
+        "ahimsa",
+        "daya",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_D01",
+    "timestamp": "2026-03-02T20:04:55.678460",
+    "model": "symbolic",
+    "scenario_id": "D01",
+    "group": "ambiguity_stress",
+    "question": "When non-violence (ahimsa) conflicts with the duty to protect innocents through force, which takes precedence?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results\n  [Bhagavad Gītā 4.7-8] Action is OBLIGATORY: whenever dharma declines, the divine re-establishes it\n\nSchool verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Bhagavad Gītā 2.47",
+        "Bhagavad Gītā 3.19",
+        "Bhagavad Gītā 4.7-8",
+        "Manusmṛti 1.91",
+        "Manusmṛti 7.1"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 9
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 8
+        },
+        {
+          "rule_id": "bg_4_8_avatar_rule",
+          "source": "Bhagavad Gītā 4.7-8",
+          "operator": "O",
+          "action": "whenever dharma declines, the divine re-establishes it",
+          "score": 8
+        },
+        {
+          "rule_id": "ms_1_91_shudra",
+          "source": "Manusmṛti 1.91",
+          "operator": "O",
+          "action": "serve the three upper classes without envy",
+          "score": 7
+        },
+        {
+          "rule_id": "ms_7_1_kingduty",
+          "source": "Manusmṛti 7.1",
+          "operator": "O",
+          "action": "protect subjects and uphold law (daṇḍa)",
+          "score": 7
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.667,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "BG 2.31-33",
+        "MS 7.87",
+        "YS 2.30",
+        "MS 5.47"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "mimamsa",
+        "bhakti"
+      ],
+      "valid_concepts": [
+        "ahimsa",
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_D02",
+    "timestamp": "2026-03-02T20:04:55.679553",
+    "model": "symbolic",
+    "scenario_id": "D02",
+    "group": "ambiguity_stress",
+    "question": "Is renunciation (sannyasa) possible or advisable while still having family responsibilities?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results\n\nSchool verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Bhagavad Gītā 2.47",
+        "Applied Dharmaśāstra (derived)",
+        "Bhagavad Gītā 3.19",
+        "Manusmṛti 1.90",
+        "Yoga Sūtras 2.32"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 8
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 7
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 6
+        },
+        {
+          "rule_id": "ms_1_90_vaishya",
+          "source": "Manusmṛti 1.90",
+          "operator": "O",
+          "action": "tend cattle, trade, farm, lend at interest",
+          "score": 5
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 5
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 6.33-35",
+        "MS 3.77",
+        "BG 3.4-5",
+        "Narada Bhakti Sutras"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "mimamsa",
+        "bhakti"
+      ],
+      "valid_concepts": [
+        "sannyasa_ashrama",
+        "grihastha_ashrama",
+        "karma_yoga",
+        "vairagya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_D03",
+    "timestamp": "2026-03-02T20:04:55.682786",
+    "model": "symbolic",
+    "scenario_id": "D03",
+    "group": "ambiguity_stress",
+    "question": "Does the impermanence of worldly life (maya, samsara) mean humans should avoid relationships and attachments entirely?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily\n  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)\n  [Arthaśāstra 1.4] Action is OBLIGATORY: use proportionate punishment (daṇḍa) to maintain order\n\nSchool verdicts: {'mimamsa': 'O', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': 'O', 'bhakti': 'O'}",
+      "citations_claimed": [
+        "Manusmṛti 2.101",
+        "Manusmṛti 7.1",
+        "Arthaśāstra 1.4",
+        "Arthaśāstra 1.19.34",
+        "Manusmṛti 3.55"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "mimamsa": "O",
+        "advaita": "O",
+        "vishishtadvaita": "O",
+        "dvaita": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ms_2_101_sandhya",
+          "source": "Manusmṛti 2.101",
+          "operator": "O",
+          "action": "perform sandhyavandana thrice daily",
+          "score": 8
+        },
+        {
+          "rule_id": "ms_7_1_kingduty",
+          "source": "Manusmṛti 7.1",
+          "operator": "O",
+          "action": "protect subjects and uphold law (daṇḍa)",
+          "score": 8
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 7
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 7
+        },
+        {
+          "rule_id": "ms_3_55_women_respect",
+          "source": "Manusmṛti 3.55",
+          "operator": "O",
+          "action": "honour and protect women of the family",
+          "score": 7
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "P",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 18.66",
+        "MS 3.77",
+        "Narada Bhakti Sutras 2"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita",
+        "bhakti"
+      ],
+      "valid_concepts": [
+        "maya",
+        "samsara",
+        "vairagya",
+        "karma_yoga",
+        "grihastha_ashrama"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_200455_symbolic_D04",
+    "timestamp": "2026-03-02T20:04:55.683089",
+    "model": "symbolic",
+    "scenario_id": "D04",
+    "group": "ambiguity_stress",
+    "question": "Can a devotee of Vishnu worship Shiva equally, or does this violate their dharmic loyalty?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Applied Dharmaśāstra (derived)] Action is FORBIDDEN: destroy natural ecosystems for commercial profit\n  [Manusmṛti 3.77] Action is OBLIGATORY: perform panchayajna, support dependents, offer hospitality\n\nSchool verdicts: {'advaita': 'F', 'dvaita': 'O', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'O'}\nCONFLICT DETECTED: Schools ['dvaita', 'bhakti'] hold O while ['advaita', 'vishishtadvaita', 'mimamsa', 'nyaya'] hold F",
+      "citations_claimed": [
+        "Manusmṛti 6.92",
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 3.77",
+        "Arthaśāstra 1.19.34",
+        "Applied Dharmaśāstra (derived)"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "F",
+        "dvaita": "O",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "O"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "Schools ['dvaita', 'bhakti'] hold O while ['advaita', 'vishishtadvaita', 'mimamsa', 'nyaya'] hold F",
+      "matched_rules": [
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 23
+        },
+        {
+          "rule_id": "modern_environment",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "F",
+          "action": "destroy natural ecosystems for commercial profit",
+          "score": 22
+        },
+        {
+          "rule_id": "ms_3_77_householder",
+          "source": "Manusmṛti 3.77",
+          "operator": "O",
+          "action": "perform panchayajna, support dependents, offer hospitality",
+          "score": 21
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 21
+        },
+        {
+          "rule_id": "modern_data_privacy",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "F",
+          "action": "harvest personal data without informed consent",
+          "score": 20
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 4,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": true,
+      "conflict_correct": true,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "F",
+        "vishishtadvaita": "P",
+        "mimamsa": "P",
+        "nyaya": "P",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BG 9.23-25",
+        "BG 7.20-23",
+        "Bhagavata 4.2.29"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita",
+        "bhakti"
+      ],
+      "valid_concepts": [
+        "bhakti_yoga",
+        "ishvara",
+        "saguna_brahman",
+        "nirguna_brahman"
+      ]
+    }
+  }
+]

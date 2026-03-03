@@ -1,0 +1,229 @@
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: B01 | Group: contextual_extension
+Q: Is lying to protect an innocent person from a murderer ethically justified according to Hindu texts?
+A: In Hindu thought, the ethics of lying to protect an innocent person from a murderer present various perspectives among different schools. The Advaita, Dvaita, and Bhakti traditions suggest exceptions when silence or deception may be justified to uphold a higher purpose or dharma-danda-nyaya (justice, punishment, and mercy). However, these schools also value truthfulness (Satya) highly. The Nyaya s...
+Citations: ['BG 4.7', 'BG 16.2', 'BHAGAVAD GITA 19.04', 'BHAGAVAD GITA 16.2', 'BG 3.5', 'BG 3.19']
+Verdicts: {'advaita': 'N', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'N'}
+Conflict detected: True
+Metrics: accuracy=0.5 | hallucination=0.5 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: B02 | Group: contextual_extension
+Q: Can a renunciate (sannyasi) accumulate wealth for charitable purposes?
+A: In the Indian philosophical tradition, there is a consensus among all major schools (Advaita, Dvaita, Mimamsa, Nyaya, and Bhakti) regarding the cardinal virtue of Satya (truthfulness), which includes Asteya (non-stealing) and Aparigraha (non-covetousness towards material things). These virtues might imply that a renunciate (sannyasi) should avoid personal accumulation of wealth. However, the texts...
+Citations: ['BHAGAVAD GITA 4.7', 'BHAGAVAD GITA 3.5', 'BG 4.7', 'BG 3.19']
+Verdicts: {'advaita': 'P', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'N', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.8 | hallucination=0.5 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: B03 | Group: contextual_extension
+Q: Is it dharmic for a king to execute a brahmin who commits murder?
+A: In Hindu philosophy, the execution of a Brahmin for committing murder can be considered permissible according to the Pūrva Mīmāṃsā (Mimamsa), Nyāya-Vaiśeṣika, and Dvaita Vedanta schools, which hold that it falls under prescribed penalties or through inference due to the violation of non-violence (ahiṃsā) as outlined in texts such as Manusmṛti 5.45 and Yoga Sūtras 2.30. However, the Bhakti traditio...
+Citations: ['MS 5.45', 'MS 1.87', 'BG 4.7', 'MS 1.10', 'YS 2.30', 'AS 2.30.', 'BG 2.47', 'AS 2.30', 'BG 3.5', 'BG 3.19']
+Verdicts: {'advaita': 'F', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'P', 'nyaya': 'F', 'bhakti': 'N'}
+Conflict detected: True
+Metrics: accuracy=0.0 | hallucination=0.3 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: B04 | Group: contextual_extension
+Q: Should a student prioritize worldly success (artha) over scriptural study during the brahmacharya ashrama?
+A: During the Brahmacharya ashrama, all Indian philosophical schools agree on the importance of scriptural study (adhyayana) and ethical conduct (dharma). However, they differ in the extent to which worldly success (artha) should be prioritized over these pursuits.
+
+According to Mimamsa, Nyaya, and Vishishtadvaita, artha may not be prioritized due to its potential distraction from spiritual growth. O...
+Citations: ['MS 1.10', 'MANUSMRITI 1.10', 'YS 2.30', 'BG 4.7']
+Verdicts: {'advaita': 'F', 'dvaita': 'O', 'vishishtadvaita': 'P', 'mimamsa': 'O', 'nyaya': 'F', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.333 | hallucination=0.5 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: B05 | Group: contextual_extension
+Q: Is it ethically permissible to eat meat in Hindu dharmic thought?
+A: In Hindu dharmic thought, the ethical permissibility of eating meat is contextual and varies among schools. The Advaita Vedanta endorses both the principles of dharma (which may include dietary rules) and ahimsa (non-violence), as seen in the Manusmriti 1.10, Bhagavad Gita 4.7, and Yoga Sutras 2.30. Dvaita Vedanta also acknowledges the permissibility of meat consumption for certain social classes ...
+Citations: ['BG 3.6', 'MS 5.45', 'YOGA SUTRAS 2.30', 'MANUSMRITI 5.45', 'BG 4.7', 'MS 1.10', 'MANUSMRITI 1.10', 'YS 2.30', 'AS 2.30.', 'AS 2.30', 'BG 3.5', 'BHAGAVAD GITA 4.7']
+Verdicts: {'advaita': 'P', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'P', 'nyaya': 'P', 'bhakti': 'F'}
+Conflict detected: True
+Metrics: accuracy=1.0 | hallucination=0.667 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: B06 | Group: contextual_extension
+Q: Can a woman take up sannyasa and pursue moksha independently?
+A: In Hindu philosophy, various schools agree that women can pursue spiritual liberation (Moksha) by following moral duties and ethical principles such as non-violence (Ahimsā), truthfulness (Satya), and righteous conduct (Dharma). The Manusmriti, a key ancient text, states that both men and women are eligible for Sannyasa, renunciation, which is a crucial step towards Moksha (MS 5.149). However, som...
+Citations: ['MS 5.45', 'BG 4.7', 'MS 1.10', 'YS 2.30', 'MS 5.149', 'BG 3.5']
+Verdicts: {'advaita': 'P', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'P', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.5 | hallucination=0.333 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: B07 | Group: contextual_extension
+Q: Is anger (krodha) ever justified in dharmic action, such as a ruler punishing wrongdoers?
+A: In the dharmic context, the justification of anger (krodha) in actions varies among Indian philosophical schools. While Advaita Vedanta, Bhakti, and to some extent, Vishishtadvaita Vedanta generally discourage anger due to its potential for causing harm and contradiction with non-violence (ahimsa), schools such as Mimamsa and Nyaya endorse it in the context of upholding justice and maintaining ord...
+Citations: ['MS 5.45', 'MS 1.87', 'BG 4.7', 'MS 1.10', 'YS 2.30', 'AS 2.30.', 'BG 3.5', 'BG 3.19']
+Verdicts: {'advaita': 'F', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'P', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.833 | hallucination=0.25 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: B08 | Group: contextual_extension
+Q: What is the dharmic obligation of a soldier who is ordered to kill civilians?
+A: In Indian philosophy, the dilemma of a soldier ordered to kill civilians presents a complex ethical quandary. While Dharma (righteous conduct) is endorsed as a moral duty in all major schools including Mimamsa, Advaita, Nyaya, and Vishishtadvaita, the principle of Ahimsa (non-violence) is also strongly advocated across Advaita, Bhakti, and Nyaya. The Bhagavad Gita, a foundational text for these sc...
+Citations: ['MS 5.45', 'BG 4.7', 'MS 1.10', 'MANUSMRITI 1.10', 'YS 2.30', 'BHAGAVAD GITA 3.5', 'BG 3.5', 'BHAGAVAD GITA 4.7']
+Verdicts: {'advaita': 'F', 'dvaita': 'F', 'vishishtadvaita': 'N', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'F'}
+Conflict detected: True
+Metrics: accuracy=0.833 | hallucination=0.5 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: B09 | Group: contextual_extension
+Q: Is it permissible to perform nishkama karma (desireless action) even in commercial contexts?
+A: [Layer 1 — Hard Grounding]
+
+A direct textual parallel exists: Bhagavad Gītā 3.19 — 'nityam kuru karma tvam'
+This verse directly addresses the query. All reasoning is grounded solely in this canonical source. No inferential extension is required.
+Citations: ['MS 5.45', 'BG 4.7', 'YS 2.30', 'BG 2.47', 'AS 2.30', 'MS 10.157']
+Verdicts: {'advaita': 'P', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'N', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.0 | hallucination=0.333 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: B10 | Group: contextual_extension
+Q: Does the doctrine of karma mean that suffering victims deserve their fate and should not be helped?
+A: In the realm of Indian philosophy, none of the examined schools, including Advaita Vedanta, Dvaita Vedanta, Vishishtadvaita, Mimamsa, Nyaya, or Bhakti, endorse the notion that suffering victims deserve their fate and should not be helped based on the doctrine of karma. Instead, they all emphasize the ethical consequences of actions as outlined by the primary concept of dharma (moral duty) and the ...
+Citations: ['BHAGAVAD GITA 4.7', 'BG 18.61', 'AS 2.30']
+Verdicts: {'advaita': 'P', 'dvaita': 'N', 'vishishtadvaita': 'N', 'mimamsa': 'O', 'nyaya': 'F', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.167 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: C01 | Group: modern_analog
+Q: Is mass AI surveillance of citizens justified for public safety according to Hindu dharmic principles?
+A: [OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+Citations: ['NS 1.1.4', 'BG 4.7', 'MS 1.10', 'YS 2.30', 'BG 4.32', 'BG 3.5']
+Verdicts: {'advaita': 'N', 'dvaita': 'N', 'vishishtadvaita': 'P', 'mimamsa': 'N', 'nyaya': 'P', 'bhakti': 'F'}
+Conflict detected: True
+Metrics: accuracy=0.167 | hallucination=0.333 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: C02 | Group: modern_analog
+Q: Is physician-assisted euthanasia (assisted dying) permissible under dharmic ethics?
+A: [OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+Citations: ['BHAGAVAD GITA 3.19', 'YOGA SUTRAS 2.30', 'MANUSMRITI 5.45', 'MS 1.10', 'BG 2.19', 'YS 2.30', 'AS 2.30', 'BG 3.5', 'CU 8.15.3', 'BG 3.19']
+Verdicts: {'advaita': 'N', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'N', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.5 | hallucination=0.7 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: C03 | Group: modern_analog
+Q: Is collecting personal data without informed consent a violation of dharma?
+A: In Indian philosophy, particularly within Hindu schools such as Advaita, Nyaya, and Bhakti, the collection of personal data without informed consent can be considered a violation of dharma due to its implications on truthfulness (satya), ethical conduct (ahimsa), and respect for individual autonomy. These schools, which emphasize honesty and moral obligations towards others (Manusmriti 1.10, Bhaga...
+Citations: ['MS 1.10', 'MANUSMRITI 1.10', 'YS 2.30', 'BG 4.33', 'BHAGAVAD GITA 3.5', 'BHAGAVAD GITA 4.7', 'BHAGAVAD GITA 4.33', 'AS 2.3.34', 'MANUSMRITI 7.156']
+Verdicts: {'advaita': 'F', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'F'}
+Conflict detected: True
+Metrics: accuracy=1.0 | hallucination=0.889 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: C04 | Group: modern_analog
+Q: Is genetic modification of crops and animals to reduce starvation ethically justified?
+A: In the Indian philosophical context, the ethical justification of genetic modification to reduce starvation is a complex issue that varies across schools. The Advaita Vedanta, Dvaita Vedanta, and Visishtadvaita Vedanta all endorse the principle of karma (law of action and consequence), suggesting that such actions have moral consequences accumulated over lives. However, their differing perspective...
+Citations: ['MS 5.45', 'BHAGAVAD GITA 3.27', 'BG 4.7', 'MS 1.10', 'MANUSMRITI 1.10', 'YS 2.30', 'BG 3.5']
+Verdicts: {'advaita': 'P', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'N', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.833 | hallucination=0.429 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: C05 | Group: modern_analog
+Q: Is environmental destruction for economic development a violation of dharmic duty?
+A: In terms of the provided doctrinal context, all major Indian philosophical schools agree that environmental destruction for economic development can be considered a violation of dharmic duty, as it potentially infringes on ethical concepts such as non-violence (ahimsa) and truthfulness (satya). However, doctrinal tensions among these schools revolve around the nature of reality (māyā vs real) and ...
+Citations: ['MS 5.47', 'MS 5.45', 'YOGA SUTRAS 2.30', 'MANUSMRITI 5.45', 'BG 4.7', 'MS 1.10', 'MANUSMRITI 1.10', 'YS 2.30', 'BG 2.47', 'AS 2.30', 'BG 3.5', 'BHAGAVAD GITA 4.7', 'BG 3.15']
+Verdicts: {'advaita': 'N', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'F'}
+Conflict detected: True
+Metrics: accuracy=0.833 | hallucination=0.538 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: C06 | Group: modern_analog
+Q: Is cryptocurrency speculation driven by greed (lobha) a form of adharma?
+A: In the Indian philosophical context, there is no direct ancient parallel for cryptocurrency speculation. However, we can draw some inferences based on the principles of truthfulness (satya), non-stealing (asteya), and non-covetousness (aparigraha), which are cardinal virtues across all darśanas. Greed (lobha) is considered a negative quality that may lead to unethical (adharma) deeds in Advaita, D...
+Citations: ['BHAGAVAD GITA 3.19', 'YOGA SUTRAS 2.30', 'BG 4.7', 'YS 2.30', 'AS 2.30', 'MS 10.64', 'BG 3.19']
+Verdicts: {'advaita': 'N', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'F'}
+Conflict detected: True
+Metrics: accuracy=0.5 | hallucination=0.571 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: C07 | Group: modern_analog
+Q: Does a software engineer have a svadharma (personal duty) in the way Kshatriyas have battle duty?
+A: [Layer 1 — Hard Grounding]
+
+A direct textual parallel exists: Bhagavad Gītā 4.7-8 — 'yadā yadā hi dharmasya glāniḥ'
+This verse directly addresses the query. All reasoning is grounded solely in this canonical source. No inferential extension is required.
+Citations: ['MS 1.10', 'AS 2.30', 'BHAGAVAD GITA 3.5', 'BG 4.7']
+Verdicts: {'advaita': 'N', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'P', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.167 | hallucination=0.75 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: C08 | Group: modern_analog
+Q: Is it dharmic for a doctor to break patient confidentiality to prevent harm to a third party?
+A: In the Indian philosophical context, there is no explicit ancient parallel addressing a doctor's duty to break patient confidentiality to prevent harm to a third party. However, drawing from various schools, we can infer potential positions. In Advaita Vedanta, dharma (righteousness) and ahimsa (non-violence) are endorsed (Manusmriti 1.10, Bhagavad Gita 4.7, Yoga Sutras 2.30). The principle of ahi...
+Citations: ['BHAGAVAD GITA 2.30', 'MS 5.45', 'YOGA SUTRAS 2.30', 'YOGA SUTRA 2.30', 'MANUSMRITI 5.45', 'BG 4.7', 'MANUSMRITI 1.10', 'AS 2.30', 'BHAGAVAD GITA 3.5', 'BG 3.5', 'BHAGAVAD GITA 4.7']
+Verdicts: {'advaita': 'P', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'P', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.333 | hallucination=0.727 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: C09 | Group: modern_analog
+Q: Does the use of autonomous weapons in war violate dharmic principles of just war?
+A: In the context of dharmic principles, the use of autonomous weapons in war presents a complex ethical dilemma across various Indian philosophical schools. The principle of dharma (righteous conduct), as endorsed by Advaita Vedanta, Nyaya, and Mimamsa, suggests that actions should be performed sincerely, without attachment to results (Karma Yoga). However, the potential for unintended harm or viole...
+Citations: ['MS 5.45', 'BG 4.7', 'YS 2.30', 'AS 2.30', 'BG 3.5']
+Verdicts: {'advaita': 'F', 'dvaita': 'N', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'F'}
+Conflict detected: True
+Metrics: accuracy=0.833 | hallucination=0.2 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: C10 | Group: modern_analog
+Q: Is organ donation after death dharmic, or does it violate the body's sanctity?
+A: In Indian philosophy, the question of organ donation after death does not have a direct ancient parallel. However, we can analyze the perspectives of various schools based on the primary concepts provided. Advaita Vedanta posits the body as a temporary vessel for the ātman, which is identical to Brahman (Brahma satyam). This perspective may suggest that organ donation after death does not violate ...
+Citations: ['MS 5.45', 'CU 6.8.7', 'BAU 1.4.10.', 'YS 2.30', 'BG 3.5', 'BG 3.19']
+Verdicts: {'advaita': 'P', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'P', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.333 | hallucination=0.167 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: D01 | Group: ambiguity_stress
+Q: When non-violence (ahimsa) conflicts with the duty to protect innocents through force, which takes precedence?
+A: [Layer 1 — Hard Grounding]
+
+A direct textual parallel exists: Yoga Sūtras 2.30 — ahiṃsā listed as first yama
+This verse directly addresses the query. All reasoning is grounded solely in this canonical source. No inferential extension is required.
+Citations: ['MS 5.45', 'BG 4.7', 'MS 1.10', 'BG 3.5', 'YS 2.30', 'BG 2.47', 'AS 2.30', 'BG 18.47']
+Verdicts: {'advaita': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.833 | hallucination=0.375 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: D02 | Group: ambiguity_stress
+Q: Is renunciation (sannyasa) possible or advisable while still having family responsibilities?
+A: In various Indian philosophical schools, the concept of renunciation (sannyasa) while maintaining family responsibilities presents a complex issue. Advaita Vedanta and Bhakti traditions suggest that it is possible to pursue sannyasa without completely abandoning familial duties, emphasizing the importance of fulfilling one's dharma (duties) while striving for moksha or spiritual growth through dev...
+Citations: ['MS 5.45', 'BG 4.7', 'MS 1.10', 'YS 2.30', 'MS 10.95', 'MS 10.90', 'BHAGAVAD GITA 4.7']
+Verdicts: {'advaita': 'P', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'N', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.333 | hallucination=0.571 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: D03 | Group: ambiguity_stress
+Q: Does the impermanence of worldly life (maya, samsara) mean humans should avoid relationships and attachments entirely?
+A: In the Indian philosophical tradition, while the impermanence of worldly life (maya or samsara) is universally acknowledged across schools such as Advaita Vedanta, Dvaita Vedanta, Vishishtadvaita, Nyaya, and Bhakti, there is no unanimous consensus on whether humans should avoid relationships and attachments entirely.
+
+In the Advaita, Dvaita, and Vishishtadvaita schools, while recognizing the trans...
+Citations: ['BG 2.47', 'BG 3.5']
+Verdicts: {'advaita': 'P', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'N', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.333 | hallucination=0.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: D04 | Group: ambiguity_stress
+Q: Can a devotee of Vishnu worship Shiva equally, or does this violate their dharmic loyalty?
+A: In Hindu philosophy, there exists a range of views regarding the practice of worshiping multiple deities while maintaining dharmic loyalty. The Bhagavad Gītā (BG 4.7) emphasizes personal belief and individual dharma, suggesting that it would not be a violation for a devotee of Vishnu to also express reverence towards Shiva, as quoted by the Nyāya school. However, both Dvaita and Mimamsa schools ad...
+Citations: ['MS 1.10', 'BG 10.20', 'MS 5.45', 'BG 4.7']
+Verdicts: {'advaita': 'P', 'dvaita': 'N', 'vishishtadvaita': 'P', 'mimamsa': 'P', 'nyaya': 'P', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.5 | hallucination=0.5 | conflict_correct=True

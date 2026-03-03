@@ -1,0 +1,14 @@
+{
+  "hybrid": {
+    "total_scenarios": 8,
+    "errors": 8,
+    "doctrinal_accuracy_mean": 0.0,
+    "hallucination_rate_mean": 0.0,
+    "citation_recall_mean": 0.0,
+    "conflict_detection_accuracy": 0.5,
+    "pluralism_score_mean": 0.0,
+    "concept_coverage_mean": 0.0,
+    "avg_response_time_sec": 0.076,
+    "total_traps_hit": 0
+  }
+}

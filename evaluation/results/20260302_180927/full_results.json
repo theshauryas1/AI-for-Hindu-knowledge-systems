@@ -1,0 +1,276 @@
+[
+  {
+    "run_id": "20260302_180927_hybrid_A01",
+    "timestamp": "2026-03-02T18:10:00.078757",
+    "model": "hybrid",
+    "scenario_id": "A01",
+    "group": "direct_textual",
+    "question": "Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?",
+    "output": {
+      "model": "hybrid",
+      "response": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+      "agent_responses": {
+        "advaita": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "dvaita": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "vishishtadvaita": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "mimamsa": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "nyaya": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "bhakti": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+      },
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "N",
+        "dvaita": "N",
+        "vishishtadvaita": "N",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "N"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "{'school_a': 'advaita', 'school_b': 'dvaita', 'on': 'reality of the world (māyā vs real)', 'key': 'maya'}; {'school_a': 'advaita', 'school_b': 'nyaya', 'concept': '', 'note': 'Advaita rejects external world as ultimately real'}; {'school_a': 'advaita', 'school_b': 'vishishtadvaita', 'on': 'causation (vivarta vs pariṇāma)', 'key': 'maya'}",
+      "agreements": [],
+      "primary_concept": "ahimsa",
+      "mapped_concepts": [
+        "ahimsa",
+        "satya",
+        "dharma",
+        "karma"
+      ],
+      "retrieval_used": true,
+      "kg_used": true,
+      "confidence": null,
+      "elapsed_sec": 32.38
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": true,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.31",
+        "BG 2.33",
+        "BG 3.35",
+        "MS 1.89",
+        "MS 7.87"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_180927_hybrid_A02",
+    "timestamp": "2026-03-02T18:10:32.649079",
+    "model": "hybrid",
+    "scenario_id": "A02",
+    "group": "direct_textual",
+    "question": "What does BG 2.47 say about one's right to action versus results?",
+    "output": {
+      "model": "hybrid",
+      "response": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+      "agent_responses": {
+        "advaita": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "dvaita": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "vishishtadvaita": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "mimamsa": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "nyaya": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "bhakti": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+      },
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "N",
+        "dvaita": "N",
+        "vishishtadvaita": "N",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "N"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "{'school_a': 'advaita', 'school_b': 'dvaita', 'on': 'reality of the world (māyā vs real)', 'key': 'maya'}; {'school_a': 'advaita', 'school_b': 'nyaya', 'concept': '', 'note': 'Advaita rejects external world as ultimately real'}; {'school_a': 'advaita', 'school_b': 'vishishtadvaita', 'on': 'causation (vivarta vs pariṇāma)', 'key': 'maya'}",
+      "agreements": [],
+      "primary_concept": "ahimsa",
+      "mapped_concepts": [
+        "ahimsa",
+        "satya",
+        "dharma",
+        "karma"
+      ],
+      "retrieval_used": true,
+      "kg_used": true,
+      "confidence": null,
+      "elapsed_sec": 31.57
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": true,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 3.19"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "karma_yoga",
+        "nishkama_karma",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_180927_hybrid_A03",
+    "timestamp": "2026-03-02T18:11:01.212858",
+    "model": "hybrid",
+    "scenario_id": "A03",
+    "group": "direct_textual",
+    "question": "What is the Advaita Vedanta teaching on the identity of Atman and Brahman?",
+    "output": {
+      "model": "hybrid",
+      "response": "[Layer 1 — Hard Grounding]\n\nA direct textual parallel exists: Chāndogya Upaniṣad 6.8.7 — 'tat tvam asi'\nThis verse directly addresses the query. All reasoning is grounded solely in this canonical source. No inferential extension is required.",
+      "agent_responses": {
+        "advaita": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "dvaita": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "vishishtadvaita": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "mimamsa": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "nyaya": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "bhakti": "[OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+      },
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "N",
+        "dvaita": "N",
+        "vishishtadvaita": "N",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "N"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "{'school_a': 'advaita', 'school_b': 'dvaita', 'on': 'reality of the world (māyā vs real)', 'key': 'maya'}; {'school_a': 'advaita', 'school_b': 'nyaya', 'concept': '', 'note': 'Advaita rejects external world as ultimately real'}; {'school_a': 'advaita', 'school_b': 'vishishtadvaita', 'on': 'causation (vivarta vs pariṇāma)', 'key': 'maya'}",
+      "agreements": [],
+      "primary_concept": "satya",
+      "mapped_concepts": [
+        "satya",
+        "ahankara",
+        "ahimsa",
+        "pratyaksha",
+        "dharma",
+        "karma"
+      ],
+      "retrieval_used": true,
+      "kg_used": true,
+      "confidence": null,
+      "elapsed_sec": 27.56
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": true,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "F",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BAU 1.4.10",
+        "CU 6.8.7",
+        "MU 2.2.5"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "valid_concepts": [
+        "atman",
+        "brahman",
+        "avidya",
+        "maya"
+      ]
+    }
+  }
+]

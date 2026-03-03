@@ -1,0 +1,555 @@
+[
+  {
+    "run_id": "20260301_001836_symbolic_A01",
+    "timestamp": "2026-03-01T00:18:36.623909",
+    "model": "symbolic",
+    "scenario_id": "A01",
+    "group": "direct_textual",
+    "question": "Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 6.92",
+        "Applied Dharmaśāstra (derived)",
+        "Applied Dharmaśāstra (derived)",
+        "Bhagavad Gītā 2.47"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "O",
+        "bhakti": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 30
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 26
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 26
+        },
+        {
+          "rule_id": "modern_genetic_mod",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "modify genetic material solely to cure disease and relieve suffering",
+          "score": 25
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 24
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 1.0,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": true
+      },
+      "citations_claimed_count": 4,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.31",
+        "BG 2.33",
+        "BG 3.35",
+        "MS 1.89",
+        "MS 7.87"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga"
+      ]
+    }
+  },
+  {
+    "run_id": "20260301_001836_symbolic_A02",
+    "timestamp": "2026-03-01T00:18:36.626468",
+    "model": "symbolic",
+    "scenario_id": "A02",
+    "group": "direct_textual",
+    "question": "What does BG 2.47 say about one's right to action versus results?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma\n\nSchool verdicts: {'advaita': 'F', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'F'}",
+      "citations_claimed": [
+        "Bhagavad Gītā 2.47",
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 2.6",
+        "Bhagavad Gītā 3.19",
+        "Manusmṛti 4.85"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "F"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 7
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 6
+        },
+        {
+          "rule_id": "ms_2_6_dharma_sources",
+          "source": "Manusmṛti 2.6",
+          "operator": "O",
+          "action": "follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma",
+          "score": 5
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 3
+        },
+        {
+          "rule_id": "ms_4_85_theft",
+          "source": "Manusmṛti 4.85",
+          "operator": "F",
+          "action": "steal or take what is not given",
+          "score": 3
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 3.19"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "karma_yoga",
+        "nishkama_karma",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260301_001836_symbolic_A03",
+    "timestamp": "2026-03-01T00:18:36.628663",
+    "model": "symbolic",
+    "scenario_id": "A03",
+    "group": "direct_textual",
+    "question": "What is the Advaita Vedanta teaching on the identity of Atman and Brahman?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma\n  [Arthaśāstra 1.4] Action is OBLIGATORY: use proportionate punishment (daṇḍa) to maintain order\n\nSchool verdicts: {'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}",
+      "citations_claimed": [
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 2.6",
+        "Arthaśāstra 1.4",
+        "Arthaśāstra 1.19.34",
+        "Bhagavad Gītā 2.47"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "bhakti": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 13
+        },
+        {
+          "rule_id": "ms_2_6_dharma_sources",
+          "source": "Manusmṛti 2.6",
+          "operator": "O",
+          "action": "follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma",
+          "score": 12
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 12
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 12
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 11
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.25,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "F",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BAU 1.4.10",
+        "CU 6.8.7",
+        "MU 2.2.5"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "valid_concepts": [
+        "atman",
+        "brahman",
+        "avidya",
+        "maya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260301_001836_hybrid_A01",
+    "timestamp": "2026-03-01T00:18:37.084619",
+    "model": "hybrid",
+    "scenario_id": "A01",
+    "group": "direct_textual",
+    "question": "Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.45,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.31",
+        "BG 2.33",
+        "BG 3.35",
+        "MS 1.89",
+        "MS 7.87"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga"
+      ]
+    }
+  },
+  {
+    "run_id": "20260301_001836_hybrid_A02",
+    "timestamp": "2026-03-01T00:18:38.085997",
+    "model": "hybrid",
+    "scenario_id": "A02",
+    "group": "direct_textual",
+    "question": "What does BG 2.47 say about one's right to action versus results?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.0,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 3.19"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "karma_yoga",
+        "nishkama_karma",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260301_001836_hybrid_A03",
+    "timestamp": "2026-03-01T00:18:39.087080",
+    "model": "hybrid",
+    "scenario_id": "A03",
+    "group": "direct_textual",
+    "question": "What is the Advaita Vedanta teaching on the identity of Atman and Brahman?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.0,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "F",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BAU 1.4.10",
+        "CU 6.8.7",
+        "MU 2.2.5"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "valid_concepts": [
+        "atman",
+        "brahman",
+        "avidya",
+        "maya"
+      ]
+    }
+  }
+]

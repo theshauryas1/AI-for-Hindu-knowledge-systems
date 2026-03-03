@@ -1,0 +1,456 @@
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A01 | Group: direct_textual
+Q: Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments ...
+Citations: ['Yoga Sūtras 2.32', 'Manusmṛti 6.92', 'Applied Dharmaśāstra (derived)', 'Applied Dharmaśāstra (derived)', 'Bhagavad Gītā 2.47']
+Verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}
+Conflict detected: False
+Metrics: accuracy=1.0 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A02 | Group: direct_textual
+Q: What does BG 2.47 say about one's right to action versus results?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determinin...
+Citations: ['Bhagavad Gītā 2.47', 'Yoga Sūtras 2.32', 'Manusmṛti 2.6', 'Bhagavad Gītā 3.19', 'Manusmṛti 4.85']
+Verdicts: {'advaita': 'F', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'F'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A03 | Group: direct_textual
+Q: What is the Advaita Vedanta teaching on the identity of Atman and Brahman?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted
+  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma
+  [Arthaśāstra 1.4] Action is OBLIGATORY: use proportionate punishment (daṇḍa) to main...
+Citations: ['Applied Dharmaśāstra (derived)', 'Manusmṛti 2.6', 'Arthaśāstra 1.4', 'Arthaśāstra 1.19.34', 'Bhagavad Gītā 2.47']
+Verdicts: {'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.25 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A04 | Group: direct_textual
+Q: According to Manusmriti, what are the daily obligatory duties of a householder?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+
+School verdicts: {'nyaya': 'O...
+Citations: ['Yoga Sūtras 2.32', 'Arthaśāstra 1.19.34', 'Manusmṛti 6.92', 'Manusmṛti 3.69', 'Yoga Sūtras 2.30']
+Verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A05 | Group: direct_textual
+Q: What are the five yamas prescribed in Patanjali's Yoga Sutras?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.30] Action is OBLIGATORY: practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure
+
+School...
+Citations: ['Yoga Sūtras 2.30', 'Bhagavad Gītā 2.47', 'Arthaśāstra 1.19.34', 'Applied Dharmaśāstra (derived)', 'Manusmṛti 3.69']
+Verdicts: {'nyaya': 'O', 'advaita': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'bhakti': 'P'}
+Conflict detected: False
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A06 | Group: direct_textual
+Q: What is Rama's teaching on moksha in Ramanuja's Vishishtadvaita?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-...
+Citations: ['Applied Dharmaśāstra (derived)', 'Bhagavad Gītā 2.47', 'Manusmṛti 2.6', 'Arthaśāstra 1.4', 'Manusmṛti 1.90']
+Verdicts: {'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A07 | Group: direct_textual
+Q: What does Madhvacharya teach about the relationship between the individual soul and God?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily
+  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)
+  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma
+
+School verdicts: {'mimamsa': 'F', 'advaita': 'O', 'vishishtadvaita': '...
+Citations: ['Manusmṛti 2.101', 'Manusmṛti 7.1', 'Manusmṛti 2.6', 'Manusmṛti 1.88', 'Manusmṛti 7.14']
+Verdicts: {'mimamsa': 'F', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': 'F'}
+Conflict detected: True
+Metrics: accuracy=0.2 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A08 | Group: direct_textual
+Q: According to Mimamsa, what is the epistemic status of the Vedas?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure
+
+Schoo...
+Citations: ['Yoga Sūtras 2.32', 'Bhagavad Gītā 2.47', 'Arthaśāstra 1.19.34', 'Bhagavad Gītā 4.7-8', 'Applied Dharmaśāstra (derived)']
+Verdicts: {'nyaya': 'O', 'advaita': 'P', 'bhakti': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A09 | Group: direct_textual
+Q: What does the Bhagavad Gita say about the three gunas and their effect on human action?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily
+  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)
+  [Manusmṛti 4.180] Action is OBLIGATORY: honour and support parents in old age
+
+School verdicts: {'mimamsa': 'O', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': 'O', 'bhak...
+Citations: ['Manusmṛti 2.101', 'Manusmṛti 7.1', 'Manusmṛti 4.180', 'Manusmṛti 2.6', 'Arthaśāstra 1.4']
+Verdicts: {'mimamsa': 'O', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.833 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A10 | Group: direct_textual
+Q: How does the Nyaya school define valid inference (anumana) and its requirements?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily
+  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)
+  [Manusmṛti 7.14] Action is FORBIDDEN: accept bribes or favour relatives against dharma
+
+School verdicts: {'mimamsa': 'O', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': '...
+Citations: ['Manusmṛti 2.101', 'Manusmṛti 7.1', 'Manusmṛti 7.14', 'Bhagavad Gītā 2.47', 'Arthaśāstra 1.4']
+Verdicts: {'mimamsa': 'O', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.2 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: B01 | Group: contextual_extension
+Q: Is lying to protect an innocent person from a murderer ethically justified according to Hindu texts?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)
+
+School verdicts: {'nyaya': 'P', 'advaita': 'P', 'bha...
+Citations: ['Yoga Sūtras 2.32', 'Manusmṛti 6.92', 'Manusmṛti 7.1', 'Applied Dharmaśāstra (derived)', 'Applied Dharmaśāstra (derived)']
+Verdicts: {'nyaya': 'P', 'advaita': 'P', 'bhakti': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: B02 | Group: contextual_extension
+Q: Can a renunciate (sannyasi) accumulate wealth for charitable purposes?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Manusmṛti 1.88] Action is OBLIGATORY: teach Vedas, study, perform yajna, accept gifts
+  [Manusmṛti 3.77] Action is OBLIGATORY: perform panchayajna, support dependents, offer hospitality
+
+School verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtad...
+Citations: ['Manusmṛti 6.92', 'Manusmṛti 1.88', 'Manusmṛti 3.77', 'Manusmṛti 3.69', 'Bhagavad Gītā 3.19']
+Verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: B03 | Group: contextual_extension
+Q: Is it dharmic for a king to execute a brahmin who commits murder?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure
+  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results
+
+School verdicts: {'nyaya': 'O', 'advai...
+Citations: ['Yoga Sūtras 2.32', 'Arthaśāstra 1.19.34', 'Bhagavad Gītā 3.19', 'Bhagavad Gītā 2.47', 'Manusmṛti 6.92']
+Verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.667 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: B04 | Group: contextual_extension
+Q: Should a student prioritize worldly success (artha) over scriptural study during the brahmacharya ashrama?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 2.36] Action is OBLIGATORY: study Vedas, serve guru, observe celibacy
+  [Yoga Sūtras 2.30] Action is OBLIGATORY: practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+
+School verdicts: {'mimamsa': 'O', 'advaita': 'O', ...
+Citations: ['Manusmṛti 2.36', 'Yoga Sūtras 2.30', 'Manusmṛti 6.92', 'Yoga Sūtras 2.32', 'Manusmṛti 1.88']
+Verdicts: {'mimamsa': 'O', 'advaita': 'O', 'nyaya': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: B05 | Group: contextual_extension
+Q: Is it ethically permissible to eat meat in Hindu dharmic thought?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted
+  [Manusmṛti 5.56] Action is FORBIDDEN: eat meat obtained through violence without ...
+Citations: ['Bhagavad Gītā 2.47', 'Applied Dharmaśāstra (derived)', 'Manusmṛti 5.56', 'Yoga Sūtras 2.32', 'Arthaśāstra 1.4']
+Verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: B06 | Group: contextual_extension
+Q: Can a woman take up sannyasa and pursue moksha independently?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 6.33] Action is OBLIGATORY: renounce all possessions, wander, meditate
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)
+
+School verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': '...
+Citations: ['Manusmṛti 6.33', 'Manusmṛti 6.92', 'Manusmṛti 7.1', 'Bhagavad Gītā 3.19', 'Yoga Sūtras 2.30']
+Verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.333 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: B07 | Group: contextual_extension
+Q: Is anger (krodha) ever justified in dharmic action, such as a ruler punishing wrongdoers?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments ...
+Citations: ['Manusmṛti 6.92', 'Yoga Sūtras 2.32', 'Applied Dharmaśāstra (derived)', 'Yoga Sūtras 2.30', 'Manusmṛti 1.88']
+Verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'P'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: B08 | Group: contextual_extension
+Q: What is the dharmic obligation of a soldier who is ordered to kill civilians?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure
+
+School verdicts: {'nyaya': 'O...
+Citations: ['Yoga Sūtras 2.32', 'Manusmṛti 6.92', 'Arthaśāstra 1.19.34', 'Yoga Sūtras 2.30', 'Applied Dharmaśāstra (derived)']
+Verdicts: {'nyaya': 'O', 'advaita': 'P', 'bhakti': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: B09 | Group: contextual_extension
+Q: Is it permissible to perform nishkama karma (desireless action) even in commercial contexts?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhau...
+Citations: ['Bhagavad Gītā 2.47', 'Bhagavad Gītā 3.19', 'Applied Dharmaśāstra (derived)', 'Applied Dharmaśāstra (derived)', 'Bhagavad Gītā 4.7-8']
+Verdicts: {'advaita': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'P', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: B10 | Group: contextual_extension
+Q: Does the doctrine of karma mean that suffering victims deserve their fate and should not be helped?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted
+  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+
+Scho...
+Citations: ['Applied Dharmaśāstra (derived)', 'Manusmṛti 2.101', 'Bhagavad Gītā 2.47', 'Applied Dharmaśāstra (derived)', 'Applied Dharmaśāstra (derived)']
+Verdicts: {'advaita': 'F', 'bhakti': 'F', 'mimamsa': 'F', 'vishishtadvaita': 'F', 'dvaita': 'F', 'nyaya': 'F'}
+Conflict detected: False
+Metrics: accuracy=1.0 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: C01 | Group: modern_analog
+Q: Is mass AI surveillance of citizens justified for public safety according to Hindu dharmic principles?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Manusmṛti 1.90] Action is OBLIGATORY: tend cattle, trade, farm, lend at interest
+
+School verdicts: {'advai...
+Citations: ['Bhagavad Gītā 2.47', 'Yoga Sūtras 2.32', 'Manusmṛti 1.90', 'Applied Dharmaśāstra (derived)', 'Bhagavad Gītā 3.19']
+Verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: C02 | Group: modern_analog
+Q: Is physician-assisted euthanasia (assisted dying) permissible under dharmic ethics?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tap...
+Citations: ['Applied Dharmaśāstra (derived)', 'Bhagavad Gītā 2.47', 'Yoga Sūtras 2.32', 'Manusmṛti 1.90', 'Manusmṛti 2.6']
+Verdicts: {'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: C03 | Group: modern_analog
+Q: Is collecting personal data without informed consent a violation of dharma?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Applied Dharmaśāstra (derived)] Action is FORBIDDEN: harvest personal data without informed consent
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted
+
+Sch...
+Citations: ['Applied Dharmaśāstra (derived)', 'Manusmṛti 6.92', 'Applied Dharmaśāstra (derived)', 'Yoga Sūtras 2.32', 'Bhagavad Gītā 3.19']
+Verdicts: {'nyaya': 'O', 'mimamsa': 'O', 'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: C04 | Group: modern_analog
+Q: Is genetic modification of crops and animals to reduce starvation ethically justified?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: modify genetic material solely to cure disease and relieve suffering
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attac...
+Citations: ['Yoga Sūtras 2.32', 'Applied Dharmaśāstra (derived)', 'Bhagavad Gītā 2.47', 'Arthaśāstra 1.4', 'Arthaśāstra 1.19.34']
+Verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: C05 | Group: modern_analog
+Q: Is environmental destruction for economic development a violation of dharmic duty?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Applied Dharmaśāstra (derived)] Action is FORBIDDEN: destroy natural ecosystems for commercial profit
+
+School verdicts: {'advaita'...
+Citations: ['Manusmṛti 6.92', 'Yoga Sūtras 2.32', 'Applied Dharmaśāstra (derived)', 'Manusmṛti 3.77', 'Applied Dharmaśāstra (derived)']
+Verdicts: {'advaita': 'P', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'O', 'nyaya': 'F', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: C06 | Group: modern_analog
+Q: Is cryptocurrency speculation driven by greed (lobha) a form of adharma?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results
+
+School verdicts: {'advaita': 'O', 'dvaita': ...
+Citations: ['Manusmṛti 6.92', 'Yoga Sūtras 2.32', 'Bhagavad Gītā 3.19', 'Manusmṛti 3.77', 'Bhagavad Gītā 2.47']
+Verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: C07 | Group: modern_analog
+Q: Does a software engineer have a svadharma (personal duty) in the way Kshatriyas have battle duty?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Yoga Sūtras 2.30] Action is OBLIGATORY: practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha
+  [Manusmṛti 4.164] Action is FORBIDDEN: cheat or defraud others in trade or dealings
+
+School verdicts: {'advaita': 'O', 'dvaita': 'O'...
+Citations: ['Manusmṛti 6.92', 'Yoga Sūtras 2.30', 'Manusmṛti 4.164', 'Manusmṛti 1.88', 'Manusmṛti 3.69']
+Verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'F', 'bhakti': 'O'}
+Conflict detected: True
+Metrics: accuracy=0.667 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: C08 | Group: modern_analog
+Q: Is it dharmic for a doctor to break patient confidentiality to prevent harm to a third party?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure
+  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results
+
+School verdicts: {'nyaya': 'F', 'advai...
+Citations: ['Yoga Sūtras 2.32', 'Arthaśāstra 1.19.34', 'Bhagavad Gītā 3.19', 'Bhagavad Gītā 2.47', 'Applied Dharmaśāstra (derived)']
+Verdicts: {'nyaya': 'F', 'advaita': 'F', 'bhakti': 'F', 'mimamsa': 'F', 'dvaita': 'F', 'vishishtadvaita': 'F'}
+Conflict detected: False
+Metrics: accuracy=0.167 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: C09 | Group: modern_analog
+Q: Does the use of autonomous weapons in war violate dharmic principles of just war?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Applied Dharmaśāstra (derived)] Action is FORBIDDEN: implement AI surveillance that violates privacy without just cause
+  [Manusmṛti 8.17] Action is OBLIGATORY: administer justice impartially regardless of rank
+  [Manusmṛti 7.104] Action is OBLIGATORY: tax subjects moderately — not more than 1/6 of grain
+
+School verdicts: {'nyaya': 'O', 'mima...
+Citations: ['Applied Dharmaśāstra (derived)', 'Manusmṛti 8.17', 'Manusmṛti 7.104', 'Bhagavad Gītā 4.7-8', 'Arthaśāstra 1.4']
+Verdicts: {'nyaya': 'O', 'mimamsa': 'O', 'advaita': 'F', 'bhakti': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O'}
+Conflict detected: True
+Metrics: accuracy=0.167 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: C10 | Group: modern_analog
+Q: Is organ donation after death dharmic, or does it violate the body's sanctity?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Arthaśāstra 1.4] Action is OBLIGATORY: use proportionate punishment (daṇḍa) to maintain order
+  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure
+
+School verdicts: {'advait...
+Citations: ['Bhagavad Gītā 2.47', 'Arthaśāstra 1.4', 'Arthaśāstra 1.19.34', 'Bhagavad Gītā 3.19', 'Applied Dharmaśāstra (derived)']
+Verdicts: {'advaita': 'F', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'O'}
+Conflict detected: True
+Metrics: accuracy=0.333 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: D01 | Group: ambiguity_stress
+Q: When non-violence (ahimsa) conflicts with the duty to protect innocents through force, which takes precedence?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to results
+  [Bhagavad Gītā 4.7-8] Action is OBLIGATORY: whenever dharma declines, the divine re-establishes it
+
+School verdicts: {'advaita': 'O', 'd...
+Citations: ['Bhagavad Gītā 2.47', 'Bhagavad Gītā 3.19', 'Bhagavad Gītā 4.7-8', 'Manusmṛti 1.91', 'Manusmṛti 7.1']
+Verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.667 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: D02 | Group: ambiguity_stress
+Q: Is renunciation (sannyasa) possible or advisable while still having family responsibilities?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted
+  [Bhagavad Gītā 3.19] Action is OBLIGATORY: perform duty without attachment to res...
+Citations: ['Bhagavad Gītā 2.47', 'Applied Dharmaśāstra (derived)', 'Bhagavad Gītā 3.19', 'Manusmṛti 1.90', 'Yoga Sūtras 2.32']
+Verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: D03 | Group: ambiguity_stress
+Q: Does the impermanence of worldly life (maya, samsara) mean humans should avoid relationships and attachments entirely?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily
+  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)
+  [Arthaśāstra 1.4] Action is OBLIGATORY: use proportionate punishment (daṇḍa) to maintain order
+
+School verdicts: {'mimamsa': 'O', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'n...
+Citations: ['Manusmṛti 2.101', 'Manusmṛti 7.1', 'Arthaśāstra 1.4', 'Arthaśāstra 1.19.34', 'Manusmṛti 3.55']
+Verdicts: {'mimamsa': 'O', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': 'O', 'bhakti': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: D04 | Group: ambiguity_stress
+Q: Can a devotee of Vishnu worship Shiva equally, or does this violate their dharmic loyalty?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Applied Dharmaśāstra (derived)] Action is FORBIDDEN: destroy natural ecosystems for commercial profit
+  [Manusmṛti 3.77] Action is OBLIGATORY: perform panchayajna, support dependents, offer hospitality
+
+School verdicts: {'advaita': 'F', 'dvaita': ...
+Citations: ['Manusmṛti 6.92', 'Applied Dharmaśāstra (derived)', 'Manusmṛti 3.77', 'Arthaśāstra 1.19.34', 'Applied Dharmaśāstra (derived)']
+Verdicts: {'advaita': 'F', 'dvaita': 'O', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'O'}
+Conflict detected: True
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=True

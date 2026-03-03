@@ -1,0 +1,260 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix hpo: <http://hindumind.org/ontology/hpo#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+# ============================================================
+# Hindu Philosophy Ontology (HPO) v1.0
+# Author: HinduMind Research System
+# Description: Formal OWL ontology for multi-school Hindu
+#              philosophical concepts, texts, and relations
+# ============================================================
+
+hpo: a owl:Ontology ;
+    dc:title "Hindu Philosophy Ontology (HPO)" ;
+    dc:description "A formal ontology for representing concepts, texts, schools, and ethical rules across Hindu philosophical traditions." ;
+    dc:version "1.0" ;
+    owl:versionInfo "1.0.0" .
+
+# ============================================================
+# CLASS HIERARCHY
+# ============================================================
+
+# --- Top-level classes ---
+
+hpo:PhilosophicalEntity a owl:Class ;
+    rdfs:label "PhilosophicalEntity" ;
+    rdfs:comment "Root class for all entities in Hindu philosophical discourse." .
+
+hpo:Concept a owl:Class ;
+    rdfs:subClassOf hpo:PhilosophicalEntity ;
+    rdfs:label "Concept" ;
+    rdfs:comment "An abstract philosophical concept (e.g., dharma, karma, ātman, mokṣa)." .
+
+hpo:MetaphysicalConcept a owl:Class ;
+    rdfs:subClassOf hpo:Concept ;
+    rdfs:label "MetaphysicalConcept" ;
+    rdfs:comment "Concepts relating to the nature of reality, consciousness, and existence." .
+
+hpo:EthicalConcept a owl:Class ;
+    rdfs:subClassOf hpo:Concept ;
+    rdfs:label "EthicalConcept" ;
+    rdfs:comment "Concepts relating to moral duty, right action, and ethical reasoning." .
+
+hpo:EpistemicConcept a owl:Class ;
+    rdfs:subClassOf hpo:Concept ;
+    rdfs:label "EpistemicConcept" ;
+    rdfs:comment "Concepts relating to knowledge sources (pramāṇas), inference, and valid cognition." .
+
+hpo:Text a owl:Class ;
+    rdfs:subClassOf hpo:PhilosophicalEntity ;
+    rdfs:label "Text" ;
+    rdfs:comment "A canonical Hindu philosophical text (e.g., Upanishads, Bhagavad Gītā)." .
+
+hpo:Shruti a owl:Class ;
+    rdfs:subClassOf hpo:Text ;
+    rdfs:label "Shruti" ;
+    rdfs:comment "Revealed scripture — Vedas and Upanishads." .
+
+hpo:Smriti a owl:Class ;
+    rdfs:subClassOf hpo:Text ;
+    rdfs:label "Smriti" ;
+    rdfs:comment "Remembered/transmitted texts — Dharmaśāstra, Purāṇas, Epics." .
+
+hpo:Sutra a owl:Class ;
+    rdfs:subClassOf hpo:Text ;
+    rdfs:label "Sutra" ;
+    rdfs:comment "Aphoristic foundational texts, e.g. Brahma Sūtras, Nyāya Sūtras." .
+
+hpo:School a owl:Class ;
+    rdfs:subClassOf hpo:PhilosophicalEntity ;
+    rdfs:label "School" ;
+    rdfs:comment "A distinct school of Hindu philosophy (darśana)." .
+
+hpo:Commentator a owl:Class ;
+    rdfs:subClassOf hpo:PhilosophicalEntity ;
+    rdfs:label "Commentator" ;
+    rdfs:comment "A historical philosopher or commentator associated with a school." .
+
+hpo:Principle a owl:Class ;
+    rdfs:subClassOf hpo:PhilosophicalEntity ;
+    rdfs:label "Principle" ;
+    rdfs:comment "A foundational doctrinal principle of a school (e.g., non-dualism, causality)." .
+
+hpo:EthicalRule a owl:Class ;
+    rdfs:subClassOf hpo:PhilosophicalEntity ;
+    rdfs:label "EthicalRule" ;
+    rdfs:comment "A prescriptive rule from Dharmaśāstra texts, formalizable in deontic logic." .
+
+hpo:EthicalScenario a owl:Class ;
+    rdfs:subClassOf hpo:PhilosophicalEntity ;
+    rdfs:label "EthicalScenario" ;
+    rdfs:comment "A real-world or hypothetical ethical situation for dharmic analysis." .
+
+hpo:DeonticJudgment a owl:Class ;
+    rdfs:subClassOf hpo:PhilosophicalEntity ;
+    rdfs:label "DeonticJudgment" ;
+    rdfs:comment "A formal deontic conclusion: Obligatory (O), Permitted (P), or Forbidden (F)." .
+
+# ============================================================
+# OBJECT PROPERTIES (EDGE TYPES)
+# ============================================================
+
+hpo:contradicts a owl:ObjectProperty ;
+    rdfs:domain hpo:PhilosophicalEntity ;
+    rdfs:range hpo:PhilosophicalEntity ;
+    rdfs:label "contradicts" ;
+    rdfs:comment "School A contradicts School B on a doctrine or concept." ;
+    owl:inverseOf hpo:isContradictedBy .
+
+hpo:isContradictedBy a owl:ObjectProperty ;
+    rdfs:label "isContradictedBy" .
+
+hpo:supports a owl:ObjectProperty ;
+    rdfs:domain hpo:PhilosophicalEntity ;
+    rdfs:range hpo:PhilosophicalEntity ;
+    rdfs:label "supports" ;
+    rdfs:comment "Text or school supports a doctrine or concept." .
+
+hpo:interprets a owl:ObjectProperty ;
+    rdfs:domain hpo:Commentator ;
+    rdfs:range hpo:Text ;
+    rdfs:label "interprets" ;
+    rdfs:comment "A commentator interprets a text." .
+
+hpo:authored a owl:ObjectProperty ;
+    rdfs:domain hpo:Commentator ;
+    rdfs:range hpo:Text ;
+    rdfs:label "authored" ;
+    rdfs:comment "A commentator is the author of a text." .
+
+hpo:belongsTo a owl:ObjectProperty ;
+    rdfs:domain hpo:Commentator ;
+    rdfs:range hpo:School ;
+    rdfs:label "belongsTo" ;
+    rdfs:comment "A commentator belongs to a philosophical school." .
+
+hpo:evolves_from a owl:ObjectProperty ;
+    rdfs:domain hpo:School ;
+    rdfs:range hpo:School ;
+    rdfs:label "evolves_from" ;
+    rdfs:comment "School B evolved from or responded to School A." .
+
+hpo:is_defined_in a owl:ObjectProperty ;
+    rdfs:domain hpo:Concept ;
+    rdfs:range hpo:Text ;
+    rdfs:label "is_defined_in" ;
+    rdfs:comment "A concept is primarily defined or elaborated in a text." .
+
+hpo:is_endorsed_by a owl:ObjectProperty ;
+    rdfs:domain hpo:Concept ;
+    rdfs:range hpo:School ;
+    rdfs:label "is_endorsed_by" ;
+    rdfs:comment "A concept is endorsed or central to a school." .
+
+hpo:is_rejected_by a owl:ObjectProperty ;
+    rdfs:domain hpo:Concept ;
+    rdfs:range hpo:School ;
+    rdfs:label "is_rejected_by" ;
+    rdfs:comment "A concept is explicitly rejected by a school." .
+
+hpo:applies_to a owl:ObjectProperty ;
+    rdfs:domain hpo:EthicalRule ;
+    rdfs:range hpo:EthicalScenario ;
+    rdfs:label "applies_to" ;
+    rdfs:comment "An ethical rule applies to a scenario." .
+
+hpo:grounds a owl:ObjectProperty ;
+    rdfs:domain hpo:Text ;
+    rdfs:range hpo:EthicalRule ;
+    rdfs:label "grounds" ;
+    rdfs:comment "A text is the scriptural ground for an ethical rule." .
+
+hpo:embodies a owl:ObjectProperty ;
+    rdfs:domain hpo:School ;
+    rdfs:range hpo:Principle ;
+    rdfs:label "embodies" ;
+    rdfs:comment "A school embodies a foundational principle." .
+
+hpo:related_to a owl:ObjectProperty , owl:SymmetricProperty ;
+    rdfs:domain hpo:Concept ;
+    rdfs:range hpo:Concept ;
+    rdfs:label "related_to" ;
+    rdfs:comment "Two concepts are philosophically related (symmetric)." .
+
+hpo:is_prerequisite_for a owl:ObjectProperty ;
+    rdfs:domain hpo:Concept ;
+    rdfs:range hpo:Concept ;
+    rdfs:label "is_prerequisite_for" ;
+    rdfs:comment "Concept A is a prerequisite for understanding Concept B." .
+
+hpo:results_in a owl:ObjectProperty ;
+    rdfs:domain hpo:Concept ;
+    rdfs:range hpo:Concept ;
+    rdfs:label "results_in" ;
+    rdfs:comment "Concept A leads to or results in Concept B." .
+
+# ============================================================
+# DATATYPE PROPERTIES
+# ============================================================
+
+hpo:hasLabel a owl:DatatypeProperty ;
+    rdfs:domain hpo:PhilosophicalEntity ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasLabel" .
+
+hpo:hasSanskritName a owl:DatatypeProperty ;
+    rdfs:domain hpo:PhilosophicalEntity ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasSanskritName" ;
+    rdfs:comment "The Sanskrit name of the entity in IAST transliteration." .
+
+hpo:hasDefinition a owl:DatatypeProperty ;
+    rdfs:domain hpo:Concept ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasDefinition" .
+
+hpo:hasSourceVerse a owl:DatatypeProperty ;
+    rdfs:domain hpo:PhilosophicalEntity ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasSourceVerse" ;
+    rdfs:comment "Citation in format Text Chapter.Verse (e.g., BG 2.19)." .
+
+hpo:hasSchoolWeight a owl:DatatypeProperty ;
+    rdfs:domain hpo:EthicalRule ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasSchoolWeight" ;
+    rdfs:comment "JSON string of school-specific authority weights {school: HIGH/MEDIUM/LOW}." .
+
+hpo:hasDeonticOperator a owl:DatatypeProperty ;
+    rdfs:domain hpo:DeonticJudgment ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasDeonticOperator" ;
+    rdfs:comment "One of: O (Obligatory), P (Permitted), F (Forbidden)." .
+
+hpo:hasCondition a owl:DatatypeProperty ;
+    rdfs:domain hpo:EthicalRule ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasCondition" ;
+    rdfs:comment "IF-clause of the deontic rule in natural language." .
+
+hpo:hasObligation a owl:DatatypeProperty ;
+    rdfs:domain hpo:EthicalRule ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasObligation" ;
+    rdfs:comment "THEN-clause obligation or prohibition." .
+
+hpo:hasVarna a owl:DatatypeProperty ;
+    rdfs:domain hpo:EthicalRule ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasVarna" ;
+    rdfs:comment "Varna context for the rule: brahmin/kshatriya/vaishya/shudra/all." .
+
+hpo:hasAshrama a owl:DatatypeProperty ;
+    rdfs:domain hpo:EthicalRule ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasAshrama" ;
+    rdfs:comment "Āśrama context: brahmacharya/grihastha/vanaprastha/sannyasa/all." .

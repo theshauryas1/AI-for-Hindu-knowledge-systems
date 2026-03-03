@@ -1,0 +1,548 @@
+[
+  {
+    "run_id": "20260302_173931_hybrid_A01",
+    "timestamp": "2026-03-02T17:39:32.050666",
+    "model": "hybrid",
+    "scenario_id": "A01",
+    "group": "direct_textual",
+    "question": "Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.61,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.31",
+        "BG 2.33",
+        "BG 3.35",
+        "MS 1.89",
+        "MS 7.87"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_173931_hybrid_A02",
+    "timestamp": "2026-03-02T17:39:33.552117",
+    "model": "hybrid",
+    "scenario_id": "A02",
+    "group": "direct_textual",
+    "question": "What does BG 2.47 say about one's right to action versus results?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.0,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 3.19"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "karma_yoga",
+        "nishkama_karma",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_173931_hybrid_A03",
+    "timestamp": "2026-03-02T17:39:35.054511",
+    "model": "hybrid",
+    "scenario_id": "A03",
+    "group": "direct_textual",
+    "question": "What is the Advaita Vedanta teaching on the identity of Atman and Brahman?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.0,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "F",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BAU 1.4.10",
+        "CU 6.8.7",
+        "MU 2.2.5"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "valid_concepts": [
+        "atman",
+        "brahman",
+        "avidya",
+        "maya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_173931_hybrid_A04",
+    "timestamp": "2026-03-02T17:39:36.556102",
+    "model": "hybrid",
+    "scenario_id": "A04",
+    "group": "direct_textual",
+    "question": "According to Manusmriti, what are the daily obligatory duties of a householder?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.0,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "P",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 3.69",
+        "MS 3.70",
+        "MS 3.77",
+        "MS 2.101"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "grihastha_ashrama",
+        "panchayajna",
+        "nitya_karma",
+        "sandhyavandana"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_173931_hybrid_A05",
+    "timestamp": "2026-03-02T17:39:38.057976",
+    "model": "hybrid",
+    "scenario_id": "A05",
+    "group": "direct_textual",
+    "question": "What are the five yamas prescribed in Patanjali's Yoga Sutras?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.0,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "YS 2.30",
+        "YS 2.31"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "ahimsa",
+        "satya",
+        "asteya",
+        "brahmacharya",
+        "aparigraha"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_173931_hybrid_A06",
+    "timestamp": "2026-03-02T17:39:39.559545",
+    "model": "hybrid",
+    "scenario_id": "A06",
+    "group": "direct_textual",
+    "question": "What is Rama's teaching on moksha in Ramanuja's Vishishtadvaita?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.0,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "P",
+        "vishishtadvaita": "O",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "Ramanuja Sri Bhashya 3.3.53",
+        "Bhagavata 3.29.13"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "vishishtadvaita"
+      ],
+      "valid_concepts": [
+        "sayujya",
+        "bhakti_yoga",
+        "prapatti",
+        "moksha"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_173931_hybrid_A07",
+    "timestamp": "2026-03-02T17:39:41.062578",
+    "model": "hybrid",
+    "scenario_id": "A07",
+    "group": "direct_textual",
+    "question": "What does Madhvacharya teach about the relationship between the individual soul and God?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.0,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": true,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "F",
+        "dvaita": "O",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "P",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "Madhva Tattvaviveka 1",
+        "Madhva Anuvyakhyana"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita",
+        "vishishtadvaita"
+      ],
+      "valid_concepts": [
+        "vishesa",
+        "jiva",
+        "ishvara",
+        "dvaita"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_173931_hybrid_A08",
+    "timestamp": "2026-03-02T17:39:42.563795",
+    "model": "hybrid",
+    "scenario_id": "A08",
+    "group": "direct_textual",
+    "question": "According to Mimamsa, what is the epistemic status of the Vedas?",
+    "output": {
+      "model": "hybrid",
+      "response": "[ERROR] cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\nTraceback (most recent call last):\n  File \"D:\\AI for preserving hindu philosophy\\evaluation\\eval_harness.py\", line 259, in run_hybrid\n    from agents.school_classifier import classify_school\nImportError: cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)\n",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": true,
+      "kg_used": true,
+      "elapsed_sec": 0.0,
+      "error": "cannot import name 'classify_school' from 'agents.school_classifier' (D:\\AI for preserving hindu philosophy\\agents\\school_classifier.py)"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "P",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "Mimamsa Sutras 1.1.2",
+        "Shabara Bhashya 1.1.2"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "mimamsa",
+        "nyaya"
+      ],
+      "valid_concepts": [
+        "vedas",
+        "sabda",
+        "svatah_pramanya",
+        "paratah_pramanya"
+      ]
+    }
+  }
+]

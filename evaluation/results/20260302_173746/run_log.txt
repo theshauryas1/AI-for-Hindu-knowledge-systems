@@ -1,0 +1,104 @@
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A01 | Group: direct_textual
+Q: Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments ...
+Citations: ['Yoga Sūtras 2.32', 'Manusmṛti 6.92', 'Applied Dharmaśāstra (derived)', 'Applied Dharmaśāstra (derived)', 'Bhagavad Gītā 2.47']
+Verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}
+Conflict detected: False
+Metrics: accuracy=1.0 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A02 | Group: direct_textual
+Q: What does BG 2.47 say about one's right to action versus results?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determinin...
+Citations: ['Bhagavad Gītā 2.47', 'Yoga Sūtras 2.32', 'Manusmṛti 2.6', 'Bhagavad Gītā 3.19', 'Manusmṛti 4.85']
+Verdicts: {'advaita': 'F', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'F'}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A03 | Group: direct_textual
+Q: What is the Advaita Vedanta teaching on the identity of Atman and Brahman?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted
+  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma
+  [Arthaśāstra 1.4] Action is OBLIGATORY: use proportionate punishment (daṇḍa) to main...
+Citations: ['Applied Dharmaśāstra (derived)', 'Manusmṛti 2.6', 'Arthaśāstra 1.4', 'Arthaśāstra 1.19.34', 'Bhagavad Gītā 2.47']
+Verdicts: {'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.25 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A04 | Group: direct_textual
+Q: According to Manusmriti, what are the daily obligatory duties of a householder?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure
+  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control
+
+School verdicts: {'nyaya': 'O...
+Citations: ['Yoga Sūtras 2.32', 'Arthaśāstra 1.19.34', 'Manusmṛti 6.92', 'Manusmṛti 3.69', 'Yoga Sūtras 2.30']
+Verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A05 | Group: direct_textual
+Q: What are the five yamas prescribed in Patanjali's Yoga Sutras?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.30] Action is OBLIGATORY: practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure
+
+School...
+Citations: ['Yoga Sūtras 2.30', 'Bhagavad Gītā 2.47', 'Arthaśāstra 1.19.34', 'Applied Dharmaśāstra (derived)', 'Manusmṛti 3.69']
+Verdicts: {'nyaya': 'O', 'advaita': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'bhakti': 'P'}
+Conflict detected: False
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A06 | Group: direct_textual
+Q: What is Rama's teaching on moksha in Ramanuja's Vishishtadvaita?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-...
+Citations: ['Applied Dharmaśāstra (derived)', 'Bhagavad Gītā 2.47', 'Manusmṛti 2.6', 'Arthaśāstra 1.4', 'Manusmṛti 1.90']
+Verdicts: {'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A07 | Group: direct_textual
+Q: What does Madhvacharya teach about the relationship between the individual soul and God?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Manusmṛti 2.101] Action is OBLIGATORY: perform sandhyavandana thrice daily
+  [Manusmṛti 7.1] Action is OBLIGATORY: protect subjects and uphold law (daṇḍa)
+  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma
+
+School verdicts: {'mimamsa': 'F', 'advaita': 'O', 'vishishtadvaita': '...
+Citations: ['Manusmṛti 2.101', 'Manusmṛti 7.1', 'Manusmṛti 2.6', 'Manusmṛti 1.88', 'Manusmṛti 7.14']
+Verdicts: {'mimamsa': 'F', 'advaita': 'O', 'vishishtadvaita': 'O', 'dvaita': 'O', 'nyaya': 'F'}
+Conflict detected: True
+Metrics: accuracy=0.2 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: symbolic | Scenario: A08 | Group: direct_textual
+Q: According to Mimamsa, what is the epistemic status of the Vedas?
+A: Symbolic reasoning from rule base (5 rules matched):
+  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana
+  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits
+  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure
+
+Schoo...
+Citations: ['Yoga Sūtras 2.32', 'Bhagavad Gītā 2.47', 'Arthaśāstra 1.19.34', 'Bhagavad Gītā 4.7-8', 'Applied Dharmaśāstra (derived)']
+Verdicts: {'nyaya': 'O', 'advaita': 'P', 'bhakti': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}
+Conflict detected: False
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=False

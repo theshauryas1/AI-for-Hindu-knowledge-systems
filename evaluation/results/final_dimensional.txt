@@ -1,0 +1,91 @@
+﻿Loaded 84 records from 13 run directories
+
+==============================================================================
+TABLE 1 ù PARTIAL ACCURACY BY SCENARIO GROUP (mean ▒ sd)
+==============================================================================
+Group                        Vanilla       RAG  Symbolic    Hybrid  Hypothesis
+------------------------------------------------------------------------------------------
+A. Direct Textual          0.334▒0.07 0.334▒0.07 0.629▒0.30 0.668▒0.15  Symbolic expected to dominate
+                                                                    -> Best: hybrid
+B. Contextual Extension          N/A       N/A 0.511▒0.32 0.677▒0.23  Hybrid expected to win
+                                                                    -> Best: hybrid
+C. Modern Analog                 N/A       N/A 0.321▒0.24 0.746▒0.18  Hybrid expected to win (no direct verse)
+                                                                    -> Best: hybrid
+D. Ambiguity Stress              N/A       N/A 0.323▒0.34 0.677▒0.18  Hybrid expected to detect conflict
+                                                                    -> Best: hybrid
+
+==============================================================================
+TABLE 2 ù CITATION INTEGRITY SCORE (valid_verse_cites / total_claimed)
+==============================================================================
+Group                        Vanilla       RAG  Symbolic    Hybrid
+-----------------------------------------------------------------
+A. Direct Textual              0.000     0.000     0.000     0.294
+B. Contextual Extension          N/A       N/A     0.000     0.512
+C. Modern Analog                 N/A       N/A     0.000     0.469
+D. Ambiguity Stress              N/A       N/A     0.000     0.638
+
+  Average valid citations per response:
+Group                        Vanilla       RAG  Symbolic    Hybrid
+-----------------------------------------------------------------
+A. Direct Textual               0.00      0.00      0.00      2.30
+B. Contextual Extension          N/A       N/A      0.00      3.60
+C. Modern Analog                 N/A       N/A      0.00      3.40
+D. Ambiguity Stress              N/A       N/A      0.00      3.00
+
+==============================================================================
+TABLE 3 ù PLURALISM PRESERVATION (school diversity ratio)
+  = unique non-N verdict labels / scoreable schools
+  Higher = model distinguishes between school positions
+==============================================================================
+Group                        Vanilla       RAG  Symbolic    Hybrid
+-----------------------------------------------------------------
+A. Direct Textual              0.000     0.000     0.243     0.327
+B. Contextual Extension          N/A       N/A     0.237     0.303
+C. Modern Analog                 N/A       N/A     0.250     0.200
+D. Ambiguity Stress              N/A       N/A     0.208     0.208
+
+  Conflict detection accuracy (did model detect inter-school conflict?):
+Group                        Vanilla       RAG  Symbolic    Hybrid
+-----------------------------------------------------------------
+A. Direct Textual              0.500     0.500     0.700     0.400
+B. Contextual Extension          N/A       N/A     0.400     0.600
+C. Modern Analog                 N/A       N/A     0.200     0.400
+D. Ambiguity Stress              N/A       N/A     0.250     1.000
+
+==============================================================================
+TABLE 4 ù BOOTSTRAP 95% CI (partial_acc) BY GROUP
+  n=2000 bootstrap samples. Hybrid vs Symbolic comparison.
+==============================================================================
+Group                      Model             Mean             95% CI    n
+------------------------------------------------------------------------
+A. Direct Textual          symbolic         0.629     [0.432, 0.787]   10
+A. Direct Textual          hybrid           0.668     [0.573, 0.752]   10
+
+B. Contextual Extension    symbolic         0.511     [0.323, 0.690]   10
+B. Contextual Extension    hybrid           0.677     [0.546, 0.812]   10
+
+C. Modern Analog           symbolic         0.321     [0.188, 0.471]   10
+C. Modern Analog           hybrid           0.746     [0.646, 0.846]   10
+
+D. Ambiguity Stress        symbolic         0.323     [0.135, 0.667]    4
+D. Ambiguity Stress        hybrid           0.677     [0.542, 0.823]    4
+
+==============================================================================
+STRATEGIC REFRAMING ù Where Hybrid Wins
+==============================================================================
+Dimension                        Symbolic     Hybrid       Winner Paper Claim
+------------------------------------------------------------------------------------------
+Partial Accuracy (overall)          0.446      0.692    HYBRID**   Hybrid matches symbolic in partial credit
+Citation Integrity                  0.000      0.478      TIE      Hybrid cites real verses, symbolic cites rules
+Pluralism Preservation              0.235      0.260    HYBRID**   Hybrid uniquely preserves school diversity
+Conflict Detection Acc              0.388      0.600    HYBRID**   Hybrid detects inter-school conflict
+
+  [Focused: Hybrid vs Symbolic on Non-Deterministic Scenarios]
+  Group                      Symbolic partial Hybrid partial    Winner
+  --------------------------------------------------------------------
+  B. Contextual Extension               0.511          0.677    HYBRID
+  C. Modern Analog                      0.321          0.746    HYBRID
+  D. Ambiguity Stress                   0.323          0.677    HYBRID
+
+
+Report saved: evaluation/results/dimensional_analysis.json

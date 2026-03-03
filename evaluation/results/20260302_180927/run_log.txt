@@ -1,0 +1,30 @@
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A01 | Group: direct_textual
+Q: Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?
+A: [OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+Citations: []
+Verdicts: {'advaita': 'N', 'dvaita': 'N', 'vishishtadvaita': 'N', 'mimamsa': 'N', 'nyaya': 'N', 'bhakti': 'N'}
+Conflict detected: True
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A02 | Group: direct_textual
+Q: What does BG 2.47 say about one's right to action versus results?
+A: [OllamaAdapter ERROR] HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+Citations: []
+Verdicts: {'advaita': 'N', 'dvaita': 'N', 'vishishtadvaita': 'N', 'mimamsa': 'N', 'nyaya': 'N', 'bhakti': 'N'}
+Conflict detected: True
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A03 | Group: direct_textual
+Q: What is the Advaita Vedanta teaching on the identity of Atman and Brahman?
+A: [Layer 1 — Hard Grounding]
+
+A direct textual parallel exists: Chāndogya Upaniṣad 6.8.7 — 'tat tvam asi'
+This verse directly addresses the query. All reasoning is grounded solely in this canonical source. No inferential extension is required.
+Citations: []
+Verdicts: {'advaita': 'N', 'dvaita': 'N', 'vishishtadvaita': 'N', 'mimamsa': 'N', 'nyaya': 'N', 'bhakti': 'N'}
+Conflict detected: True
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=True

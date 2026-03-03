@@ -1,0 +1,27 @@
+﻿
+==============================================================================
+TABLE 1 ù PARTIAL ACCURACY BY SCENARIO GROUP (mean ▒ sd)
+==============================================================================
+Group                        Vanilla       RAG  Symbolic    Hybrid  Hypothesis
+------------------------------------------------------------------------------------------
+A. Direct Textual          0.321▒0.08 0.321▒0.08 0.629▒0.30 0.575▒0.22  Symbolic expected to dominate
+.\.venv\Scripts\python.exe : Traceback (most recent call last):
+At line:1 char:1
++ .\.venv\Scripts\python.exe evaluation/dimensional_analysis.py 2>&1 |  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::Stri 
+   ng) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\AI for preserving hindu philosophy\evaluation\dimensional_analysis.py", 
+line 426, in <module>
+    run_dimensional_analysis()
+  File "D:\AI for preserving hindu philosophy\evaluation\dimensional_analysis.py", 
+line 276, in run_dimensional_analysis
+    print(f"{'':26} {'':>9} {'':>9} {'':>9} {'':>9}  \u2192 Best: {winner or 'N/A'}")
+  File "C:\Users\flip-\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib
+\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 68: 
+character maps to <undefined>

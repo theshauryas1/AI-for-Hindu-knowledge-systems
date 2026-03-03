@@ -1,0 +1,233 @@
+[
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 2,
+    "verse": 47,
+    "verse_id": "BG 2.47",
+    "sanskrit": "karmaṇy evādhikāras te mā phaleṣu kadācana",
+    "translation_en": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions.",
+    "concepts": [
+      "karma_yoga",
+      "nishkama_karma"
+    ],
+    "school_relevance": [
+      "advaita",
+      "dvaita",
+      "bhakti",
+      "mimamsa"
+    ],
+    "source": "BG 2.47",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 2,
+    "verse": 19,
+    "verse_id": "BG 2.19",
+    "sanskrit": "ya enaṃ vetti hantāraṃ yaś cainaṃ manyate hatam",
+    "translation_en": "One who thinks that this (ātman) is a slayer and one who thinks that this is slain — both of them fail to perceive the truth.",
+    "concepts": [
+      "atman",
+      "ahimsa"
+    ],
+    "school_relevance": [
+      "advaita",
+      "nyaya"
+    ],
+    "source": "BG 2.19",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 2,
+    "verse": 20,
+    "verse_id": "BG 2.20",
+    "sanskrit": "na jāyate mriyate vā kadācin nāyaṃ bhūtvā bhavitā vā na bhūyaḥ",
+    "translation_en": "The soul is never born nor dies at any time. It has not come into being, does not come into being, and will not come into being.",
+    "concepts": [
+      "atman",
+      "karma"
+    ],
+    "school_relevance": [
+      "advaita",
+      "dvaita"
+    ],
+    "source": "BG 2.20",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 3,
+    "verse": 20,
+    "verse_id": "BG 3.20",
+    "sanskrit": "karmaṇaiva hi saṃsiddhim āsthitā janakādayaḥ",
+    "translation_en": "By performing their prescribed duties, Janaka and others attained perfection. You should act for the welfare of the world (lokasaṅgraha).",
+    "concepts": [
+      "karma_yoga",
+      "lokasangraha",
+      "varnashrama"
+    ],
+    "school_relevance": [
+      "mimamsa",
+      "advaita",
+      "dvaita"
+    ],
+    "source": "BG 3.20",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 4,
+    "verse": 7,
+    "verse_id": "BG 4.7",
+    "sanskrit": "yadā yadā hi dharmasya glānir bhavati bhārata",
+    "translation_en": "Whenever and wherever there is a decline in religious practice, O descendant of Bharata, and a predominant rise of irreligion — at that time I descend Myself.",
+    "concepts": [
+      "dharma",
+      "avatara",
+      "ishvara"
+    ],
+    "school_relevance": [
+      "dvaita",
+      "bhakti",
+      "vishishtadvaita"
+    ],
+    "source": "BG 4.7",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 5,
+    "verse": 18,
+    "verse_id": "BG 5.18",
+    "sanskrit": "vidyāvinayasampanne brāhmaṇe gavi hastini",
+    "translation_en": "The humble sages, by virtue of true knowledge, see with equal vision a learned brāhmin, a cow, an elephant, a dog, and a dog-eater.",
+    "concepts": [
+      "brahman",
+      "equality",
+      "jnana"
+    ],
+    "school_relevance": [
+      "advaita"
+    ],
+    "source": "BG 5.18",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 9,
+    "verse": 22,
+    "verse_id": "BG 9.22",
+    "sanskrit": "ananyāś cintayanto māṃ ye janāḥ paryupāsate",
+    "translation_en": "To those who worship Me with devotion, meditating on My transcendental form, I carry what they lack and preserve what they have.",
+    "concepts": [
+      "bhakti",
+      "prapatti",
+      "ishvara"
+    ],
+    "school_relevance": [
+      "bhakti",
+      "vishishtadvaita",
+      "dvaita"
+    ],
+    "source": "BG 9.22",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 18,
+    "verse": 66,
+    "verse_id": "BG 18.66",
+    "sanskrit": "sarvadharmān parityajya mām ekaṃ śaraṇaṃ vraja",
+    "translation_en": "Abandon all varieties of dharma and simply surrender unto Me alone. I shall deliver you from all sinful reactions; do not fear.",
+    "concepts": [
+      "bhakti",
+      "moksha",
+      "prapatti",
+      "dharma"
+    ],
+    "school_relevance": [
+      "bhakti",
+      "vishishtadvaita",
+      "dvaita"
+    ],
+    "source": "BG 18.66",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 2,
+    "verse": 14,
+    "verse_id": "BG 2.14",
+    "sanskrit": "mātrāsparśās tu kaunteya śītoṣṇasukhaduḥkhadāḥ",
+    "translation_en": "O son of Kuntī, the nonpermanent appearance of happiness and distress, and their disappearance in due course, are like the appearance and disappearance of winter and summer seasons.",
+    "concepts": [
+      "chitta",
+      "vairagya",
+      "raja_yoga"
+    ],
+    "school_relevance": [
+      "advaita",
+      "nyaya"
+    ],
+    "source": "BG 2.14",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 2,
+    "verse": 31,
+    "verse_id": "BG 2.31",
+    "sanskrit": "svadharmam api cāvekṣya na vikampitum arhasi",
+    "translation_en": "Considering your own duty, you should not waver. Indeed, for a warrior, there is no better engagement than fighting for righteous principles.",
+    "concepts": [
+      "dharma",
+      "varnashrama",
+      "karma_yoga"
+    ],
+    "school_relevance": [
+      "mimamsa",
+      "dvaita"
+    ],
+    "source": "BG 2.31",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 3,
+    "verse": 19,
+    "verse_id": "BG 3.19",
+    "sanskrit": "tasmād asaktaḥ satataṃ kāryaṃ karma samācara",
+    "translation_en": "Therefore, without being attached to the fruits of activities, one should act as a matter of duty, for by working without attachment one attains the Supreme.",
+    "concepts": [
+      "karma_yoga",
+      "nishkama_karma",
+      "dharma"
+    ],
+    "school_relevance": [
+      "advaita",
+      "mimamsa"
+    ],
+    "source": "BG 3.19",
+    "loader": "embedded"
+  },
+  {
+    "text_id": "bhagavad_gita",
+    "chapter": 6,
+    "verse": 5,
+    "verse_id": "BG 6.5",
+    "sanskrit": "uddhared ātmanātmānaṃ nātmānam avasādayet",
+    "translation_en": "One must elevate oneself by one's own mind, not degrade oneself. The mind is the friend of the conditioned soul, and his enemy as well.",
+    "concepts": [
+      "raja_yoga",
+      "chitta",
+      "atman"
+    ],
+    "school_relevance": [
+      "advaita",
+      "nyaya"
+    ],
+    "source": "BG 6.5",
+    "loader": "embedded"
+  }
+]

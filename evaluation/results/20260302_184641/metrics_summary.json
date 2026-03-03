@@ -1,0 +1,50 @@
+{
+  "vanilla_llm": {
+    "total_scenarios": 5,
+    "errors": 0,
+    "doctrinal_accuracy_mean": 0.0,
+    "hallucination_rate_mean": 0.4,
+    "citation_recall_mean": 0.0,
+    "conflict_detection_accuracy": 0.8,
+    "pluralism_score_mean": 0.0,
+    "concept_coverage_mean": 0.0,
+    "avg_response_time_sec": 78.754,
+    "total_traps_hit": 0
+  },
+  "rag": {
+    "total_scenarios": 5,
+    "errors": 5,
+    "doctrinal_accuracy_mean": 0.0,
+    "hallucination_rate_mean": 0.0,
+    "citation_recall_mean": 0.0,
+    "conflict_detection_accuracy": 0.8,
+    "pluralism_score_mean": 0.0,
+    "concept_coverage_mean": 0.0,
+    "avg_response_time_sec": 0.0,
+    "total_traps_hit": 0
+  },
+  "symbolic": {
+    "total_scenarios": 5,
+    "errors": 0,
+    "doctrinal_accuracy_mean": 0.45,
+    "hallucination_rate_mean": 1.0,
+    "citation_recall_mean": 0.0,
+    "conflict_detection_accuracy": 0.8,
+    "pluralism_score_mean": 0.2,
+    "concept_coverage_mean": 0.0,
+    "avg_response_time_sec": 0.008,
+    "total_traps_hit": 0
+  },
+  "hybrid": {
+    "total_scenarios": 5,
+    "errors": 0,
+    "doctrinal_accuracy_mean": 0.35,
+    "hallucination_rate_mean": 0.283,
+    "citation_recall_mean": 0.2,
+    "conflict_detection_accuracy": 0.2,
+    "pluralism_score_mean": 0.333,
+    "concept_coverage_mean": 0.213,
+    "avg_response_time_sec": 423.756,
+    "total_traps_hit": 0
+  }
+}

@@ -1,0 +1,201 @@
+[
+    {
+        "id": "shankara",
+        "label": "Ādi Śaṅkarācārya",
+        "sanskrit": "śaṅkarācārya",
+        "school": "advaita",
+        "period": "788-820 CE",
+        "birthplace": "Kaladi, Kerala",
+        "major_works": [
+            "vivekachudamani",
+            "brahmasutra_shankara_bhashya",
+            "upadeshasahasri"
+        ],
+        "interpreted_texts": [
+            "brahma_sutras",
+            "bhagavad_gita",
+            "mandukya_up",
+            "chandogya_up"
+        ],
+        "key_contribution": "Systematized Advaita Vedānta; established four monastic orders (Āmnāya Pīṭhas)."
+    },
+    {
+        "id": "ramanuja",
+        "label": "Rāmānujācārya",
+        "sanskrit": "rāmānujācārya",
+        "school": "vishishtadvaita",
+        "period": "1017-1137 CE",
+        "birthplace": "Śrīperambūdūr, Tamil Nadu",
+        "major_works": [
+            "sri_bhashya",
+            "gita_bhashya_ramanuja",
+            "vedanta_sara"
+        ],
+        "interpreted_texts": [
+            "brahma_sutras",
+            "bhagavad_gita",
+            "chandogya_up"
+        ],
+        "key_contribution": "Refuted Advaita māyāvāda; established Viśiṣṭādvaita and Śrī Vaiṣṇava tradition."
+    },
+    {
+        "id": "madhva",
+        "label": "Madhvācārya",
+        "sanskrit": "madhvācārya",
+        "school": "dvaita",
+        "period": "1238-1317 CE",
+        "birthplace": "Pājaka, Karnataka",
+        "major_works": [
+            "anuvyakhyana",
+            "brahmasutra_madhva_bhashya",
+            "mahabharata_tatparya_nirnaya"
+        ],
+        "interpreted_texts": [
+            "brahma_sutras",
+            "bhagavad_gita",
+            "dvaita_tattva"
+        ],
+        "key_contribution": "Founded Dvaita Vedānta (Tattvavāda); argued jīva is eternally distinct from Brahman."
+    },
+    {
+        "id": "gaudapada",
+        "label": "Gauḍapāda",
+        "sanskrit": "gauḍapāda",
+        "school": "advaita",
+        "period": "6th-7th century CE",
+        "birthplace": "Unknown",
+        "major_works": [
+            "mandukya_karika"
+        ],
+        "interpreted_texts": [
+            "mandukya_up"
+        ],
+        "key_contribution": "Pre-Śaṅkara Advaita; ajātivāda (doctrine of no-origination)."
+    },
+    {
+        "id": "patanjali",
+        "label": "Patañjali",
+        "sanskrit": "patañjali",
+        "school": "nyaya",
+        "period": "200 BCE – 200 CE",
+        "birthplace": "Unknown",
+        "major_works": [
+            "yoga_sutras"
+        ],
+        "interpreted_texts": [
+            "yoga_sutras"
+        ],
+        "key_contribution": "Systematized Rāja Yoga into eight limbs (Aṣṭāṅga Yoga)."
+    },
+    {
+        "id": "jaimini",
+        "label": "Jaiminī",
+        "sanskrit": "jaiminī",
+        "school": "mimamsa",
+        "period": "400 BCE",
+        "birthplace": "Unknown",
+        "major_works": [
+            "mimamsa_sutras"
+        ],
+        "interpreted_texts": [
+            "rigveda",
+            "mimamsa_sutras"
+        ],
+        "key_contribution": "Founded Pūrva Mīmāṃsā; established Vedic injunction as the basis of dharma."
+    },
+    {
+        "id": "gautama",
+        "label": "Gautama (Akṣapāda)",
+        "sanskrit": "gautama akṣapāda",
+        "school": "nyaya",
+        "period": "200 BCE",
+        "birthplace": "Unknown",
+        "major_works": [
+            "nyaya_sutras"
+        ],
+        "interpreted_texts": [
+            "nyaya_sutras"
+        ],
+        "key_contribution": "Founded Nyāya school; formalized the syllogism (pañcāvayava) and pramāṇa theory."
+    },
+    {
+        "id": "kanada",
+        "label": "Kaṇāda",
+        "sanskrit": "kaṇāda",
+        "school": "nyaya",
+        "period": "200 BCE",
+        "birthplace": "Unknown",
+        "major_works": [
+            "vaisheshika_sutras"
+        ],
+        "interpreted_texts": [
+            "vaisheshika_sutras"
+        ],
+        "key_contribution": "Founded Vaiśeṣika; proposed atomic theory (paramāṇu-vāda) and six categories (padārtha)."
+    },
+    {
+        "id": "kumarila_bhatta",
+        "label": "Kumārila Bhaṭṭa",
+        "sanskrit": "kumārila bhaṭṭa",
+        "school": "mimamsa",
+        "period": "700 CE",
+        "birthplace": "Unknown",
+        "major_works": [
+            "shlokavartika",
+            "tantravartika"
+        ],
+        "interpreted_texts": [
+            "mimamsa_sutras"
+        ],
+        "key_contribution": "Major Mīmāṃsā philosopher; self-validating theory of knowledge (svataḥ-prāmāṇya)."
+    },
+    {
+        "id": "vedanta_desika",
+        "label": "Vedānta Deśika",
+        "sanskrit": "vedāntadeśika",
+        "school": "vishishtadvaita",
+        "period": "1268-1369 CE",
+        "birthplace": "Thoopul, Tamil Nadu",
+        "major_works": [
+            "nyaya_siddhanjana",
+            "rahasyatrayasara"
+        ],
+        "interpreted_texts": [
+            "brahma_sutras",
+            "sri_bhashya"
+        ],
+        "key_contribution": "Systematized Viśiṣṭādvaita epistemology; defended Rāmānuja against Advaita."
+    },
+    {
+        "id": "caitanya",
+        "label": "Caitanya Mahāprabhu",
+        "sanskrit": "caitanya mahāprabhu",
+        "school": "bhakti",
+        "period": "1486-1534 CE",
+        "birthplace": "Navadvīpa, West Bengal",
+        "major_works": [
+            "sikshashtaka"
+        ],
+        "interpreted_texts": [
+            "bhagavata_purana",
+            "bhagavad_gita"
+        ],
+        "key_contribution": "Founded Acintya-bhedābheda; popularized saṅkīrtana and Kṛṣṇa bhakti across India."
+    },
+    {
+        "id": "jayatirtha",
+        "label": "Jayatīrtha",
+        "sanskrit": "jayatīrtha",
+        "school": "dvaita",
+        "period": "1365-1388 CE",
+        "birthplace": "Mangalwedha, Karnataka",
+        "major_works": [
+            "nyaya_sudha"
+        ],
+        "interpreted_texts": [
+            "brahma_sutras",
+            "anuvyakhyana"
+        ],
+        "key_contribution": "Chief commentator on Madhva's works; systematic defense of Dvaita logic."
+    }
+]

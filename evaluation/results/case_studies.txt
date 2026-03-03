@@ -1,0 +1,239 @@
+﻿.\.venv\Scripts\python.exe : Traceback (most recent call last):
+At line:1 char:1
++ .\.venv\Scripts\python.exe evaluation/case_studies.py 2>&1 | Out-File ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::Stri 
+   ng) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\AI for preserving hindu philosophy\evaluation\case_studies.py", line 196, 
+in <module>
+    run_case_studies()
+  File "D:\AI for preserving hindu philosophy\evaluation\case_studies.py", line 191, 
+in run_case_studies
+    print(report)
+  File "C:\Users\flip-\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib
+\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u012b' in position 
+2303: character maps to <undefined>
+   predicted=O  expected=O  [OK]
+  vishishtadvaita      predicted=P  expected=O  [WRONG]
+  mimamsa              predicted=O  expected=O  [OK]
+  nyaya                predicted=O  expected=O  [OK]
+  bhakti               predicted=P  expected=O  [WRONG]
+  Conflict detected: True
+  Citations: ['BG 2.47', 'BHAGAVAD GITA 2.47']
+
+  Response excerpt:
+    In the Bhagavad Gita (2.47), various schools of Indian philosophy emphasize the importance of action (karma) and its detachment from results. The verse reads: "You have the right to perform your duty but you are not entitled to its fruits; never consider yourself the cause of the results of your actions." This sentiment is endorsed by Advaita, Dvaita, Vishishtadvaita, Nyaya, and Bhakti schools. However, while all these traditions agree on the principle of non-attachment to results, they may diff
+
+Symbolic Output:
+  advaita              predicted=F  expected=O  [WRONG]
+  dvaita               predicted=F  expected=O  [WRONG]
+  vishishtadvaita      predicted=F  expected=O  [WRONG]
+  mimamsa              predicted=F  expected=O  [WRONG]
+  nyaya                predicted=F  expected=O  [WRONG]
+  bhakti               predicted=F  expected=O  [WRONG]
+  Conflict detected: False
+  Citations: ['Bhagavad Gītā 2.47', 'Yoga Sūtras 2.32', 'Manusmṛti 2.6', 'Bhagavad Gītā 3.19', 'Manusmṛti 4.85']
+
+Analysis:
+  >> HYBRID WINS (+0.75): demonstrates superior reasoning on this scenario type.
+
+======================================================================
+CASE STUDY 2: B08 — B. Contextual Extension
+======================================================================
+
+Question:
+  What is the dharmic obligation of a soldier who is ordered to kill civilians?
+
+Performance:
+  Hybrid  partial_acc = 0.917
+  Symbolic partial_acc = 0.083
+  Delta (Hybrid - Symbolic) = +0.833
+
+Ground Truth (per school):
+  advaita              F
+  dvaita               F
+  vishishtadvaita      F
+  mimamsa              F
+  nyaya                F
+  bhakti               F
+  Conflict expected: False
+  Supporting verses: MS 7.87, Arthashastra 10.3, MS 7.90
+
+Hybrid Output (school agent verdicts):
+  advaita              predicted=F  expected=F  [OK]
+  dvaita               predicted=F  expected=F  [OK]
+  vishishtadvaita      predicted=N  expected=F  [WRONG]
+  mimamsa              predicted=F  expected=F  [OK]
+  nyaya                predicted=F  expected=F  [OK]
+  bhakti               predicted=F  expected=F  [OK]
+  Conflict detected: True
+  Citations: ['MS 5.45', 'BG 4.7', 'MS 1.10', 'MANUSMRITI 1.10', 'YS 2.30']
+
+  Response excerpt:
+    In Indian philosophy, the dilemma of a soldier ordered to kill civilians presents a complex ethical quandary. While Dharma (righteous conduct) is endorsed as a moral duty in all major schools including Mimamsa, Advaita, Nyaya, and Vishishtadvaita, the principle of Ahimsa (non-violence) is also strongly advocated across Advaita, Bhakti, and Nyaya. The Bhagavad Gita, a foundational text for these schools, presents a nuanced view where war and self-defense can be justified when duty (dharma) requir
+
+Symbolic Output:
+  advaita              predicted=P  expected=F  [WRONG]
+  dvaita               predicted=O  expected=F  [WRONG]
+  vishishtadvaita      predicted=O  expected=F  [WRONG]
+  mimamsa              predicted=O  expected=F  [WRONG]
+  nyaya                predicted=O  expected=F  [WRONG]
+  bhakti               predicted=P  expected=F  [WRONG]
+  Conflict detected: False
+  Citations: ['Yoga Sūtras 2.32', 'Manusmṛti 6.92', 'Arthaśāstra 1.19.34', 'Yoga Sūtras 2.30', 'Applied Dharmaśāstra (derived)']
+
+Analysis:
+  >> HYBRID WINS (+0.83): demonstrates superior reasoning on this scenario type.
+     Likely because: contextual extension requires analogical reasoning beyond rule base.
+
+======================================================================
+CASE STUDY 3: C03 — C. Modern Analog
+======================================================================
+
+Question:
+  Is collecting personal data without informed consent a violation of dharma?
+
+Performance:
+  Hybrid  partial_acc = 1.000
+  Symbolic partial_acc = 0.000
+  Delta (Hybrid - Symbolic) = +1.000
+
+Ground Truth (per school):
+  advaita              F
+  dvaita               F
+  vishishtadvaita      F
+  mimamsa              F
+  nyaya                F
+  bhakti               F
+  Conflict expected: False
+  Supporting verses: YS 2.30, MS 4.85, MS 4.164, MS 4.138
+
+Hybrid Output (school agent verdicts):
+  advaita              predicted=F  expected=F  [OK]
+  dvaita               predicted=F  expected=F  [OK]
+  vishishtadvaita      predicted=F  expected=F  [OK]
+  mimamsa              predicted=F  expected=F  [OK]
+  nyaya                predicted=F  expected=F  [OK]
+  bhakti               predicted=F  expected=F  [OK]
+  Conflict detected: True
+  Citations: ['MS 1.10', 'MANUSMRITI 1.10', 'YS 2.30', 'BG 4.33', 'BHAGAVAD GITA 3.5']
+
+  Response excerpt:
+    In Indian philosophy, particularly within Hindu schools such as Advaita, Nyaya, and Bhakti, the collection of personal data without informed consent can be considered a violation of dharma due to its implications on truthfulness (satya), ethical conduct (ahimsa), and respect for individual autonomy. These schools, which emphasize honesty and moral obligations towards others (Manusmriti 1.10, Bhagavad Gita 4.33), view such actions as infringing upon these principles. However, in the absence of sp
+
+Symbolic Output:
+  advaita              predicted=O  expected=F  [WRONG]
+  dvaita               predicted=O  expected=F  [WRONG]
+  vishishtadvaita      predicted=O  expected=F  [WRONG]
+  mimamsa              predicted=O  expected=F  [WRONG]
+  nyaya                predicted=O  expected=F  [WRONG]
+  bhakti               predicted=O  expected=F  [WRONG]
+  Conflict detected: False
+  Citations: ['Applied Dharmaśāstra (derived)', 'Manusmṛti 6.92', 'Applied Dharmaśāstra (derived)', 'Yoga Sūtras 2.32', 'Bhagavad Gītā 3.19']
+
+Analysis:
+  >> HYBRID WINS (+1.00): demonstrates superior reasoning on this scenario type.
+     Likely because: no direct verse maps to this modern case — hybrid infers from principles.
+
+======================================================================
+CASE STUDY 4: D04 — D. Ambiguity Stress
+======================================================================
+
+Question:
+  Can a devotee of Vishnu worship Shiva equally, or does this violate their dharmic loyalty?
+
+Performance:
+  Hybrid  partial_acc = 0.708
+  Symbolic partial_acc = 0.125
+  Delta (Hybrid - Symbolic) = +0.583
+
+Ground Truth (per school):
+  advaita              O
+  dvaita               F
+  vishishtadvaita      P
+  mimamsa              P
+  nyaya                P
+  bhakti               F
+  Conflict expected: True
+  Supporting verses: BG 9.23-25, BG 7.20-23, Bhagavata 4.2.29
+
+Hybrid Output (school agent verdicts):
+  advaita              predicted=P  expected=O  [WRONG]
+  dvaita               predicted=N  expected=F  [WRONG]
+  vishishtadvaita      predicted=P  expected=P  [OK]
+  mimamsa              predicted=P  expected=P  [OK]
+  nyaya                predicted=P  expected=P  [OK]
+  bhakti               predicted=P  expected=F  [WRONG]
+  Conflict detected: True
+  Citations: ['MS 1.10', 'BG 10.20', 'MS 5.45', 'BG 4.7']
+
+  Response excerpt:
+    In Hindu philosophy, there exists a range of views regarding the practice of worshiping multiple deities while maintaining dharmic loyalty. The Bhagavad Gītā (BG 4.7) emphasizes personal belief and individual dharma, suggesting that it would not be a violation for a devotee of Vishnu to also express reverence towards Shiva, as quoted by the Nyāya school. However, both Dvaita and Mimamsa schools advocate for a more exclusive approach: Dvaita endorses exclusivity in devotion (Manusmṛti 1.10), whil
+
+Symbolic Output:
+  advaita              predicted=F  expected=O  [WRONG]
+  dvaita               predicted=O  expected=F  [WRONG]
+  vishishtadvaita      predicted=F  expected=P  [WRONG]
+  mimamsa              predicted=F  expected=P  [WRONG]
+  nyaya                predicted=F  expected=P  [WRONG]
+  bhakti               predicted=O  expected=F  [WRONG]
+  Conflict detected: True
+  Citations: ['Manusmṛti 6.92', 'Applied Dharmaśāstra (derived)', 'Manusmṛti 3.77', 'Arthaśāstra 1.19.34', 'Applied Dharmaśāstra (derived)']
+
+Analysis:
+  >> HYBRID WINS (+0.58): demonstrates superior reasoning on this scenario type.
+     Likely because: inter-school conflict requires dynamic synthesis, not rule lookup.
+
+======================================================================
+CASE STUDY 5: A09 — A. Direct Textual
+======================================================================
+
+Question:
+  What does the Bhagavad Gita say about the three gunas and their effect on human action?
+
+Performance:
+  Hybrid  partial_acc = 0.333
+  Symbolic partial_acc = 0.917
+  Delta (Hybrid - Symbolic) = -0.583
+
+Ground Truth (per school):
+  advaita              O
+  dvaita               O
+  vishishtadvaita      O
+  mimamsa              P
+  nyaya                O
+  bhakti               O
+  Conflict expected: False
+  Supporting verses: BG 14.5, BG 14.6, BG 14.7, BG 14.8, BG 18.40
+
+Hybrid Output (school agent verdicts):
+  advaita              predicted=N  expected=O  [WRONG]
+  dvaita               predicted=P  expected=O  [WRONG]
+  vishishtadvaita      predicted=N  expected=O  [WRONG]
+  mimamsa              predicted=N  expected=P  [WRONG]
+  nyaya                predicted=N  expected=O  [WRONG]
+  bhakti               predicted=N  expected=O  [WRONG]
+  Conflict detected: True
+  Citations: ['BG 14.8', 'YS 2.30', 'BG 18.50', 'BG 2.47', 'BG 14.6']
+
+  Response excerpt:
+    In the Bhagavad Gita, all schools agree on the presence and influence of the three gunas - Sattva, Rajas, and Tamas - on human action. The Gita (BG 14.7) describes these gunas as promoting purity (Sattva), passion (Rajas), and darkness/ignorance (Tamas). However, there are doctrinal tensions among the schools regarding the nature of the world and causation. For instance, Advaita Vedanta perceives the world as an illusion (māyā), while Dvaita, Nyaya, and Vishishtadvaita consider it real. Addition
+
+Symbolic Output:
+  advaita              predicted=O  expected=O  [OK]
+  dvaita               predicted=O  expected=O  [OK]
+  vishishtadvaita      predicted=O  expected=O  [OK]
+  mimamsa              predicted=O  expected=P  [WRONG]
+  nyaya                predicted=O  expected=O  [OK]
+  bhakti               predicted=O  expected=O  [OK]
+  Conflict detected: False
+  Citations: ['Manusmṛti 2.101', 'Manusmṛti 7.1', 'Manusmṛti 4.180', 'Manusmṛti 2.6', 'Arthaśāstra 1.4']
+
+Analysis:
+  >> SYMBOLIC WINS (-0.58): deterministic rule lookup outperformed LLM synthesis here.
+     Paper framing: symbolic wins on direct-textual, hybrid wins where rules are incomplete.

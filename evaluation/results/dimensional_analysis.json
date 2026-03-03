@@ -1,0 +1,122 @@
+{
+  "breakdown": {
+    "direct_textual": {
+      "hybrid": {
+        "strict": 0.4217,
+        "partial": 0.6683,
+        "weighted": 0.6648,
+        "plurality": 0.3267,
+        "coverage": 0.6217,
+        "cite_integrity": 0.2939,
+        "conflict_correct": 0.4,
+        "cite_valid": 2.3,
+        "cite_claimed": 5.7
+      },
+      "symbolic": {
+        "strict": 0.4483,
+        "partial": 0.6292,
+        "weighted": 0.6285,
+        "plurality": 0.2433,
+        "coverage": 0.98,
+        "cite_integrity": 0.0,
+        "conflict_correct": 0.7,
+        "cite_valid": 0.0,
+        "cite_claimed": 4.9
+      },
+      "vanilla_llm": {
+        "strict": 0.0,
+        "partial": 0.3339,
+        "weighted": 0.3326,
+        "plurality": 0.0,
+        "coverage": 0.0,
+        "cite_integrity": 0.0,
+        "conflict_correct": 0.5,
+        "cite_valid": 0.0,
+        "cite_claimed": 0.875
+      },
+      "rag": {
+        "strict": 0.0,
+        "partial": 0.3339,
+        "weighted": 0.3326,
+        "plurality": 0.0,
+        "coverage": 0.0,
+        "cite_integrity": 0.0,
+        "conflict_correct": 0.5,
+        "cite_valid": 0.0,
+        "cite_claimed": 0.0
+      }
+    },
+    "contextual_extension": {
+      "hybrid": {
+        "strict": 0.4967,
+        "partial": 0.6767,
+        "weighted": 0.6704,
+        "plurality": 0.3033,
+        "coverage": 0.8833,
+        "cite_integrity": 0.5117,
+        "conflict_correct": 0.6,
+        "cite_valid": 3.6,
+        "cite_claimed": 6.7
+      },
+      "symbolic": {
+        "strict": 0.3,
+        "partial": 0.5108,
+        "weighted": 0.5041,
+        "plurality": 0.2367,
+        "coverage": 1.0,
+        "cite_integrity": 0.0,
+        "conflict_correct": 0.4,
+        "cite_valid": 0.0,
+        "cite_claimed": 4.6
+      }
+    },
+    "modern_analog": {
+      "hybrid": {
+        "strict": 0.55,
+        "partial": 0.7458,
+        "weighted": 0.7405,
+        "plurality": 0.2,
+        "coverage": 0.8333,
+        "cite_integrity": 0.4695,
+        "conflict_correct": 0.4,
+        "cite_valid": 3.4,
+        "cite_claimed": 7.8
+      },
+      "symbolic": {
+        "strict": 0.1833,
+        "partial": 0.3208,
+        "weighted": 0.3285,
+        "plurality": 0.25,
+        "coverage": 1.0,
+        "cite_integrity": 0.0,
+        "conflict_correct": 0.2,
+        "cite_valid": 0.0,
+        "cite_claimed": 4.8
+      }
+    },
+    "ambiguity_stress": {
+      "hybrid": {
+        "strict": 0.5,
+        "partial": 0.6771,
+        "weighted": 0.69,
+        "plurality": 0.2083,
+        "coverage": 0.875,
+        "cite_integrity": 0.6384,
+        "conflict_correct": 1.0,
+        "cite_valid": 3.0,
+        "cite_claimed": 5.25
+      },
+      "symbolic": {
+        "strict": 0.1667,
+        "partial": 0.3229,
+        "weighted": 0.3225,
+        "plurality": 0.2083,
+        "coverage": 1.0,
+        "cite_integrity": 0.0,
+        "conflict_correct": 0.25,
+        "cite_valid": 0.0,
+        "cite_claimed": 4.75
+      }
+    }
+  }
+}

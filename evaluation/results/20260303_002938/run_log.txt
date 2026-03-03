@@ -1,0 +1,93 @@
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A01 | Group: direct_textual
+Q: Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?
+A: In the Bhagavad Gita, the ethical concepts of Dharma and Karma Yoga are central to understanding a Kshatriya's obligation in a just war. According to Mimamsa, Dharma prescribes specific duties for each varna, including Kshatriyas, implying an obligated role in war (MS 1.87). On the other hand, Karma Yoga emphasizes selfless action without attachment to results, suggesting that a Kshatriya's duty w...
+Citations: ['MS 1.87', 'YS 2.30', 'MS 5.45', 'BG 2.30', 'MS 1.10', 'BG 4.7', 'BHAGAVAD GITA 1.32', 'BG 3.19']
+Verdicts: {'advaita': 'N', 'dvaita': 'N', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.5 | hallucination=0.375 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A02 | Group: direct_textual
+Q: What does BG 2.47 say about one's right to action versus results?
+A: In the Bhagavad Gita (2.47), various schools of Indian philosophy emphasize the importance of action (karma) and its detachment from results. The verse reads: "You have the right to perform your duty but you are not entitled to its fruits; never consider yourself the cause of the results of your actions." This sentiment is endorsed by Advaita, Dvaita, Vishishtadvaita, Nyaya, and Bhakti schools. Ho...
+Citations: ['BG 2.47', 'BHAGAVAD GITA 2.47']
+Verdicts: {'advaita': 'P', 'dvaita': 'O', 'vishishtadvaita': 'P', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.5 | hallucination=0.5 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A03 | Group: direct_textual
+Q: What is the Advaita Vedanta teaching on the identity of Atman and Brahman?
+A: [Layer 1 — Hard Grounding]
+
+A direct textual parallel exists: Chāndogya Upaniṣad 6.8.7 — 'tat tvam asi'
+This verse directly addresses the query. All reasoning is grounded solely in this canonical source. No inferential extension is required.
+Citations: ['AS 2.1.33', 'BHAGAVAD GITA 4.7']
+Verdicts: {'advaita': 'O', 'dvaita': 'F', 'vishishtadvaita': 'N', 'mimamsa': 'N', 'nyaya': 'F', 'bhakti': 'N'}
+Conflict detected: True
+Metrics: accuracy=0.5 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A04 | Group: direct_textual
+Q: According to Manusmriti, what are the daily obligatory duties of a householder?
+A: In accordance with the doctrinal context provided, all the examined schools agree that the Manusmriti outlines daily obligatory duties for householders as part of their dharma. The concept of ahimsa, or non-violence, is endorsed across various Hindu scriptures and can be found in texts such as the Bhagavad Gita (BG 4.33). However, specific differences emerge among schools regarding the scope and d...
+Citations: ['YS 2.30', 'MS 5.48', 'MS 7.156', 'MS 5.45', 'MS 1.10', 'BG 4.7', 'BG 4.33', 'NS 1.1.4', 'MS 10.93', 'BG 3.5']
+Verdicts: {'advaita': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'bhakti': 'P'}
+Conflict detected: True
+Metrics: accuracy=0.667 | hallucination=0.5 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A05 | Group: direct_textual
+Q: What are the five yamas prescribed in Patanjali's Yoga Sutras?
+A: In Patanjali's Yoga Sutras, five yamas or moral restraints are prescribed: Ahimsa (non-violence), Satya (truthfulness), Asteya (non-stealing), Brahmacarya (celibacy or self-restraint), and no direct parallel can be found for the specific term 'Brahmacarya' in other ancient philosophical schools. While all the mentioned schools, including Advaita, Dvaita, Mimamsa, Nyaya, and Bhakti, do not explicit...
+Citations: ['YS 2.30', 'YOGA SUTRA 2.30', 'BG 4.7', 'YOGA SUTRAS 2.30', 'AS 2.30']
+Verdicts: {'advaita': 'N', 'dvaita': 'P', 'vishishtadvaita': 'P', 'mimamsa': 'P', 'nyaya': 'N', 'bhakti': 'O'}
+Conflict detected: True
+Metrics: accuracy=0.333 | hallucination=0.6 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A06 | Group: direct_textual
+Q: What is Rama's teaching on moksha in Ramanuja's Vishishtadvaita?
+A: In Ramanuja's Vishishtadvaita, Rama's teachings on moksha are emphasized through loving devotion (bhakti) to a personal God, as evidenced in the Bhagavad Gita 18.55. This differs from Advaita's path of jñāna or liberating wisdom/knowledge (BG 4.33), although both schools agree that moksha is achieved in this life rather than through reincarnation as posited in Nyāya (anumana, NS 1.1.5). Unlike Adv...
+Citations: ['BHAGAVAD GITA 18.55', 'BG 18.66', 'BG 18.55', 'BHAGAVAD GITA 4.7', 'BG 4.7', 'BG 4.33', 'NS 1.1.5', 'BG 18.64']
+Verdicts: {'advaita': 'N', 'dvaita': 'O', 'vishishtadvaita': 'P', 'mimamsa': 'N', 'nyaya': 'N', 'bhakti': 'O'}
+Conflict detected: True
+Metrics: accuracy=0.25 | hallucination=0.625 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A07 | Group: direct_textual
+Q: What does Madhvacharya teach about the relationship between the individual soul and God?
+A: In contrast to Advaita Vedanta, which posits the identity of the individual soul and God as non-dual expressions of Brahman, Madhvacharya's Dvaita Vedanta teaches a fundamental difference between the individual soul (jīva) and God (Brahman, who is Viṣṇu in this school). This distinction, known as pañcabheda, emphasizes the inherent differences between jīvas and Brahman (BSB 1.1.2). The ethical dut...
+Citations: ['BHAGAVAD GITA 15.7', 'BG 15.16', 'BG 7.14']
+Verdicts: {'advaita': 'F', 'dvaita': 'O', 'vishishtadvaita': 'N', 'mimamsa': 'N', 'nyaya': 'N', 'bhakti': 'O'}
+Conflict detected: True
+Metrics: accuracy=0.6 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A08 | Group: direct_textual
+Q: According to Mimamsa, what is the epistemic status of the Vedas?
+A: According to the doctrinal context provided, all schools except Nyaya share an endorsement of the Vedas as authoritative and sacred sources of knowledge. The Mimamsa school considers the Vedas as self-valid (svataḥ-prāmāṇya), supreme pramana, or means of knowledge, that do not require an omniscient author or God for their validity (Mimamsa). Advaita, Dvaita, and Visishtadvaita Vedanta also hold th...
+Citations: ['AS 1.1.3', 'MANUSMRITI 2.140', 'MANUSMRITI 5.45']
+Verdicts: {'advaita': 'N', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'nyaya': 'N', 'bhakti': 'O'}
+Conflict detected: True
+Metrics: accuracy=0.667 | hallucination=1.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A09 | Group: direct_textual
+Q: What does the Bhagavad Gita say about the three gunas and their effect on human action?
+A: In the Bhagavad Gita, all schools agree on the presence and influence of the three gunas - Sattva, Rajas, and Tamas - on human action. The Gita (BG 14.7) describes these gunas as promoting purity (Sattva), passion (Rajas), and darkness/ignorance (Tamas). However, there are doctrinal tensions among the schools regarding the nature of the world and causation. For instance, Advaita Vedanta perceives ...
+Citations: ['BG 14.8', 'YS 2.30', 'BG 18.50', 'BG 2.47', 'BG 14.6', 'BG 4.7', 'MS 1.10', 'AS 2.3.45', 'MANUSMRITI 5.45', 'BG 14.7', 'BG 18.30', 'AS 2.30', 'BG 3.5']
+Verdicts: {'advaita': 'N', 'dvaita': 'P', 'vishishtadvaita': 'N', 'mimamsa': 'N', 'nyaya': 'N', 'bhakti': 'N'}
+Conflict detected: True
+Metrics: accuracy=0.0 | hallucination=0.462 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A10 | Group: direct_textual
+Q: How does the Nyaya school define valid inference (anumana) and its requirements?
+A: In the Nyaya school, valid inference (anumana) is defined as a logical process consisting of three parts: pratijña (hypothesis), hetu (reason), and drśṭānta (example). The fourth part, nigamana (application), is optional. This definition shares similarities with the Pūrva Mīmāṃsā school's concept of valid inference, which also consists of three parts: pratijña, hetu, and drṣṭānta. Both traditions ...
+Citations: ['AS 1.1.4', 'BG 13.8', 'BS 1.1.4']
+Verdicts: {'advaita': 'N', 'dvaita': 'N', 'vishishtadvaita': 'P', 'mimamsa': 'N', 'nyaya': 'N', 'bhakti': 'N'}
+Conflict detected: True
+Metrics: accuracy=0.2 | hallucination=1.0 | conflict_correct=False

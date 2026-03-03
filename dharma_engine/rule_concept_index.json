@@ -1,0 +1,224 @@
+{
+  "brahmin_dharma": [
+    "ms_1_88_brahmin"
+  ],
+  "vedas": [
+    "ms_1_88_brahmin",
+    "ms_2_6_dharma_sources"
+  ],
+  "yajna": [
+    "ms_1_88_brahmin",
+    "ms_2_101_sandhya",
+    "ms_3_69_panchayajna",
+    "ms_8_140_debt"
+  ],
+  "dana": [
+    "ms_1_88_brahmin",
+    "ms_1_90_vaishya",
+    "ms_3_77_householder",
+    "ms_3_69_panchayajna",
+    "ms_3_271_hospitality",
+    "ms_4_180_parents"
+  ],
+  "kshatriya_dharma": [
+    "ms_1_89_kshatriya",
+    "ms_7_1_kingduty",
+    "ms_7_87_just_war"
+  ],
+  "raja_dharma": [
+    "ms_1_89_kshatriya",
+    "ms_7_1_kingduty",
+    "ms_7_87_just_war",
+    "ms_7_104_taxation",
+    "ms_7_14_corruption",
+    "ms_8_17_impartial_justice",
+    "as_1_4_danda",
+    "as_1_19_welfare",
+    "modern_ai_surveillance",
+    "modern_environment"
+  ],
+  "dharma": [
+    "ms_1_89_kshatriya",
+    "ms_1_91_shudra",
+    "ms_3_77_householder",
+    "ms_2_6_dharma_sources",
+    "ms_4_138_truth",
+    "ms_7_87_just_war",
+    "ms_7_104_taxation",
+    "ms_7_14_corruption",
+    "ms_8_17_impartial_justice",
+    "ms_2_54_purity",
+    "ms_5_56_food",
+    "bg_3_19_nishkama",
+    "bg_2_47_right_to_act",
+    "bg_4_8_avatar_rule",
+    "as_1_4_danda",
+    "as_1_19_welfare",
+    "as_3_9_contracts",
+    "ms_4_85_theft",
+    "ms_4_164_deceit",
+    "ms_8_270_violence_prohibited",
+    "ms_4_46_trees",
+    "ms_5_45_water",
+    "ms_3_55_women_respect",
+    "ms_4_180_parents",
+    "ms_8_140_debt",
+    "ms_5_51_animal",
+    "modern_data_privacy",
+    "modern_genetic_mod",
+    "modern_environment"
+  ],
+  "vaishya_dharma": [
+    "ms_1_90_vaishya"
+  ],
+  "artha": [
+    "ms_1_90_vaishya",
+    "ms_7_104_taxation",
+    "as_3_9_contracts",
+    "ms_4_164_deceit"
+  ],
+  "shudra_dharma": [
+    "ms_1_91_shudra"
+  ],
+  "sadharana_dharma": [
+    "ms_1_91_shudra",
+    "ms_2_6_dharma_sources",
+    "ms_6_92_sadharana",
+    "ms_3_271_hospitality",
+    "ms_2_54_purity",
+    "ms_3_55_women_respect",
+    "ms_4_180_parents"
+  ],
+  "brahmacharya_ashrama": [
+    "ms_2_36_student"
+  ],
+  "brahmacharya": [
+    "ms_2_36_student",
+    "ys_2_30_yama"
+  ],
+  "svadhyaya": [
+    "ms_2_36_student",
+    "ys_2_32_niyama",
+    "ms_8_140_debt"
+  ],
+  "ahimsa": [
+    "ms_2_36_student",
+    "ms_6_92_sadharana",
+    "ms_5_47_ahimsa",
+    "ms_7_87_just_war",
+    "ms_5_56_food",
+    "ys_2_30_yama",
+    "ms_8_270_violence_prohibited",
+    "ms_4_46_trees",
+    "ms_5_45_water",
+    "ms_5_51_animal",
+    "modern_ai_surveillance",
+    "modern_euthanasia",
+    "modern_data_privacy",
+    "modern_genetic_mod",
+    "modern_environment"
+  ],
+  "grihastha_ashrama": [
+    "ms_3_77_householder",
+    "ms_3_271_hospitality"
+  ],
+  "panchayajna": [
+    "ms_3_77_householder",
+    "ms_3_69_panchayajna",
+    "ms_8_140_debt"
+  ],
+  "sannyasa_ashrama": [
+    "ms_6_33_renunciate"
+  ],
+  "aparigraha": [
+    "ms_6_33_renunciate",
+    "ys_2_30_yama"
+  ],
+  "tapas": [
+    "ms_6_33_renunciate",
+    "ms_6_92_sadharana",
+    "ys_2_32_niyama"
+  ],
+  "moksha": [
+    "ms_6_33_renunciate",
+    "bg_3_19_nishkama"
+  ],
+  "sandhyavandana": [
+    "ms_2_101_sandhya"
+  ],
+  "nitya_karma": [
+    "ms_2_101_sandhya",
+    "ms_3_69_panchayajna"
+  ],
+  "satya": [
+    "ms_6_92_sadharana",
+    "ms_4_138_truth",
+    "ms_8_17_impartial_justice",
+    "ys_2_30_yama",
+    "as_3_9_contracts",
+    "ms_4_164_deceit",
+    "modern_ai_surveillance",
+    "modern_data_privacy"
+  ],
+  "asteya": [
+    "ms_6_92_sadharana",
+    "ys_2_30_yama",
+    "ms_4_85_theft",
+    "ms_4_164_deceit",
+    "modern_data_privacy"
+  ],
+  "shaucha": [
+    "ms_6_92_sadharana",
+    "ms_2_54_purity",
+    "ms_5_56_food",
+    "ys_2_32_niyama",
+    "ms_5_45_water"
+  ],
+  "karma": [
+    "ms_5_47_ahimsa",
+    "bg_4_8_avatar_rule",
+    "ms_4_85_theft",
+    "ms_4_46_trees",
+    "ms_5_51_animal",
+    "modern_genetic_mod",
+    "modern_environment"
+  ],
+  "danda_niti": [
+    "ms_7_1_kingduty",
+    "ms_7_14_corruption",
+    "as_1_4_danda",
+    "as_1_19_welfare",
+    "ms_8_270_violence_prohibited",
+    "modern_ai_surveillance"
+  ],
+  "varnashrama": [
+    "ms_7_1_kingduty"
+  ],
+  "nishkama_karma": [
+    "bg_3_19_nishkama",
+    "bg_2_47_right_to_act",
+    "modern_euthanasia"
+  ],
+  "karma_yoga": [
+    "bg_3_19_nishkama",
+    "bg_2_47_right_to_act",
+    "modern_euthanasia"
+  ],
+  "avatar": [
+    "bg_4_8_avatar_rule"
+  ],
+  "santosha": [
+    "ys_2_32_niyama"
+  ],
+  "ishvara_pranidhana": [
+    "ys_2_32_niyama"
+  ],
+  "daya": [
+    "as_1_19_welfare",
+    "ms_3_55_women_respect",
+    "modern_euthanasia"
+  ],
+  "ahankara": [
+    "modern_genetic_mod"
+  ]
+}

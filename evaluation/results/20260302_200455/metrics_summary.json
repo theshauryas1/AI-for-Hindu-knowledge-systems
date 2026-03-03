@@ -1,0 +1,14 @@
+{
+  "symbolic": {
+    "total_scenarios": 34,
+    "errors": 0,
+    "doctrinal_accuracy_mean": 0.294,
+    "hallucination_rate_mean": 1.0,
+    "citation_recall_mean": 0.0,
+    "conflict_detection_accuracy": 0.412,
+    "pluralism_score_mean": 0.23,
+    "concept_coverage_mean": 0.0,
+    "avg_response_time_sec": 0.001,
+    "total_traps_hit": 0
+  }
+}

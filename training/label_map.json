@@ -1,0 +1,11 @@
+{
+  "labels": [
+    "advaita",
+    "bhakti",
+    "dvaita",
+    "mimamsa",
+    "nyaya",
+    "vishishtadvaita"
+  ],
+  "num_labels": 6
+}

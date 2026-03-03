@@ -1,0 +1,112 @@
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A01 | Group: direct_textual
+Q: Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?
+A: [ERROR] ConceptMapper() takes no arguments
+Traceback (most recent call last):
+  File "D:\AI for preserving hindu philosophy\evaluation\eval_harness.py", line 268, in run_hybrid
+    mapper = ConceptMapper(g)
+TypeError: ConceptMapper() takes no arguments
+
+Citations: []
+Verdicts: {}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A02 | Group: direct_textual
+Q: What does BG 2.47 say about one's right to action versus results?
+A: [ERROR] ConceptMapper() takes no arguments
+Traceback (most recent call last):
+  File "D:\AI for preserving hindu philosophy\evaluation\eval_harness.py", line 268, in run_hybrid
+    mapper = ConceptMapper(g)
+TypeError: ConceptMapper() takes no arguments
+
+Citations: []
+Verdicts: {}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A03 | Group: direct_textual
+Q: What is the Advaita Vedanta teaching on the identity of Atman and Brahman?
+A: [ERROR] ConceptMapper() takes no arguments
+Traceback (most recent call last):
+  File "D:\AI for preserving hindu philosophy\evaluation\eval_harness.py", line 268, in run_hybrid
+    mapper = ConceptMapper(g)
+TypeError: ConceptMapper() takes no arguments
+
+Citations: []
+Verdicts: {}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A04 | Group: direct_textual
+Q: According to Manusmriti, what are the daily obligatory duties of a householder?
+A: [ERROR] ConceptMapper() takes no arguments
+Traceback (most recent call last):
+  File "D:\AI for preserving hindu philosophy\evaluation\eval_harness.py", line 268, in run_hybrid
+    mapper = ConceptMapper(g)
+TypeError: ConceptMapper() takes no arguments
+
+Citations: []
+Verdicts: {}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A05 | Group: direct_textual
+Q: What are the five yamas prescribed in Patanjali's Yoga Sutras?
+A: [ERROR] ConceptMapper() takes no arguments
+Traceback (most recent call last):
+  File "D:\AI for preserving hindu philosophy\evaluation\eval_harness.py", line 268, in run_hybrid
+    mapper = ConceptMapper(g)
+TypeError: ConceptMapper() takes no arguments
+
+Citations: []
+Verdicts: {}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=True
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A06 | Group: direct_textual
+Q: What is Rama's teaching on moksha in Ramanuja's Vishishtadvaita?
+A: [ERROR] ConceptMapper() takes no arguments
+Traceback (most recent call last):
+  File "D:\AI for preserving hindu philosophy\evaluation\eval_harness.py", line 268, in run_hybrid
+    mapper = ConceptMapper(g)
+TypeError: ConceptMapper() takes no arguments
+
+Citations: []
+Verdicts: {}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A07 | Group: direct_textual
+Q: What does Madhvacharya teach about the relationship between the individual soul and God?
+A: [ERROR] ConceptMapper() takes no arguments
+Traceback (most recent call last):
+  File "D:\AI for preserving hindu philosophy\evaluation\eval_harness.py", line 268, in run_hybrid
+    mapper = ConceptMapper(g)
+TypeError: ConceptMapper() takes no arguments
+
+Citations: []
+Verdicts: {}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=False
+
+────────────────────────────────────────────────────────────
+Model: hybrid | Scenario: A08 | Group: direct_textual
+Q: According to Mimamsa, what is the epistemic status of the Vedas?
+A: [ERROR] ConceptMapper() takes no arguments
+Traceback (most recent call last):
+  File "D:\AI for preserving hindu philosophy\evaluation\eval_harness.py", line 268, in run_hybrid
+    mapper = ConceptMapper(g)
+TypeError: ConceptMapper() takes no arguments
+
+Citations: []
+Verdicts: {}
+Conflict detected: False
+Metrics: accuracy=0.0 | hallucination=0.0 | conflict_correct=False

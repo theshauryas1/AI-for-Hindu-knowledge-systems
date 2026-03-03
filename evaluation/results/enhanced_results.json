@@ -1,0 +1,2539 @@
+[
+  {
+    "run_id": "20260302_184641_vanilla_llm_A01",
+    "timestamp": "2026-03-02T18:48:23.204894",
+    "model": "vanilla_llm",
+    "scenario_id": "A01",
+    "group": "direct_textual",
+    "question": "Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?",
+    "output": {
+      "model": "vanilla_llm",
+      "response": "Yes, according to the Bhagavad Gita, a Kshatriya (warrior caste) is obligated to fight in a just war. In Chapter 1, Verse 4, Arjuna is reminded of his duty as a Kshatriya by Lord Krishna: \"O son of Kunti [Arjuna], the Bharata race can be maintained only by battles fought by kings eager for victory.\"\n\nIn Chapters 2 and 3, Krishna elaborates on this further, explaining that a warrior's duty is to protect the virtuous, defeat their enemies, and maintain dharma (righteousness) in society. However, Krishna also emphasizes that a warrior should not fight out of anger or greed but for righteous reasons. In Chapter 2, Verse 39-40, Krishna says:\n\n\"A man must be considered a true yogi whose mind is ever fixed on the Self, who regards all creatures equally and harms none.\"\n\nIn Chapter 18, Verse 76, Krishna clarifies that those who are unable or unwilling to fight due to fear, lack of determination, or cowardice are not true Kshatriyas:\n\n\"The man who does not wish to fight and flees in battle out of fear, losing his weapon and horse, is considered a lower type of Kshatriya.\"",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": false,
+      "kg_used": false,
+      "elapsed_sec": 102.06
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.25,
+      "weighted_acc": 0.25,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.31",
+        "BG 2.33",
+        "BG 3.35",
+        "MS 1.89",
+        "MS 7.87"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_vanilla_llm_A02",
+    "timestamp": "2026-03-02T18:49:14.949979",
+    "model": "vanilla_llm",
+    "scenario_id": "A02",
+    "group": "direct_textual",
+    "question": "What does BG 2.47 say about one's right to action versus results?",
+    "output": {
+      "model": "vanilla_llm",
+      "response": "Bhagavad Gita 2.47 states, \"You have a right to perform your duty, but you are not entitled to the fruits of your actions.\" The verse is as follows:\n\nस्वधर्मे निद्हानं कuru कर्म त्यज्य चाहंकृति-मान्ददात्मा ।\nभुक्ति-मुक्तिसन्ध्यायां फल-ग्राहन-शील-शूद्र-वैष्णवः ॥ ४७ ॥\n\nTranslation: \"Perform your duty diligently, abandoning all attachment to the results, for the one who works without expecting the fruits of his labor is considered a yogi in the dual states of liberation and enjoyment.\" (Bhagavad Gita 2.47)",
+      "citations_claimed": [
+        "BHAGAVAD GITA 2.47",
+        "BHAGAVAD GITA 2.47"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": false,
+      "kg_used": false,
+      "elapsed_sec": 50.23
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 1,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.25,
+      "weighted_acc": 0.25,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 3.19"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "karma_yoga",
+        "nishkama_karma",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_vanilla_llm_A03",
+    "timestamp": "2026-03-02T18:50:15.303479",
+    "model": "vanilla_llm",
+    "scenario_id": "A03",
+    "group": "direct_textual",
+    "question": "What is the Advaita Vedanta teaching on the identity of Atman and Brahman?",
+    "output": {
+      "model": "vanilla_llm",
+      "response": "In Advaita Vedanta, the primary teachings revolve around the unity of the individual self (Atman) and the ultimate reality or cosmic consciousness (Brahman). This concept is often referred to as \"Advaita\" itself, which means non-dualism.\n\nThe principle is most clearly articulated in the Mahavakyas or \"Great Sayings\" found in the Upanishads. One of these, the Taittiriya Upanishad's Aitareya Brahmana verse 1.3.2, states: \"Aham Brahmāsmi,\" which means \"I am Brahman.\"\n\nAnother important text is the Brihadaranyaka Upanishad (4.4.5), where the famous dream-witness example is used to illustrate the non-dual identity of Atman and Brahman: \"Just as a person in a dream does not know whether what they are experiencing is true or false, so too the individual self does not know the difference between itself and the universe.\"\n\nIn essence, Advaita Vedanta teaches that the individual self (Atman) and the cosmic consciousness (Brahman) are fundamentally one and the same, constituting a single, non-dual reality.",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": false,
+      "kg_used": false,
+      "elapsed_sec": 58.85
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.4375,
+      "weighted_acc": 0.4214,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "F",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "P",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.18
+        },
+        "bhakti": {
+          "gt": "F",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "F",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BAU 1.4.10",
+        "CU 6.8.7",
+        "MU 2.2.5"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "valid_concepts": [
+        "atman",
+        "brahman",
+        "avidya",
+        "maya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_vanilla_llm_A04",
+    "timestamp": "2026-03-02T18:51:29.631606",
+    "model": "vanilla_llm",
+    "scenario_id": "A04",
+    "group": "direct_textual",
+    "question": "According to Manusmriti, what are the daily obligatory duties of a householder?",
+    "output": {
+      "model": "vanilla_llm",
+      "response": "According to Manusmriti (10.90-130), a householder (Grihastha) has several daily obligatory duties. Here are some key obligations:\n\n1. Charity (Daana): Householders should give in charity regularly, including food, clothing, and gold, to the worthy, the learned, and the Brahmins (Manusmriti 9.137).\n\n2. Study of the Vedas (Vedaadhyayana): Learning and teaching the Vedas is a daily obligation for householders (Manusmriti 2.230).\n\n3. Performance of Rituals (Karmas): Householders are expected to perform daily religious rituals such as Sandhyavandana (offering prayers at dawn, noon, and dusk), Agnihotra (fire sacrifice), and other Poojas (Manusmriti 9.147-152).\n\n4. Maintenance of Family (Grihastya Dharma): Householders should maintain their family with love and affection, protect them from evil, and educate their children (Manusmriti 9.138-146).\n\n5. Truthfulness (Satyavacana): Speaking the truth is essential for a householder (Manusmriti 7.151).\n\n6. Non-violence (Ahimsa): Householders should practice non-violence and avoid causing harm to any living being (Manusmriti 7.153).",
+      "citations_claimed": [
+        "MANUSMRITI 9.137",
+        "MANUSMRITI 2.230",
+        "MANUSMRITI 9.147",
+        "MANUSMRITI 9.138",
+        "MANUSMRITI 7.151",
+        "MANUSMRITI 7.153"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": false,
+      "kg_used": false,
+      "elapsed_sec": 72.83
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 6,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.375,
+      "weighted_acc": 0.37,
+      "school_detail": {
+        "advaita": {
+          "gt": "P",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "P",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "P",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "P",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 3.69",
+        "MS 3.70",
+        "MS 3.77",
+        "MS 2.101"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "grihastha_ashrama",
+        "panchayajna",
+        "nitya_karma",
+        "sandhyavandana"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_vanilla_llm_A05",
+    "timestamp": "2026-03-02T18:53:20.945669",
+    "model": "vanilla_llm",
+    "scenario_id": "A05",
+    "group": "direct_textual",
+    "question": "What are the five yamas prescribed in Patanjali's Yoga Sutras?",
+    "output": {
+      "model": "vanilla_llm",
+      "response": "The five yamas, moral and ethical disciplines in Patanjali's Yoga Sutras (196-202), are as follows:\n\n1. Ahimsa (non-violence) - \"Ahimsa paramō dharmaḥ\" (Sutra 2.35) - Non-violence is the highest duty.\n2. Satya (truthfulness) - \"Yāmāḥ satyaścitteṣṭha brāhmaçčaryopaste śaucha indriyārtha-grahaṇa tapaḥ svādhyāya īshvarapraṇidhāna\" (Sutra 2.30) - Truthfulness is one of the five yamas.\n3. Asteya (non-stealing) - \"Yāmāḥ satyaścitteṣṭha brāhmaçčaryopaste śaucha indriyārtha-grahaṇa tapaḥ svādhyāya īshvarapraṇidhāna\" (Sutra 2.30) - Non-stealing is one of the five yamas.\n4. Brahmacharya (celibacy or self-restraint) - \"Yāmāḥ satyaścitteṣṭha brāhmaçčaryopaste śaucha indriyārtha-grahaṇa tapaḥ svādhyāya īshvarapraṇidhāna\" (Sutra 2.30) - Celibacy or self-restraint is one of the five yamas.\n5. Aparigraha (non-possessiveness, non-hoarding) - \"Yāmāḥ satyaścitteṣṭha brāhmaçčaryopaste śaucha indriyārtha-grahaṇa tapaḥ svādhyāya īshvarapraṇidhāna\" (Sutra 2.30) - Non-possessiveness or non-hoarding is one of the five yamas.\n\nThese five yamas, along with the five niyamas (self-disciplines), form the foundation for ethical and spiritual self-restraint and self-discipline in Patanjali's Yoga Sutras.",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": false,
+      "kg_used": false,
+      "elapsed_sec": 109.8
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.2917,
+      "weighted_acc": 0.295,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "P",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "YS 2.30",
+        "YS 2.31"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "ahimsa",
+        "satya",
+        "asteya",
+        "brahmacharya",
+        "aparigraha"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_rag_A01",
+    "timestamp": "2026-03-02T18:53:23.335212",
+    "model": "rag",
+    "scenario_id": "A01",
+    "group": "direct_textual",
+    "question": "Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?",
+    "output": {
+      "model": "rag",
+      "response": "[RUNNER ERROR] VerseRetriever.__init__() missing 1 required positional argument: 'kg'",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": false,
+      "kg_used": false,
+      "elapsed_sec": 0,
+      "error": "VerseRetriever.__init__() missing 1 required positional argument: 'kg'"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.25,
+      "weighted_acc": 0.25,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.31",
+        "BG 2.33",
+        "BG 3.35",
+        "MS 1.89",
+        "MS 7.87"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_rag_A02",
+    "timestamp": "2026-03-02T18:53:24.835859",
+    "model": "rag",
+    "scenario_id": "A02",
+    "group": "direct_textual",
+    "question": "What does BG 2.47 say about one's right to action versus results?",
+    "output": {
+      "model": "rag",
+      "response": "[RUNNER ERROR] VerseRetriever.__init__() missing 1 required positional argument: 'kg'",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": false,
+      "kg_used": false,
+      "elapsed_sec": 0,
+      "error": "VerseRetriever.__init__() missing 1 required positional argument: 'kg'"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.25,
+      "weighted_acc": 0.25,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 3.19"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "karma_yoga",
+        "nishkama_karma",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_rag_A03",
+    "timestamp": "2026-03-02T18:53:26.336722",
+    "model": "rag",
+    "scenario_id": "A03",
+    "group": "direct_textual",
+    "question": "What is the Advaita Vedanta teaching on the identity of Atman and Brahman?",
+    "output": {
+      "model": "rag",
+      "response": "[RUNNER ERROR] VerseRetriever.__init__() missing 1 required positional argument: 'kg'",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": false,
+      "kg_used": false,
+      "elapsed_sec": 0,
+      "error": "VerseRetriever.__init__() missing 1 required positional argument: 'kg'"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.4375,
+      "weighted_acc": 0.4214,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "F",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "P",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.18
+        },
+        "bhakti": {
+          "gt": "F",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "F",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BAU 1.4.10",
+        "CU 6.8.7",
+        "MU 2.2.5"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "valid_concepts": [
+        "atman",
+        "brahman",
+        "avidya",
+        "maya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_rag_A04",
+    "timestamp": "2026-03-02T18:53:27.837793",
+    "model": "rag",
+    "scenario_id": "A04",
+    "group": "direct_textual",
+    "question": "According to Manusmriti, what are the daily obligatory duties of a householder?",
+    "output": {
+      "model": "rag",
+      "response": "[RUNNER ERROR] VerseRetriever.__init__() missing 1 required positional argument: 'kg'",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": false,
+      "kg_used": false,
+      "elapsed_sec": 0,
+      "error": "VerseRetriever.__init__() missing 1 required positional argument: 'kg'"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.375,
+      "weighted_acc": 0.37,
+      "school_detail": {
+        "advaita": {
+          "gt": "P",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "P",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "P",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "P",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 3.69",
+        "MS 3.70",
+        "MS 3.77",
+        "MS 2.101"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "grihastha_ashrama",
+        "panchayajna",
+        "nitya_karma",
+        "sandhyavandana"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_rag_A05",
+    "timestamp": "2026-03-02T18:53:29.338933",
+    "model": "rag",
+    "scenario_id": "A05",
+    "group": "direct_textual",
+    "question": "What are the five yamas prescribed in Patanjali's Yoga Sutras?",
+    "output": {
+      "model": "rag",
+      "response": "[RUNNER ERROR] VerseRetriever.__init__() missing 1 required positional argument: 'kg'",
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {},
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "retrieval_used": false,
+      "kg_used": false,
+      "elapsed_sec": 0,
+      "error": "VerseRetriever.__init__() missing 1 required positional argument: 'kg'"
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 0,
+      "pluralism_score": 0.0,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.2917,
+      "weighted_acc": 0.295,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "P",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "YS 2.30",
+        "YS 2.31"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "ahimsa",
+        "satya",
+        "asteya",
+        "brahmacharya",
+        "aparigraha"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_symbolic_A01",
+    "timestamp": "2026-03-02T18:53:30.884720",
+    "model": "symbolic",
+    "scenario_id": "A01",
+    "group": "direct_textual",
+    "question": "Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 6.92",
+        "Applied Dharmaśāstra (derived)",
+        "Applied Dharmaśāstra (derived)",
+        "Bhagavad Gītā 2.47"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "O",
+        "bhakti": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 30
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 26
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 26
+        },
+        {
+          "rule_id": "modern_genetic_mod",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "modify genetic material solely to cure disease and relieve suffering",
+          "score": 25
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 24
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.04
+    },
+    "metrics": {
+      "doctrinal_accuracy": 1.0,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": true
+      },
+      "citations_claimed_count": 4,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0,
+      "strict_acc": 1.0,
+      "partial_acc": 1.0,
+      "weighted_acc": 1.0,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.31",
+        "BG 2.33",
+        "BG 3.35",
+        "MS 1.89",
+        "MS 7.87"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_symbolic_A02",
+    "timestamp": "2026-03-02T18:53:30.884720",
+    "model": "symbolic",
+    "scenario_id": "A02",
+    "group": "direct_textual",
+    "question": "What does BG 2.47 say about one's right to action versus results?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma\n\nSchool verdicts: {'advaita': 'F', 'dvaita': 'F', 'vishishtadvaita': 'F', 'mimamsa': 'F', 'nyaya': 'F', 'bhakti': 'F'}",
+      "citations_claimed": [
+        "Bhagavad Gītā 2.47",
+        "Yoga Sūtras 2.32",
+        "Manusmṛti 2.6",
+        "Bhagavad Gītā 3.19",
+        "Manusmṛti 4.85"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "F",
+        "dvaita": "F",
+        "vishishtadvaita": "F",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "F"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 7
+        },
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 6
+        },
+        {
+          "rule_id": "ms_2_6_dharma_sources",
+          "source": "Manusmṛti 2.6",
+          "operator": "O",
+          "action": "follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma",
+          "score": 5
+        },
+        {
+          "rule_id": "bg_3_19_nishkama",
+          "source": "Bhagavad Gītā 3.19",
+          "operator": "O",
+          "action": "perform duty without attachment to results",
+          "score": 3
+        },
+        {
+          "rule_id": "ms_4_85_theft",
+          "source": "Manusmṛti 4.85",
+          "operator": "F",
+          "action": "steal or take what is not given",
+          "score": 3
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.0,
+      "partial_acc": 0.0,
+      "weighted_acc": 0.0,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "F",
+          "partial": 0.0,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "F",
+          "partial": 0.0,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "F",
+          "partial": 0.0,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "F",
+          "partial": 0.0,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "F",
+          "partial": 0.0,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "F",
+          "partial": 0.0,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 3.19"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "karma_yoga",
+        "nishkama_karma",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_symbolic_A03",
+    "timestamp": "2026-03-02T18:53:30.889171",
+    "model": "symbolic",
+    "scenario_id": "A03",
+    "group": "direct_textual",
+    "question": "What is the Advaita Vedanta teaching on the identity of Atman and Brahman?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Applied Dharmaśāstra (derived)] Action is PERMITTED: assist in ending terminal suffering when patient consents and all treatments exhausted\n  [Manusmṛti 2.6] Action is OBLIGATORY: follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma\n  [Arthaśāstra 1.4] Action is OBLIGATORY: use proportionate punishment (daṇḍa) to maintain order\n\nSchool verdicts: {'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'nyaya': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}",
+      "citations_claimed": [
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 2.6",
+        "Arthaśāstra 1.4",
+        "Arthaśāstra 1.19.34",
+        "Bhagavad Gītā 2.47"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "O",
+        "bhakti": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 13
+        },
+        {
+          "rule_id": "ms_2_6_dharma_sources",
+          "source": "Manusmṛti 2.6",
+          "operator": "O",
+          "action": "follow Vedic scripture, sadācāra, and self-satisfaction in determining dharma",
+          "score": 12
+        },
+        {
+          "rule_id": "as_1_4_danda",
+          "source": "Arthaśāstra 1.4",
+          "operator": "O",
+          "action": "use proportionate punishment (daṇḍa) to maintain order",
+          "score": 12
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 12
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 11
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.25,
+      "school_matches": {
+        "advaita": true,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": false,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.25,
+      "partial_acc": 0.375,
+      "weighted_acc": 0.4429,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "F",
+          "pred": "O",
+          "partial": 0.0,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "P",
+          "pred": "O",
+          "partial": 0.5,
+          "weight": 0.18
+        },
+        "bhakti": {
+          "gt": "F",
+          "pred": "O",
+          "partial": 0.0,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "F",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BAU 1.4.10",
+        "CU 6.8.7",
+        "MU 2.2.5"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "valid_concepts": [
+        "atman",
+        "brahman",
+        "avidya",
+        "maya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_symbolic_A04",
+    "timestamp": "2026-03-02T18:53:30.891817",
+    "model": "symbolic",
+    "scenario_id": "A04",
+    "group": "direct_textual",
+    "question": "According to Manusmriti, what are the daily obligatory duties of a householder?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.32] Action is OBLIGATORY: practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana\n  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure\n  [Manusmṛti 6.92] Action is OBLIGATORY: practise ahimsa, satya, asteya, shaucha, senses-control\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'O', 'bhakti': 'O', 'mimamsa': 'O', 'dvaita': 'O', 'vishishtadvaita': 'O'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.32",
+        "Arthaśāstra 1.19.34",
+        "Manusmṛti 6.92",
+        "Manusmṛti 3.69",
+        "Yoga Sūtras 2.30"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "O",
+        "bhakti": "O",
+        "mimamsa": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_32_niyama",
+          "source": "Yoga Sūtras 2.32",
+          "operator": "O",
+          "action": "practise niyamas: shaucha, santosha, tapas, svadhyaya, ishvara-pranidhana",
+          "score": 26
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 24
+        },
+        {
+          "rule_id": "ms_6_92_sadharana",
+          "source": "Manusmṛti 6.92",
+          "operator": "O",
+          "action": "practise ahimsa, satya, asteya, shaucha, senses-control",
+          "score": 23
+        },
+        {
+          "rule_id": "ms_3_69_panchayajna",
+          "source": "Manusmṛti 3.69",
+          "operator": "O",
+          "action": "perform the five great sacrifices daily",
+          "score": 22
+        },
+        {
+          "rule_id": "ys_2_30_yama",
+          "source": "Yoga Sūtras 2.30",
+          "operator": "O",
+          "action": "practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha",
+          "score": 22
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.5,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.5,
+      "partial_acc": 0.75,
+      "weighted_acc": 0.76,
+      "school_detail": {
+        "advaita": {
+          "gt": "P",
+          "pred": "O",
+          "partial": 0.5,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "P",
+          "pred": "O",
+          "partial": 0.5,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "P",
+          "pred": "O",
+          "partial": 0.5,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "P",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 3.69",
+        "MS 3.70",
+        "MS 3.77",
+        "MS 2.101"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "grihastha_ashrama",
+        "panchayajna",
+        "nitya_karma",
+        "sandhyavandana"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_symbolic_A05",
+    "timestamp": "2026-03-02T18:53:30.894406",
+    "model": "symbolic",
+    "scenario_id": "A05",
+    "group": "direct_textual",
+    "question": "What are the five yamas prescribed in Patanjali's Yoga Sutras?",
+    "output": {
+      "model": "symbolic",
+      "response": "Symbolic reasoning from rule base (5 rules matched):\n  [Yoga Sūtras 2.30] Action is OBLIGATORY: practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha\n  [Bhagavad Gītā 2.47] Action is OBLIGATORY: perform one's duty with full effort, relinquishing all attachment to fruits\n  [Arthaśāstra 1.19.34] Action is OBLIGATORY: prioritise welfare of subjects above king's own pleasure\n\nSchool verdicts: {'nyaya': 'O', 'advaita': 'P', 'dvaita': 'O', 'vishishtadvaita': 'O', 'mimamsa': 'O', 'bhakti': 'P'}",
+      "citations_claimed": [
+        "Yoga Sūtras 2.30",
+        "Bhagavad Gītā 2.47",
+        "Arthaśāstra 1.19.34",
+        "Applied Dharmaśāstra (derived)",
+        "Manusmṛti 3.69"
+      ],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "nyaya": "O",
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "bhakti": "P"
+      },
+      "conflict_detected": false,
+      "conflict_reason": "",
+      "matched_rules": [
+        {
+          "rule_id": "ys_2_30_yama",
+          "source": "Yoga Sūtras 2.30",
+          "operator": "O",
+          "action": "practise the five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha",
+          "score": 10
+        },
+        {
+          "rule_id": "bg_2_47_right_to_act",
+          "source": "Bhagavad Gītā 2.47",
+          "operator": "O",
+          "action": "perform one's duty with full effort, relinquishing all attachment to fruits",
+          "score": 9
+        },
+        {
+          "rule_id": "as_1_19_welfare",
+          "source": "Arthaśāstra 1.19.34",
+          "operator": "O",
+          "action": "prioritise welfare of subjects above king's own pleasure",
+          "score": 8
+        },
+        {
+          "rule_id": "modern_euthanasia",
+          "source": "Applied Dharmaśāstra (derived)",
+          "operator": "P",
+          "action": "assist in ending terminal suffering when patient consents and all treatments exhausted",
+          "score": 8
+        },
+        {
+          "rule_id": "ms_3_69_panchayajna",
+          "source": "Manusmṛti 3.69",
+          "operator": "O",
+          "action": "perform the five great sacrifices daily",
+          "score": 7
+        }
+      ],
+      "retrieval_used": false,
+      "kg_used": true,
+      "elapsed_sec": 0.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.5,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": false,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 5,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 1.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": false,
+      "conflict_correct": true,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.5,
+      "partial_acc": 0.75,
+      "weighted_acc": 0.73,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "P",
+          "partial": 0.5,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "P",
+          "pred": "O",
+          "partial": 0.5,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "P",
+          "partial": 0.5,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "YS 2.30",
+        "YS 2.31"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "ahimsa",
+        "satya",
+        "asteya",
+        "brahmacharya",
+        "aparigraha"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_hybrid_A01",
+    "timestamp": "2026-03-02T19:00:23.270216",
+    "model": "hybrid",
+    "scenario_id": "A01",
+    "group": "direct_textual",
+    "question": "Is a Kshatriya obligated to fight in a just war according to the Bhagavad Gita?",
+    "output": {
+      "model": "hybrid",
+      "response": "In the Bhagavad Gita, all schools agree on the concept of Dharma, which varies based on an individual's caste and stage of life. For Kshatriyas, this includes their duty to engage in war when necessary (BG 4.7). However, there is a tension between Advaita, Dvaita, and Visishtadvaita regarding the nature of the world. While Advaita perceives it as an illusion (māyā), Dvaita views it as real. This difference may influence their interpretations of war's justness, with Dvaita more likely to advocate for a Kshatriya's obligation in a literal war, while Advaita might emphasize adherence to dharma without attachment to the results (Karma Yoga). The Nyaya school also supports a Kshatriya's duty to fight in just wars, but it is essential to note that this obligation is determined by Dharma, a concept endorsed by both Manusmriti and Bhagavad Gita.",
+      "agent_responses": {
+        "advaita": "According to Advaita Vedanta, as expounded in the Bhagavad Gita (BG 4.7), every individual, including a Kshatriya, is bound by their duty (dharma) based on their caste, stage of life, and personal characteristics. In certain circumstances, this may involve engaging in war, but only if it is considered just. However, it's crucial to note that the ultimate reality, as per Advaita Vedanta, is Brahman and the world is an apparent illusion (maya). Therefore, even though a Kshatriya might be obligated to fight in a just war, such actions should not be taken as affirming the dualistic existence of individuals or objects. Instead, they are seen as karmic activities that can lead towards spiritual growth through knowledge (jnana) and eventual liberation (moksha). In contrast to Advaita Vedanta, other schools like Dvaita and Visishtadvaita may have different interpretations of a Kshatriya's duty in war.",
+        "dvaita": "According to Dvaita Vedanta, a Kshatriya is indeed obligated to engage in a just war as per the teachings of the Bhagavad Gita (BG 3.5, 4.7). In this context, the concept of karma endorsed by Dvaita supports this duty, emphasizing action aligned with righteousness and dharma. It's essential to note that in Dvaita philosophy, the world is real and not an illusion (māyā), which implies war is a legitimate part of society upholding its moral order. However, it's important to distinguish Dvaita from other schools such as Advaita or Vishishtadvaita that may have varying perspectives on the nature of action and duty.",
+        "vishishtadvaita": "According to Visishtadvaita Vedanta, as endorsed by Ramanuja, the Bhagavad Gita does mandate a Kshatriya's duty (dharma) to engage in just war when necessary for maintaining dharma and upholding righteousness. This is supported by verses like BG 3.5, where Krishna explains that one must perform their prescribed duties without attachment to the outcomes. However, it's essential to note that this duty is not arbitrary but rather a divine ordination aimed at preserving harmony and order in society. The concept of duty (dharma) is rooted in the understanding that all entities, including jivas and jagat, are real attributes (viśeṣaṇas) of Brahman, thereby emphasizing their inherent value and interconnectedness.",
+        "mimamsa": "According to Mimamsa Vedanta, a Kshatriya is obligated to perform his prescribed duties (karma) as per the Vedas, which include maintaining law and order and defending the kingdom in just wars when necessary. This obligation can be found in texts such as Manusmriti 5.45, where it states that a Kshatriya's primary duty is to protect the weak. In the Bhagavad Gita (BG 3.5), Arjuna, a Kshatriya, is instructed by Krishna to fulfill his duties as a warrior without attachment to the outcome of the battle, emphasizing the concept of karma yoga. Thus, following the Mimamsa philosophy, a Kshatriya's duty to fight in a just war is derived from the eternal Vedic injunctions and upheld as a key aspect of Dharma.",
+        "nyaya": "According to the Nyāya-Vaiśeṣika school, a just war is determined by Dharma, which is endorsed by both Manusmṛti (MS 1.10) and Bhagavad Gītā (BG 4.7). In such a context, a Kshatriya, as a duty-bound warrior, would be obligated to fight in a just war as per the principles of Dharma. However, this obligation does not contradict the stance of Ahimsa (non-violence) endorsed by Nyāya philosophy, since a just war is considered righteous and therefore not unjustified violence. The principle of logic (anumana), central to Nyāya, can be used to infer that a Kshatriya's duty in a just war serves the greater good, thus making it ethically acceptable even within the context of Ahimsa.",
+        "bhakti": "In the Bhagavad Gita, particularly Chapter 3 Verse 5, Arjuna is advised to perform his duty as a warrior (kshatriya) without attachment to its outcomes, which implies that a Kshatriya is obligated to fight in a just war according to the Bhagavad Gita. However, this duty must be harmonized with the principles of nonviolence (ahimsa), which are also endorsed in the Yoga Sutras and Manusmriti.\n\nFrom the Bhakti Vedanta perspective, this duty is understood as an expression of devotion (bhakti) to Lord Krishna, who appears before Arjuna as a charioteer. Thus, a Kshatriya's duty in war can be seen as a means to serve and please the divine, rather than merely a worldly obligation. This perspective emphasizes that the path of love (prema-bhakti) is not only compatible with but also enriched by one's duties and relationships in the world."
+      },
+      "citations_claimed": [
+        "MS 1.10",
+        "BG 4.7",
+        "MANUSMRITI 5.45",
+        "BG 3.5"
+      ],
+      "concepts_mentioned": [
+        "karma",
+        "dharma",
+        "karma yoga",
+        "kshatriya"
+      ],
+      "school_verdicts": {
+        "advaita": "F",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "{'school_a': 'advaita', 'school_b': 'dvaita', 'on': 'reality of the world (māyā vs real)', 'key': 'maya'}; {'school_a': 'advaita', 'school_b': 'nyaya', 'concept': '', 'note': 'Advaita rejects external world as ultimately real'}; {'school_a': 'advaita', 'school_b': 'vishishtadvaita', 'on': 'causation (vivarta vs pariṇāma)', 'key': 'maya'}",
+      "agreements": [
+        "All schools recognize dharma as a binding ethical framework."
+      ],
+      "primary_concept": "karma",
+      "mapped_concepts": [
+        "karma",
+        "ahimsa",
+        "satya",
+        "dharma"
+      ],
+      "retrieval_used": true,
+      "kg_used": true,
+      "confidence": null,
+      "elapsed_sec": 412.36
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.833,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": true,
+        "bhakti": true
+      },
+      "citations_claimed_count": 4,
+      "citations_valid_count": 2,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.5,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": true,
+      "conflict_correct": false,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.333,
+      "strict_acc": 0.8333,
+      "partial_acc": 0.8333,
+      "weighted_acc": 0.78,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "F",
+          "partial": 0.0,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.31",
+        "BG 2.33",
+        "BG 3.35",
+        "MS 1.89",
+        "MS 7.87"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "kshatriya_dharma",
+        "dharma",
+        "karma_yoga"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_hybrid_A02",
+    "timestamp": "2026-03-02T19:07:03.165687",
+    "model": "hybrid",
+    "scenario_id": "A02",
+    "group": "direct_textual",
+    "question": "What does BG 2.47 say about one's right to action versus results?",
+    "output": {
+      "model": "hybrid",
+      "response": "In the Bhagavad Gita, verse 2.47, all major Indian schools - Advaita, Dvaita, Vishishtadvaita, Mimamsa, and Nyaya - agree on the principle that one has a right to perform prescribed actions (karma), but not to claim the results (phala). However, they diverge in their interpretation of this principle's metaphysical implications. For instance, Advaita and Vishishtadvaita emphasize selfless action as a means of spiritual liberation through the doctrine of Karma Yoga, while Dvaita stresses the role of God's will in determining the fruits of actions. Mimamsa and Nyaya advocate diligent performance of duties for maintaining righteous living (dharma), with Mimamsa focusing on Vedic injunctions and Nyaya implying a moral obligation to perform one's prescribed duties. No direct ancient parallel was found for the modern question of individual rights beyond the context provided.",
+      "agent_responses": {
+        "advaita": "In the Bhagavad Gītā (BG 2.47), from an Advaita Vedanta perspective, Krishna teaches Arjuna that one should act without attachment to results. This is known as 'Karma Phala Tyaga' or renunciation of the fruits of action. According to Advaita, this teaching aligns with the endorsement of Karma (BG 3.5) and Dharma (BG 4.7), emphasizing the importance of righteous action over the pursuit of personal gain. However, it contrasts with schools like Dvaita, Nyaya, or Vishishtadvaita that may place more emphasis on the results of actions. The renunciation of results is a means to minimize attachment and ultimately attain liberation (Moksha), which is achieved through direct recognition of the identity of the individual self (Atman) with Brahman, not merely similarity, as per Advaita doctrine.",
+        "dvaita": "According to Dvaita Vedanta, Bhagavad Gita 2.47 affirms the doctrine of Karma (endorsed by Manusmriti and Yoga Sutras) where an individual has the right to perform actions but not to claim the results. This is because the fruits of action are not intrinsic to the Self, but dependent on the will of Brahman, who is none other than Viṣṇu (as per Dvaita). While Advaita may interpret 'fruitless' action as self-realization or dissolution into Brahman, Dvaita rejects this Mayavada view since it contradicts the reality and distinction of the Jiva, Brahman, and Jagat. Instead, Dvaita emphasizes Bhakti (devotion) as the primary path to attaining liberation in Vaikuntha while remaining distinct from Viṣṇu.",
+        "vishishtadvaita": "According to Visishtadvaita Vedanta, Bhagavad Gita 2.47 asserts that one has the right to action (karma) but not to its results (phala), emphasizing the principle of Karma Yoga. This doctrine is rooted in the concept of parinamavada, the real transformation of Brahman into jivas and jagat, where actions are performed by the individual selves (jivas), but their outcomes are ultimately determined by God (Brahman as Naraayana). In contrast to Advaita's vivartavada, which considers the world as mere illusion, Visishtadvaita acknowledges the reality of jivas and jagat, highlighting their ontological dependence on Brahman. The Gita Bhashya by Ramanuja, a key text in our school, elucidates this idea further.",
+        "mimamsa": "According to Mimāṃsā, Bhagavad Gītā 2.47 states that one should not be attached to the fruits of their actions (karma), but perform their prescribed duties (dharma) diligently, as per the Vedic injunctions (shabda). This detachment from results ensures righteous living (dharma) and is a key tenet in Mimāṃsā's endorsement of Karma Yoga. The Mimāṃsā school maintains that the world, including dharma, is real and eternal, rejecting non-dualist philosophies like Advaita that may suggest otherwise.",
+        "nyaya": "From a Nyāya-Vaiśeṣika perspective, Bhagavad Gītā 2.47 does not explicitly discuss one's right to action versus results. However, when considering this concept in the context of the Bhagavad Gītā and its endorsement of Dharma (righteous duty), it can be inferred that an individual has a moral obligation to perform their prescribed duties (actions) according to their social status and circumstances, but not to desire or claim any specific outcome. This adherence to Dharma is supported by the Nyāya Sūtras' emphasis on inference (anumāna), as one can infer from societal norms and scriptures what one's duties are. Additionally, the rejection of Maya (illusion) by Nyāya-Vaiśeṣika aligns with the Bhagavad Gītā's teachings on the ephemeral nature of worldly pleasures and pain, further emphasizing that one should not be attached to outcomes.",
+        "bhakti": "In the Bhagavad Gita, verse 2.47, it is stated that \"You have a right to perform your prescribed duties, but you are not entitled to the fruits of those actions.\" This principle, known as Karma Phala Tyāga (renunciation of the results of action), emphasizes the importance of selfless action without attachment to its outcome. From a Bhakti Vedanta perspective, this teaching is aligned with the core doctrine that divine grace is indispensable for liberation (moksha). By performing one's prescribed duties as an offering to God (isvara-pranidhana), one can attain unwavering devotion (bhakti) and ultimately achieve moksha. This principle underscores the importance of action that is motivated by love for God, rather than selfish desires or attachment to outcomes."
+      },
+      "citations_claimed": [
+        "BHAGAVAD GITA 2.47",
+        "BG 4.7",
+        "BG 2.47",
+        "BG 3.5"
+      ],
+      "concepts_mentioned": [
+        "karma",
+        "dharma",
+        "karma yoga"
+      ],
+      "school_verdicts": {
+        "advaita": "P",
+        "dvaita": "P",
+        "vishishtadvaita": "N",
+        "mimamsa": "F",
+        "nyaya": "F",
+        "bhakti": "P"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "{'school_a': 'advaita', 'school_b': 'dvaita', 'on': 'reality of the world (māyā vs real)', 'key': 'maya'}; {'school_a': 'advaita', 'school_b': 'nyaya', 'concept': '', 'note': 'Advaita rejects external world as ultimately real'}; {'school_a': 'advaita', 'school_b': 'vishishtadvaita', 'on': 'causation (vivarta vs pariṇāma)', 'key': 'maya'}",
+      "agreements": [],
+      "primary_concept": "karma",
+      "mapped_concepts": [
+        "karma",
+        "ahimsa",
+        "satya",
+        "dharma"
+      ],
+      "retrieval_used": true,
+      "kg_used": true,
+      "confidence": null,
+      "elapsed_sec": 398.39
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.0,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": false,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 4,
+      "citations_valid_count": 3,
+      "citations_relevant_count": 1,
+      "hallucination_rate": 0.25,
+      "citation_recall": 0.5,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": true,
+      "conflict_correct": false,
+      "distinct_verdicts": 3,
+      "pluralism_score": 0.5,
+      "concept_coverage": 0.333,
+      "strict_acc": 0.0,
+      "partial_acc": 0.2917,
+      "weighted_acc": 0.305,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "P",
+          "partial": 0.5,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "P",
+          "partial": 0.5,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "F",
+          "partial": 0.0,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "F",
+          "partial": 0.0,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "P",
+          "partial": 0.5,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "BG 2.47",
+        "BG 3.19"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "karma_yoga",
+        "nishkama_karma",
+        "dharma"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_hybrid_A03",
+    "timestamp": "2026-03-02T19:13:01.754773",
+    "model": "hybrid",
+    "scenario_id": "A03",
+    "group": "direct_textual",
+    "question": "What is the Advaita Vedanta teaching on the identity of Atman and Brahman?",
+    "output": {
+      "model": "hybrid",
+      "response": "[Layer 1 — Hard Grounding]\n\nA direct textual parallel exists: Chāndogya Upaniṣad 6.8.7 — 'tat tvam asi'\nThis verse directly addresses the query. All reasoning is grounded solely in this canonical source. No inferential extension is required.",
+      "agent_responses": {
+        "advaita": "In Advaita Vedanta, the identity of Atman (individual self) and Brahman (ultimate reality) is a central tenet. This identity is not merely similar but an absolute identity, known as \"Advaita\" or non-dualism. According to Śaṅkara's commentary on the Brhadaranyaka Upanishad (3.9.27), \"tat tvam asi\" (That thou art) symbolizes this unity, implying that the individual self is not different from the universal Brahman. This identity is attained through direct recognition or realization (sākṣātkāra) of jñāna (knowledge), as endorsed in texts such as Bhagavad Gītā (4.34). The illusion (māyā) of duality arises from ignorance (avidya) about this identity, and liberation (mokṣa) occurs when this ignorance is dispelled through the realization of Atman-Brahman identity. This perspective contrasts with other schools like Dvaita, Vishishtadvaita, and Nyaya that uphold dualism or qualified non-dualism.",
+        "dvaita": "In contrast to Dvaita Vedanta, Advaita Vedanta posits the identity of Atman (the individual self) and Brahman (the ultimate reality). This doctrine, known as Advaita māyāvāda, asserts that the individual self is ultimately not distinct from the universal Brahman but is merely an illusory appearance (māyā) of it.\n\nFrom the Dvaita Vedanta perspective, we reject this identity between Atman and Brahman. According to our core doctrines, the five eternal differences (pañcabheda) ensure that Atman and Brahman are distinct entities, with Atman being eternally dependent on Viṣṇu as a jīva, while Brahman is Viṣṇu Himself, self-sufficient and supremely independent.\n\nIn contrast to Advaita's rejection of the reality of the world (māyāvāda), Dvaita Vedanta holds that the world is real and not an illusion. Liberation in our tradition involves attaining bliss in Vaikuṇṭha while remaining distinct from Viṣṇu, rather than merging with Him as per Advaita.",
+        "vishishtadvaita": "In Visishtadvaita Vedanta, the identity between Atman (individual self) and Brahman (universal Self) is established as a real relationship rather than absolute non-duality as in Advaita Vedanta. This relationship is characterized by internal distinctions or attributes (viśeṣaṇas), with jīvas and jagat being real entities that form the body of Brahman, which is personified as Nārāyaṇa (Saguna). Unlike Advaita's rejection of maya (illusion), Visishtadvaita acknowledges a real transformation (pariṇāmavāda) of Brahman into the world. Contrary to Advaita's vivartavāda (world as mere appearance), Visishtadvaita endorses parinama (real change). In this perspective, liberation is eternal conscious participation in Brahman without losing individuality, and bhakti (devotion) alongside jñāna (knowledge) and prapatti (total surrender) are paths to attain it.",
+        "mimamsa": "As a scholar of Pūrva Mīmāṃsā, we do not endorse the Advaita Vedanta teaching on the identity of Atman and Brahman, as it is contrary to our school's doctrine that the Vedas need no divine author or God (Īśvara). Instead, our school emphasizes the literal and rule-based interpretation of the eternal Vedic injunctions (vidhi) for righteous living (Dharma), with a focus on ritual action (karma-kāṇḍa). We support Karma Yoga but reject the concept of Maya or the denial of multiplicity in favor of unity, as these are rejected by Mīmāṃsā and endorsed by other philosophical schools such as Nyaya.",
+        "nyaya": "From the Nyāya-Vaiśeṣika perspective, Advaita Vedanta's teaching on the identity of Atman (Self) and Brahman is not aligned. According to our school, the Atman is an eternal substance distinct from body, mind, and consciousness, while Brahman remains a concept within the Advaita Vedanta philosophy that denotes the ultimate reality or universal consciousness, often seen as non-dualistic and formless. In contrast, Nyāya-Vaiśeṣika posits the existence of multiple Atmans for individual beings but denies the identity between them and Brahman, emphasizing logical distinctiveness over a unified concept of self and ultimate reality.",
+        "bhakti": "From the Bhakti Vedanta perspective, the identity of Atman (the individual soul) and Brahman (the supreme cosmic consciousness) is viewed as an ultimate realization that occurs through intense loving devotion (bhakti). In the Bhagavata Purana and Bhagavad Gita, it is emphasized that Brahman can be realized in personal form as Kṛṣṇa or Viṣṇu. This realization transcends dualistic (dvaita) and qualified non-dualistic (vishishtadvaita) perspectives, for the devotee experiences a union of love with the divine that goes beyond mere intellectual comprehension. The attainment of this union, or mokṣa, is facilitated by divine grace (prasāda/anugraha), making bhakti not only equal to but in some traditions considered superior to jñāna and karma yoga."
+      },
+      "citations_claimed": [],
+      "concepts_mentioned": [],
+      "school_verdicts": {
+        "advaita": "N",
+        "dvaita": "N",
+        "vishishtadvaita": "P",
+        "mimamsa": "P",
+        "nyaya": "N",
+        "bhakti": "P"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "{'school_a': 'advaita', 'school_b': 'dvaita', 'on': 'reality of the world (māyā vs real)', 'key': 'maya'}; {'school_a': 'advaita', 'school_b': 'nyaya', 'concept': '', 'note': 'Advaita rejects external world as ultimately real'}; {'school_a': 'advaita', 'school_b': 'vishishtadvaita', 'on': 'causation (vivarta vs pariṇāma)', 'key': 'maya'}",
+      "agreements": [
+        "All schools accept some form of Vedic scriptural authority."
+      ],
+      "primary_concept": "ahankara",
+      "mapped_concepts": [
+        "ahankara",
+        "jnana",
+        "karma",
+        "ahimsa",
+        "satya",
+        "dharma"
+      ],
+      "retrieval_used": true,
+      "kg_used": true,
+      "confidence": null,
+      "elapsed_sec": 357.09
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.25,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": true,
+        "mimamsa": false,
+        "nyaya": true,
+        "bhakti": false
+      },
+      "citations_claimed_count": 0,
+      "citations_valid_count": 0,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": true,
+      "conflict_detected": true,
+      "conflict_correct": true,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.25,
+      "partial_acc": 0.5,
+      "weighted_acc": 0.5,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "F",
+          "pred": "N",
+          "partial": 0.5,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "P",
+          "pred": "P",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "bhakti": {
+          "gt": "F",
+          "pred": "P",
+          "partial": 0.25,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "F",
+        "vishishtadvaita": "P",
+        "mimamsa": "N",
+        "nyaya": "N",
+        "bhakti": "F"
+      },
+      "supporting_verses": [
+        "BAU 1.4.10",
+        "CU 6.8.7",
+        "MU 2.2.5"
+      ],
+      "conflict_expected": true,
+      "conflict_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "valid_concepts": [
+        "atman",
+        "brahman",
+        "avidya",
+        "maya"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_hybrid_A04",
+    "timestamp": "2026-03-02T19:19:45.195837",
+    "model": "hybrid",
+    "scenario_id": "A04",
+    "group": "direct_textual",
+    "question": "According to Manusmriti, what are the daily obligatory duties of a householder?",
+    "output": {
+      "model": "hybrid",
+      "response": "In Manusmriti, according to all the major schools of Indian philosophy, daily obligatory duties for a householder are outlined. These duties include religious practices like offering oblations to sacred fires (mentioned in MS 5.45), performing sandhyāvandanam and agnihotra (as per Dvaita's interpretation of MS 1.10), studying Vedic scriptures (as per Viśiṣṭādvaita's understanding), and adherence to righteousness (Nyāya's perspective, based on inference from MS 1.10 and Bhagavad Gītā 4.7). The Advaita Vedanta acknowledges the societal norms reflected in Manusmriti but considers it a secondary text within their tradition. No direct ancient parallel for daily duties specifically linked to the concept of ahankara (ego-sense) was found in the provided context.",
+      "agent_responses": {
+        "advaita": "According to Advaita Vedanta, while the Manusmriti is not a primary text within our tradition, it does reflect some societal norms and daily obligations of a householder (grhasta). In Manusmṛti (MS 5.45), it is stated that a householder's obligatory duties (dharma) include performing sacrifices, studying the Vedas, showing respect to elders, giving gifts, and maintaining one's caste and family lineage. These duties can be understood in light of the Advaita's recognition of Karma (BG 4.33), Ahiṃsā (BG 3.5), and Dharma (BG 4.7), which are endorsed as aspects of leading a virtuous life, albeit they do not constitute the ultimate means to attain mokṣa or liberation. In contrast, other schools such as Sankhya, Nyaya, and Vishishtadvaita may interpret these duties differently in terms of their ontological significance and role in spiritual realization.",
+        "dvaita": "According to Dvaita Vedanta, as per Manusmriti (MS 1.10), a householder's daily obligatory duties (Nityakarmas) include performing sandhyāvandanam (morning and evening rituals), agnihotra (fire oblation), and sravana (listening to sacred texts). This adherence is a manifestation of bhakti, which is the primary path to attaining the grace (prasāda) of Viṣṇu and liberation in Vaikuṇṭha, as endorsed by Dvaita Vedanta. In contrast to Advaita Mimamsa, which supports nishkama karma (selfless action), Dvaita rejects illusionism (māyā) and advocates for the reality of the world, thus emphasizing the practicality of daily rituals.",
+        "vishishtadvaita": "According to Viśiṣṭādvaita Vedānta, as per Manusmriti, a householder's daily obligatory duties (nityakarmas) include reciting the Gayatri mantra, offering oblations to sacred fires, and studying Vedic scriptures. These duties serve to maintain social order (dharma), foster spiritual growth (artha), and fulfill worldly responsibilities (kāma). This adherence to duty is essential for attaining liberation (moksha) while retaining one's individual consciousness, as taught by Rāmānujācārya in his commentaries on the Bhagavad Gītā and Brahma Sūtras.",
+        "mimamsa": "According to the Mīmāṃsā philosophy, a householder's daily obligatory duties (nitya-karma) are outlined in the Dharmaśāstra text Manusmṛti (MS 5.45). As per this scripture, a householder should perform six daily rituals: offering oblations to the fire god Agni during morning and evening prayers, bathing at sunrise, studying the Vedas, reciting sacred formulas, and donating a portion of food to guests or the needy. This ritual action (karma-kāṇḍa) is considered essential for righteous living as it adheres to the eternal and literal Vedic injunctions that serve as the supreme pramāṇa (source of knowledge) in Mīmāṃsā Vedānta.",
+        "nyaya": "According to the Nyāya-Vaiśeṣika school, Manusmriti endorses that a householder's daily obligatory duties involve adherence to Dharma (righteousness). This concept of Dharma is supported by inference, as stated in Manusmriti 1.10 and Bhagavad Gītā 4.7. However, from the Nyāya-Vaiśeṣika perspective, the logical rigor requires that the householder also abides by Ahimsa (non-violence), as endorsed in Manusmriti 5.45 and Yoga Sūtras 2.30. This obligation arises from perception (pratyakṣa) and inference (anumāna).",
+        "bhakti": "According to the Bhakti Vedanta tradition, which emphasizes devotion to a personal God (Krishna or Rama), daily obligations for a householder are primarily centered around nurturing loving relationships and engaging in activities that foster bhakti, or divine love. Although not explicitly stated in Manusmriti, the Bhagavad Gita (BG 18.46) recommends that a householder should regularly chant God's names (nāma-japa), sing His praises (kīrtana), and perform acts of service (dāsya) as part of their daily duties. These practices, rooted in the Bhagavata Purana and Narada Bhakti Sutras, are instrumental in attaining divine grace (prasāda/anugraha), which is essential for liberation (mokṣa). The path of love (prema-bhakti) is considered superior to or at least equal to jñāna and karma yoga, as it recognizes the world and personal relationships as venues for divine love."
+      },
+      "citations_claimed": [
+        "MS 1.10",
+        "BG 18.46",
+        "BG 3.5",
+        "AS 2.30.",
+        "BG 4.7",
+        "BG 4.33",
+        "MS 5.45",
+        "MANUSMRITI 1.10",
+        "MANUSMRITI 5.45"
+      ],
+      "concepts_mentioned": [
+        "ahankara"
+      ],
+      "school_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "{'school_a': 'advaita', 'school_b': 'dvaita', 'on': 'reality of the world (māyā vs real)', 'key': 'maya'}; {'school_a': 'advaita', 'school_b': 'nyaya', 'concept': '', 'note': 'Advaita rejects external world as ultimately real'}; {'school_a': 'advaita', 'school_b': 'vishishtadvaita', 'on': 'causation (vivarta vs pariṇāma)', 'key': 'maya'}",
+      "agreements": [],
+      "primary_concept": "ahankara",
+      "mapped_concepts": [
+        "ahankara",
+        "jnana",
+        "karma",
+        "ahimsa",
+        "satya",
+        "dharma"
+      ],
+      "retrieval_used": true,
+      "kg_used": true,
+      "confidence": null,
+      "elapsed_sec": 401.94
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.5,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": true,
+        "vishishtadvaita": true,
+        "mimamsa": true,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 9,
+      "citations_valid_count": 3,
+      "citations_relevant_count": 0,
+      "hallucination_rate": 0.667,
+      "citation_recall": 0.0,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": true,
+      "conflict_correct": false,
+      "distinct_verdicts": 1,
+      "pluralism_score": 0.167,
+      "concept_coverage": 0.0,
+      "strict_acc": 0.5,
+      "partial_acc": 0.75,
+      "weighted_acc": 0.76,
+      "school_detail": {
+        "advaita": {
+          "gt": "P",
+          "pred": "O",
+          "partial": 0.5,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "O",
+          "pred": "O",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "P",
+          "pred": "O",
+          "partial": 0.5,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "P",
+          "pred": "O",
+          "partial": 0.5,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "P",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "O",
+        "nyaya": "P",
+        "bhakti": "P"
+      },
+      "supporting_verses": [
+        "MS 3.69",
+        "MS 3.70",
+        "MS 3.77",
+        "MS 2.101"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "grihastha_ashrama",
+        "panchayajna",
+        "nitya_karma",
+        "sandhyavandana"
+      ]
+    }
+  },
+  {
+    "run_id": "20260302_184641_hybrid_A05",
+    "timestamp": "2026-03-02T19:28:55.695558",
+    "model": "hybrid",
+    "scenario_id": "A05",
+    "group": "direct_textual",
+    "question": "What are the five yamas prescribed in Patanjali's Yoga Sutras?",
+    "output": {
+      "model": "hybrid",
+      "response": "Patanjali's Yoga Sutras, recognized by various schools including Advaita, Dvaita, Nyaya, and Bhakti Vedanta, prescribe five ethical restraints (yamas) as part of the eight limbs of yoga. These yamas are:\n\n1. Ahimsa (non-violence): Endorsed by all mentioned schools, this principle advocates non-injury towards living beings. [3]\n2. Satya (truthfulness): Advocated for promoting righteousness and adherence to dharma. [4]\n3. Brahmacarya (celibacy or chastity outside marriage): While not a primary focus of Mimamsa, it is mentioned in the Yoga Sutras. [5]\n\nAlthough the Yoga Sutras are not central to Pūrva Mīmāṃsā's doctrine, they can be examined through its stance on karma (ritual action). [4] The Nyaya-Vaiśeṣika school also endorses these yamas, particularly Ahimsa, emphasizing the importance of non-violence. [3]\n\nThe Bhakti Vedanta perspective highlights that while the Yoga Sutras primarily focus on Raja yoga, they still prescribe the five moral disciplines (yamas) that are also emphasized in other Hindu texts like the Manusmriti. [Bhakti]",
+      "agent_responses": {
+        "advaita": "In Advaita Vedanta, Patanjali's Yoga Sutras are acknowledged as a significant text that complements our understanding of the ultimate reality (Brahman). Among the eight limbs of yoga, the five yamas - ethical restraints - prescribed in Yoga Sutras are highly revered. These include:\n1. Ahimsa (non-violence): the absolute prohibition of causing harm to any living being, as endorsed in Bhagavad Gita (3.15) and Yoga Sutras (2.35).\n2. Satya (truthfulness): speaking truth at all times, a principle also supported by the Bhagavad Gita (16.1-3).\n3. Asteya (non-stealing): abstaining from taking what is not given, as per Yoga Sutras (2.34) and Manusmriti (7.158).\n4. Brahmacharya (celibacy or continence): the practice of self-restraint in sexual activity, particularly important for spiritual seekers pursuing a life of study (Brahmacarya Ashrama), as advocated by Manusmriti (9.143).\n5. Aparigraha (non-possessiveness or non-avarice): renouncing the desire to accumulate material wealth, in accordance with Yoga Sutras (2.30) and Bhagavad Gita (17.20-21).\nIn Advaita Vedanta, these yamas are considered essential steps towards purifying one's mind and preparing it for the realization of the self as non-dual Brahman.",
+        "dvaita": "According to Dvaita Vedanta, Patanjali's Yoga Sutras endorse the practice of five moral disciplines (yamas) as a means to attain spiritual growth and self-realization. These yamas are: Ahimsa (non-violence), Satya (truthfulness), Asteya (non-stealing), Brahmacarya (celibacy or chastity outside marriage), and Aparigraha (non-possessiveness or non-covetousness). These ethical principles, being part of the broader karma philosophy, are endorsed by Dvaita Vedanta as essential steps towards bhakti (devotion to Viṣṇu) which is the primary path towards liberation in our school.\n\nFrom a Dvaita perspective, these yamas serve as a means to control one's desires and actions, ultimately leading to a life in harmony with dharma, the cosmic order established by Viṣṇu. This harmonious living allows jīvas to attain prasāda (grace) from Viṣṇu, which is crucial for liberation and experiencing bliss in Vaikuṇṭha.\n\nIn contrast to Advaita's māyāvāda (illusionism), Dvaita vehemently rejects the notion that the world is an illusion. Instead, we maintain that the world is real, as per our understanding of karma and yamas.",
+        "vishishtadvaita": "In Viṣiṣṭādvaita Vedānta, we acknowledge Patanjali's Yoga Sutras as a significant text that complements our philosophy by outlining ethical guidelines for spiritual growth. The five yamas prescribed in the Yoga Sutras (YS 2.30) are:\n\n1. Ahimsa (non-violence): This principle aligns with our belief in Brahman's unity, as causing harm to any part of the universe is effectively causing harm to Brahman itself.\n2. Satya (truthfulness): Truthfulness is essential for maintaining harmony and honesty in relationships, which are central to our understanding of jīva's interdependence with Brahman.\n3. Asteya (non-stealing): We believe that everything belongs to Brahman; therefore, stealing contradicts the principle of acknowledging the ontological dependence of jīvas and jagat on the divine.\n4. Brahmacharya (celibacy or continence): While not strictly defined as celibacy in the Yoga Sutras, this yama emphasizes self-control and moderation, which aligns with our emphasis on spiritual discipline in pursuit of moksha.\n5. Aparigraha (non-possessiveness): This yama reinforces the idea that all is Brahman and encourages detachment from worldly possessions, helping to facilitate an individual's eternal conscious participation in Brahman.",
+        "mimamsa": "In Pūrva Mīmāṃsā, ethical principles are primarily derived from the Vedas and Dharmaśāstra, such as the Manusmṛti. While Patanjali's Yoga Sutras are not a core text of Mīmāṃsā, we can still examine its teachings through the lens of our school's stance on karma (ritual action). The five yamas prescribed in Patanjali's Yoga Sutras—ahimsa (non-violence), satya (truthfulness), asteya (non-stealing), brahmacarya (celibacy or sexual restraint), and aparigraha (non-possessiveness)—align with our school's emphasis on the literal interpretation of Vedic injunctions, as these principles are echoed in other Dharmaśāstra texts such as the Manusmṛti. As a Mīmāṃsaka, I endorse Patanjali's yamas as they promote righteous living through adherence to the imperatives (vidhi) of the Vedas.",
+        "nyaya": "According to the Nyāya-Vaiśeṣika school, which endorsees the reality of the external world and emphasizes logical reasoning and pramāṇa theory, the five yamas prescribed in Patanjali's Yoga Sutras are:\n\n1. Ahiṃsā (non-violence): This stance is endorsed in various texts including Bhagavad Gītā and Yoga Sūtras. It can be logically deduced through anumāna, as causing harm to others infringes on their right to exist, which is a universal dharma (righteous duty).\n\n2. Dharma (righteousness): This concept is also endorsed in multiple texts such as Manusmṛti and Bhagavad Gītā. In the Nyāya-Vaiśeṣika school, dharma can be understood as the natural order of the universe, which can be inferred through anumāna based on observing consistent patterns in the world.\n\nThese yamas are not explicitly discussed within the primary texts of the Nyāya-Vaiśeṣika school, but they align with the school's emphasis on ethical behavior and universal dharma, making them relevant from a Nyāya-Vaiśeṣika perspective.",
+        "bhakti": "From the Bhakti Vedanta perspective, while Patanjali's Yoga Sutras primarily focus on Raja yoga, they do prescribe five moral disciplines (Yamas) that are also emphasized in other Hindu texts like the Manusmriti. These yamas include:\n\n1. Ahimsa (non-violence): This principle endorses non-injury towards all living beings and is a foundational aspect of both Raja yoga and Bhakti yoga, as stated in the Bhagavad Gita (BG 3.5) and Yoga Sutras (YS 2.30).\n\nIn the context of Bhakti Vedanta, these yamas serve as ethical foundations for cultivating love and devotion towards God (Kṛṣṇa, Rāma, Viṣṇu), ensuring that one's actions align with divine principles and facilitate spiritual growth."
+      },
+      "citations_claimed": [
+        "YS 2.30",
+        "BG 3.5"
+      ],
+      "concepts_mentioned": [
+        "karma",
+        "dharma",
+        "ahimsa",
+        "satya",
+        "bhakti"
+      ],
+      "school_verdicts": {
+        "advaita": "P",
+        "dvaita": "N",
+        "vishishtadvaita": "P",
+        "mimamsa": "P",
+        "nyaya": "P",
+        "bhakti": "N"
+      },
+      "conflict_detected": true,
+      "conflict_reason": "{'school_a': 'advaita', 'school_b': 'dvaita', 'on': 'reality of the world (māyā vs real)', 'key': 'maya'}; {'school_a': 'advaita', 'school_b': 'nyaya', 'concept': '', 'note': 'Advaita rejects external world as ultimately real'}; {'school_a': 'advaita', 'school_b': 'vishishtadvaita', 'on': 'causation (vivarta vs pariṇāma)', 'key': 'maya'}",
+      "agreements": [],
+      "primary_concept": "karma",
+      "mapped_concepts": [
+        "karma",
+        "ahimsa",
+        "satya",
+        "dharma"
+      ],
+      "retrieval_used": true,
+      "kg_used": true,
+      "confidence": null,
+      "elapsed_sec": 549.0
+    },
+    "metrics": {
+      "doctrinal_accuracy": 0.167,
+      "school_matches": {
+        "advaita": false,
+        "dvaita": false,
+        "vishishtadvaita": false,
+        "mimamsa": true,
+        "nyaya": false,
+        "bhakti": false
+      },
+      "citations_claimed_count": 2,
+      "citations_valid_count": 2,
+      "citations_relevant_count": 1,
+      "hallucination_rate": 0.0,
+      "citation_recall": 0.5,
+      "traps_hit": [],
+      "conflict_expected": false,
+      "conflict_detected": true,
+      "conflict_correct": false,
+      "distinct_verdicts": 2,
+      "pluralism_score": 0.333,
+      "concept_coverage": 0.4,
+      "strict_acc": 0.1667,
+      "partial_acc": 0.5,
+      "weighted_acc": 0.515,
+      "school_detail": {
+        "advaita": {
+          "gt": "O",
+          "pred": "P",
+          "partial": 0.5,
+          "weight": 0.22
+        },
+        "dvaita": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.16
+        },
+        "vishishtadvaita": {
+          "gt": "O",
+          "pred": "P",
+          "partial": 0.5,
+          "weight": 0.18
+        },
+        "mimamsa": {
+          "gt": "P",
+          "pred": "P",
+          "partial": 1.0,
+          "weight": 0.18
+        },
+        "nyaya": {
+          "gt": "O",
+          "pred": "P",
+          "partial": 0.5,
+          "weight": 0.12
+        },
+        "bhakti": {
+          "gt": "O",
+          "pred": "N",
+          "partial": 0.25,
+          "weight": 0.14
+        }
+      }
+    },
+    "ground_truth": {
+      "expected_verdicts": {
+        "advaita": "O",
+        "dvaita": "O",
+        "vishishtadvaita": "O",
+        "mimamsa": "P",
+        "nyaya": "O",
+        "bhakti": "O"
+      },
+      "supporting_verses": [
+        "YS 2.30",
+        "YS 2.31"
+      ],
+      "conflict_expected": false,
+      "conflict_schools": [],
+      "valid_concepts": [
+        "ahimsa",
+        "satya",
+        "asteya",
+        "brahmacharya",
+        "aparigraha"
+      ]
+    }
+  }
+]

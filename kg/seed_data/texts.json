@@ -1,0 +1,385 @@
+[
+    {
+        "id": "rigveda",
+        "label": "Ṛgveda",
+        "sanskrit": "ṛgveda",
+        "type": "Shruti",
+        "date_approx": "1500-1200 BCE",
+        "language": "Vedic Sanskrit",
+        "description": "Oldest of the four Vedas; 1028 hymns dedicated to Vedic deities; foundation of all Hindu thought.",
+        "school_relevance": [
+            "Mimamsa",
+            "Advaita",
+            "Dvaita"
+        ]
+    },
+    {
+        "id": "samaveda",
+        "label": "Sāmaveda",
+        "sanskrit": "sāmaveda",
+        "type": "Shruti",
+        "date_approx": "1200-900 BCE",
+        "language": "Vedic Sanskrit",
+        "description": "The Veda of melodies; liturgical text with verses from Ṛgveda set to music.",
+        "school_relevance": [
+            "Mimamsa"
+        ]
+    },
+    {
+        "id": "yajurveda",
+        "label": "Yajurveda",
+        "sanskrit": "yajurveda",
+        "type": "Shruti",
+        "date_approx": "1200-900 BCE",
+        "language": "Vedic Sanskrit",
+        "description": "Veda of ritual prose; contains formulas for sacrificial rites.",
+        "school_relevance": [
+            "Mimamsa"
+        ]
+    },
+    {
+        "id": "atharvaveda",
+        "label": "Atharvaveda",
+        "sanskrit": "atharvaveda",
+        "type": "Shruti",
+        "date_approx": "1000-900 BCE",
+        "language": "Vedic Sanskrit",
+        "description": "Fourth Veda; spells, healing, and philosophical hymns.",
+        "school_relevance": [
+            "Advaita"
+        ]
+    },
+    {
+        "id": "chandogya_up",
+        "label": "Chāndogya Upaniṣad",
+        "sanskrit": "chāndogyopaniṣad",
+        "type": "Shruti",
+        "date_approx": "800-600 BCE",
+        "language": "Sanskrit",
+        "description": "Major Upaniṣad; teaches 'tat tvam asi' (thou art that); basis of Advaita non-dualism.",
+        "school_relevance": [
+            "Advaita",
+            "Vishishtadvaita",
+            "Dvaita"
+        ]
+    },
+    {
+        "id": "brihadaranyaka_up",
+        "label": "Bṛhadāraṇyaka Upaniṣad",
+        "sanskrit": "bṛhadāraṇyakopaniṣad",
+        "type": "Shruti",
+        "date_approx": "800-600 BCE",
+        "language": "Sanskrit",
+        "description": "Oldest and longest Upaniṣad; contains neti neti (not this, not this) teaching.",
+        "school_relevance": [
+            "Advaita",
+            "Vishishtadvaita"
+        ]
+    },
+    {
+        "id": "katha_up",
+        "label": "Kaṭha Upaniṣad",
+        "sanskrit": "kaṭhopaniṣad",
+        "type": "Shruti",
+        "date_approx": "600-400 BCE",
+        "language": "Sanskrit",
+        "description": "Dialogue between Nachiketa and Yama (Death) on the nature of the ātman.",
+        "school_relevance": [
+            "Advaita",
+            "Dvaita",
+            "Vishishtadvaita"
+        ]
+    },
+    {
+        "id": "mandukya_up",
+        "label": "Māṇḍūkya Upaniṣad",
+        "sanskrit": "māṇḍūkyopaniṣad",
+        "type": "Shruti",
+        "date_approx": "400-200 BCE",
+        "language": "Sanskrit",
+        "description": "Shortest major Upaniṣad; teaches AUM and four states of consciousness.",
+        "school_relevance": [
+            "Advaita"
+        ]
+    },
+    {
+        "id": "aitareya_up",
+        "label": "Aitareya Upaniṣad",
+        "sanskrit": "aitareyopaniṣad",
+        "type": "Shruti",
+        "date_approx": "600-400 BCE",
+        "language": "Sanskrit",
+        "description": "Teaches 'prajñānam brahma' — consciousness is brahman.",
+        "school_relevance": [
+            "Advaita"
+        ]
+    },
+    {
+        "id": "taittiriya_up",
+        "label": "Taittirīya Upaniṣad",
+        "sanskrit": "taittirīyopaniṣad",
+        "type": "Shruti",
+        "date_approx": "600-400 BCE",
+        "language": "Sanskrit",
+        "description": "Teaches the five sheaths (pañcakoṣa) and brahman as bliss (ānanda).",
+        "school_relevance": [
+            "Advaita",
+            "Vishishtadvaita"
+        ]
+    },
+    {
+        "id": "isha_up",
+        "label": "Īśāvāsya Upaniṣad",
+        "sanskrit": "īśāvāsyopaniṣad",
+        "type": "Shruti",
+        "date_approx": "800-400 BCE",
+        "language": "Sanskrit",
+        "description": "First Upaniṣad of Shukla Yajurveda; teaches renunciation in action.",
+        "school_relevance": [
+            "Advaita",
+            "Vishishtadvaita"
+        ]
+    },
+    {
+        "id": "brahma_sutras",
+        "label": "Brahma Sūtras",
+        "sanskrit": "brahmasūtra",
+        "type": "Sutra",
+        "date_approx": "200 BCE – 200 CE",
+        "language": "Sanskrit",
+        "description": "Systematization of Upanishadic philosophy by Bādarāyaṇa; basis for all Vedānta schools.",
+        "school_relevance": [
+            "Advaita",
+            "Dvaita",
+            "Vishishtadvaita"
+        ]
+    },
+    {
+        "id": "nyaya_sutras",
+        "label": "Nyāya Sūtras",
+        "sanskrit": "nyāyasūtra",
+        "type": "Sutra",
+        "date_approx": "200 BCE",
+        "language": "Sanskrit",
+        "description": "Foundational text of Nyāya school by Gautama; logic, epistemology, and God's existence.",
+        "school_relevance": [
+            "Nyaya"
+        ]
+    },
+    {
+        "id": "vaisheshika_sutras",
+        "label": "Vaiśeṣika Sūtras",
+        "sanskrit": "vaiśeṣikasūtra",
+        "type": "Sutra",
+        "date_approx": "200 BCE",
+        "language": "Sanskrit",
+        "description": "Foundational text of Vaiśeṣika school by Kaṇāda; atomic theory and categories.",
+        "school_relevance": [
+            "Nyaya"
+        ]
+    },
+    {
+        "id": "mimamsa_sutras",
+        "label": "Mīmāṃsā Sūtras",
+        "sanskrit": "mīmāṃsāsūtra",
+        "type": "Sutra",
+        "date_approx": "200 BCE",
+        "language": "Sanskrit",
+        "description": "Foundational text of Mīmāṃsā by Jaiminī; dharma, Vedic injunctions, hermeneutics.",
+        "school_relevance": [
+            "Mimamsa"
+        ]
+    },
+    {
+        "id": "yoga_sutras",
+        "label": "Yoga Sūtras",
+        "sanskrit": "yogasūtra",
+        "type": "Sutra",
+        "date_approx": "400 CE",
+        "language": "Sanskrit",
+        "description": "Patañjali's aphoristic treatise defining the 8-limbed path of Rāja Yoga.",
+        "school_relevance": [
+            "Nyaya",
+            "Advaita"
+        ]
+    },
+    {
+        "id": "bhagavad_gita",
+        "label": "Bhagavad Gītā",
+        "sanskrit": "bhagavadgītā",
+        "type": "Smriti",
+        "date_approx": "400 BCE – 200 CE",
+        "language": "Sanskrit",
+        "description": "18-chapter dialogue between Kṛṣṇa and Arjuna; teaches karma yoga, jñāna yoga, bhakti yoga.",
+        "school_relevance": [
+            "Advaita",
+            "Dvaita",
+            "Vishishtadvaita",
+            "Bhakti",
+            "Mimamsa"
+        ]
+    },
+    {
+        "id": "manusmriti",
+        "label": "Manusmṛti",
+        "sanskrit": "manusmṛti",
+        "type": "Smriti",
+        "date_approx": "200 BCE – 200 CE",
+        "language": "Sanskrit",
+        "description": "Primary Dharmaśāstra text; prescribes social duties by varṇa, āśrama, and situation.",
+        "school_relevance": [
+            "Mimamsa",
+            "Advaita"
+        ]
+    },
+    {
+        "id": "yajnavalkya_smriti",
+        "label": "Yājñavalkya Smṛti",
+        "sanskrit": "yājñavalkyasmṛti",
+        "type": "Smriti",
+        "date_approx": "100-300 CE",
+        "language": "Sanskrit",
+        "description": "Second most authoritative Dharmaśāstra; covers law, polity, and ritual.",
+        "school_relevance": [
+            "Mimamsa"
+        ]
+    },
+    {
+        "id": "arthashastra",
+        "label": "Arthaśāstra",
+        "sanskrit": "arthaśāstra",
+        "type": "Smriti",
+        "date_approx": "300 BCE – 200 CE",
+        "language": "Sanskrit",
+        "description": "Kauṭilya's treatise on statecraft, economic policy, and military strategy.",
+        "school_relevance": [
+            "Mimamsa"
+        ]
+    },
+    {
+        "id": "bhagavata_purana",
+        "label": "Bhāgavata Purāṇa",
+        "sanskrit": "bhāgavatapurāṇa",
+        "type": "Smriti",
+        "date_approx": "800-900 CE",
+        "language": "Sanskrit",
+        "description": "Mahāpurāṇa celebrating the divine exploits of Viṣṇu/Kṛṣṇa; primary Bhakti text.",
+        "school_relevance": [
+            "Bhakti",
+            "Vishishtadvaita",
+            "Dvaita"
+        ]
+    },
+    {
+        "id": "narada_bhakti_sutras",
+        "label": "Nārada Bhakti Sūtras",
+        "sanskrit": "nāradabhaktisūtra",
+        "type": "Sutra",
+        "date_approx": "500-800 CE",
+        "language": "Sanskrit",
+        "description": "84 aphorisms on devotion attributed to Nārada; defines bhakti and its stages.",
+        "school_relevance": [
+            "Bhakti"
+        ]
+    },
+    {
+        "id": "vivekachudamani",
+        "label": "Vivekacūḍāmaṇi",
+        "sanskrit": "vivekacūḍāmaṇi",
+        "type": "Smriti",
+        "date_approx": "700-800 CE",
+        "language": "Sanskrit",
+        "description": "Śaṅkarācārya's 'Crest Jewel of Discrimination'; primary Advaita practical guide.",
+        "school_relevance": [
+            "Advaita"
+        ]
+    },
+    {
+        "id": "mandukya_karika",
+        "label": "Māṇḍūkya Kārikā",
+        "sanskrit": "māṇḍūkyakārikā",
+        "type": "Smriti",
+        "date_approx": "700 CE",
+        "language": "Sanskrit",
+        "description": "Gauḍapāda's commentary-verse on Māṇḍūkya Upaniṣad; ajāti (no-creation) doctrine.",
+        "school_relevance": [
+            "Advaita"
+        ]
+    },
+    {
+        "id": "sri_bhashya",
+        "label": "Śrī Bhāṣya",
+        "sanskrit": "śrībhāṣya",
+        "type": "Smriti",
+        "date_approx": "1100 CE",
+        "language": "Sanskrit",
+        "description": "Rāmānuja's commentary on the Brahma Sūtras; establishes Viśiṣṭādvaita.",
+        "school_relevance": [
+            "Vishishtadvaita"
+        ]
+    },
+    {
+        "id": "dvaita_tattva",
+        "label": "Tattva Viveka",
+        "sanskrit": "tattva viveka",
+        "type": "Smriti",
+        "date_approx": "1300 CE",
+        "language": "Sanskrit",
+        "description": "Madhvācārya's exposition of the five fundamental differences in Dvaita.",
+        "school_relevance": [
+            "Dvaita"
+        ]
+    },
+    {
+        "id": "samkhya_karika",
+        "label": "Sāṃkhya Kārikā",
+        "sanskrit": "sāṃkhyakārikā",
+        "type": "Smriti",
+        "date_approx": "350 CE",
+        "language": "Sanskrit",
+        "description": "Īśvarakṛṣṇa's foundational text of Sāṃkhya philosophy; 72 verses on Puruṣa and Prakṛti.",
+        "school_relevance": [
+            "Nyaya"
+        ]
+    },
+    {
+        "id": "mahabharata",
+        "label": "Mahābhārata",
+        "sanskrit": "mahābhārata",
+        "type": "Smriti",
+        "date_approx": "400 BCE – 400 CE",
+        "language": "Sanskrit",
+        "description": "Epic containing the Bhagavad Gītā; explores dharma across complex human situations.",
+        "school_relevance": [
+            "Advaita",
+            "Dvaita",
+            "Bhakti",
+            "Mimamsa"
+        ]
+    },
+    {
+        "id": "ramayana",
+        "label": "Rāmāyaṇa",
+        "sanskrit": "rāmāyaṇa",
+        "type": "Smriti",
+        "date_approx": "300 BCE – 200 CE",
+        "language": "Sanskrit",
+        "description": "Vālmīki's epic on the life of Rāma; moral exemplar of dharmic kingship.",
+        "school_relevance": [
+            "Bhakti",
+            "Vishishtadvaita"
+        ]
+    },
+    {
+        "id": "anuvyakhyana",
+        "label": "Anuvyākhyāna",
+        "sanskrit": "anuvyākhyāna",
+        "type": "Sutra",
+        "date_approx": "1300 CE",
+        "language": "Sanskrit",
+        "description": "Madhvācārya's main systematic commentary on Brahma Sūtras from Dvaita perspective.",
+        "school_relevance": [
+            "Dvaita"
+        ]
+    }
+]

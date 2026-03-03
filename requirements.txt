@@ -1,0 +1,41 @@
+# HinduMind — Python Dependencies
+
+# Knowledge Graph
+rdflib==7.0.0
+networkx==3.3
+pyvis==0.3.2
+
+# NLP & Classification
+transformers==4.41.2
+torch==2.3.1
+spacy==3.7.5
+nltk==3.8.1
+scikit-learn==1.5.0
+datasets==2.19.2
+
+# LLM Integration
+openai==1.30.1
+langchain==0.2.3
+langchain-community==0.2.3
+ollama==0.2.1
+
+# Deontic Logic / Rule Engine
+pyparsing==3.1.2
+
+# Utilities
+tqdm==4.66.4
+pandas==2.2.2
+numpy==1.26.4
+pydantic==2.7.2
+python-dotenv==1.0.1
+typer==0.12.3
+rich==13.7.1
+
+# Evaluation
+scipy==1.13.1
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Jupyter
+jupyterlab==4.2.2
+ipykernel==6.29.4

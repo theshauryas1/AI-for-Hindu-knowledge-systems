@@ -1,0 +1,26 @@
+{
+  "hybrid": {
+    "total_scenarios": 5,
+    "errors": 0,
+    "doctrinal_accuracy_mean": 0.3,
+    "hallucination_rate_mean": 0.347,
+    "citation_recall_mean": 0.2,
+    "conflict_detection_accuracy": 0.2,
+    "pluralism_score_mean": 0.367,
+    "concept_coverage_mean": 0.04,
+    "avg_response_time_sec": 416.02,
+    "total_traps_hit": 0
+  },
+  "symbolic": {
+    "total_scenarios": 5,
+    "errors": 0,
+    "doctrinal_accuracy_mean": 0.45,
+    "hallucination_rate_mean": 1.0,
+    "citation_recall_mean": 0.0,
+    "conflict_detection_accuracy": 0.8,
+    "pluralism_score_mean": 0.2,
+    "concept_coverage_mean": 0.0,
+    "avg_response_time_sec": 0.004,
+    "total_traps_hit": 0
+  }
+}

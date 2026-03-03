@@ -1,0 +1,242 @@
+[
+    {
+        "id": "rule_001",
+        "condition": "agent.role = 'kshatriya' AND situation = 'battlefield' AND duty = 'protect_kingdom'",
+        "obligation": "Fight in battle; retreating from righteous war is forbidden",
+        "deontic_operator": "O",
+        "source": "Bhagavad Gita 2.31-33",
+        "school_weights": {
+            "advaita": "MEDIUM",
+            "dvaita": "HIGH",
+            "mimamsa": "HIGH",
+            "nyaya": "MEDIUM",
+            "bhakti": "MEDIUM"
+        },
+        "varna": "kshatriya",
+        "ashrama": "grihastha"
+    },
+    {
+        "id": "rule_002",
+        "condition": "agent.role = 'brahmin' AND situation = 'normal'",
+        "obligation": "Study and teach the Vedas; perform sacrifices",
+        "deontic_operator": "O",
+        "source": "Manusmriti 1.88",
+        "school_weights": {
+            "advaita": "MEDIUM",
+            "dvaita": "MEDIUM",
+            "mimamsa": "HIGH",
+            "nyaya": "LOW",
+            "bhakti": "LOW"
+        },
+        "varna": "brahmin",
+        "ashrama": "all"
+    },
+    {
+        "id": "rule_003",
+        "condition": "agent.role = 'householder' AND situation = 'family_threat'",
+        "obligation": "Use of force to protect family is permitted",
+        "deontic_operator": "P",
+        "source": "Manusmriti 8.349",
+        "school_weights": {
+            "advaita": "MEDIUM",
+            "dvaita": "HIGH",
+            "mimamsa": "HIGH",
+            "nyaya": "HIGH",
+            "bhakti": "LOW"
+        },
+        "varna": "all",
+        "ashrama": "grihastha"
+    },
+    {
+        "id": "rule_004",
+        "condition": "agent.intent = 'save_innocent_life' AND action = 'speak_untruth'",
+        "obligation": "Speaking untruth to save an innocent life may be permitted under contextual dharma",
+        "deontic_operator": "P",
+        "source": "Mahabharata Shanti Parva 109.5",
+        "school_weights": {
+            "advaita": "HIGH",
+            "dvaita": "MEDIUM",
+            "mimamsa": "LOW",
+            "nyaya": "MEDIUM",
+            "bhakti": "HIGH"
+        },
+        "varna": "all",
+        "ashrama": "all"
+    },
+    {
+        "id": "rule_005",
+        "condition": "situation = 'normal' AND agent.role != 'kshatriya_at_war'",
+        "obligation": "Ahimsa (non-violence) is the highest dharma",
+        "deontic_operator": "O",
+        "source": "Manusmriti 5.45",
+        "school_weights": {
+            "advaita": "HIGH",
+            "dvaita": "MEDIUM",
+            "mimamsa": "MEDIUM",
+            "nyaya": "MEDIUM",
+            "bhakti": "HIGH"
+        },
+        "varna": "all",
+        "ashrama": "all"
+    },
+    {
+        "id": "rule_006",
+        "condition": "agent.ashrama = 'sannyasa'",
+        "obligation": "Renunciant must not accumulate possessions; total non-attachment required",
+        "deontic_operator": "O",
+        "source": "Manusmriti 6.33",
+        "school_weights": {
+            "advaita": "HIGH",
+            "dvaita": "MEDIUM",
+            "mimamsa": "LOW",
+            "nyaya": "MEDIUM",
+            "bhakti": "MEDIUM"
+        },
+        "varna": "all",
+        "ashrama": "sannyasa"
+    },
+    {
+        "id": "rule_007",
+        "condition": "agent.ashrama = 'brahmacharya'",
+        "obligation": "Student must practice celibacy, study, and service to guru",
+        "deontic_operator": "O",
+        "source": "Manusmriti 2.108",
+        "school_weights": {
+            "advaita": "HIGH",
+            "dvaita": "HIGH",
+            "mimamsa": "HIGH",
+            "nyaya": "HIGH",
+            "bhakti": "MEDIUM"
+        },
+        "varna": "all",
+        "ashrama": "brahmacharya"
+    },
+    {
+        "id": "rule_008",
+        "condition": "action = 'killing' AND situation != 'self_defense' AND situation != 'war'",
+        "obligation": "Killing is forbidden; it generates negative karma",
+        "deontic_operator": "F",
+        "source": "Bhagavad Gita 16.2, Manusmriti 5.48",
+        "school_weights": {
+            "advaita": "HIGH",
+            "dvaita": "HIGH",
+            "mimamsa": "HIGH",
+            "nyaya": "HIGH",
+            "bhakti": "HIGH"
+        },
+        "varna": "all",
+        "ashrama": "all"
+    },
+    {
+        "id": "rule_009",
+        "condition": "agent.role = 'king' AND situation = 'governance'",
+        "obligation": "King must protect subjects, administer justice, and levy appropriate taxes",
+        "deontic_operator": "O",
+        "source": "Arthashastra 1.19, Manusmriti 7.2",
+        "school_weights": {
+            "advaita": "LOW",
+            "dvaita": "MEDIUM",
+            "mimamsa": "HIGH",
+            "nyaya": "HIGH",
+            "bhakti": "MEDIUM"
+        },
+        "varna": "kshatriya",
+        "ashrama": "grihastha"
+    },
+    {
+        "id": "rule_010",
+        "condition": "agent.role = 'householder' AND situation = 'daily_life'",
+        "obligation": "Perform daily rituals (sandhyavandana, puja) and fulfill family obligations",
+        "deontic_operator": "O",
+        "source": "Manusmriti 4.21",
+        "school_weights": {
+            "advaita": "LOW",
+            "dvaita": "HIGH",
+            "mimamsa": "HIGH",
+            "nyaya": "MEDIUM",
+            "bhakti": "HIGH"
+        },
+        "varna": "all",
+        "ashrama": "grihastha"
+    },
+    {
+        "id": "rule_011",
+        "condition": "action = 'steal' AND situation = 'any'",
+        "obligation": "Stealing is always forbidden",
+        "deontic_operator": "F",
+        "source": "Manusmriti 8.334, Yoga Sutras 2.30",
+        "school_weights": {
+            "advaita": "HIGH",
+            "dvaita": "HIGH",
+            "mimamsa": "HIGH",
+            "nyaya": "HIGH",
+            "bhakti": "HIGH"
+        },
+        "varna": "all",
+        "ashrama": "all"
+    },
+    {
+        "id": "rule_012",
+        "condition": "agent.ashrama = 'grihastha' AND situation = 'parental_duty'",
+        "obligation": "Householder must support parents, spouse, and children",
+        "deontic_operator": "O",
+        "source": "Manusmriti 4.179",
+        "school_weights": {
+            "advaita": "MEDIUM",
+            "dvaita": "HIGH",
+            "mimamsa": "HIGH",
+            "nyaya": "HIGH",
+            "bhakti": "MEDIUM"
+        },
+        "varna": "all",
+        "ashrama": "grihastha"
+    },
+    {
+        "id": "rule_013",
+        "condition": "action = 'speak_truth' AND situation = 'court_testimony'",
+        "obligation": "Truthful testimony is obligatory in legal proceedings",
+        "deontic_operator": "O",
+        "source": "Yajnavalkya Smriti 2.73",
+        "school_weights": {
+            "advaita": "HIGH",
+            "dvaita": "HIGH",
+            "mimamsa": "HIGH",
+            "nyaya": "HIGH",
+            "bhakti": "HIGH"
+        },
+        "varna": "all",
+        "ashrama": "all"
+    },
+    {
+        "id": "rule_014",
+        "condition": "agent.role = 'kshatriya' AND situation = 'debate_refusal'",
+        "obligation": "A kshatriya refusing battle when called to protect is violating svadharma",
+        "deontic_operator": "F",
+        "source": "Bhagavad Gita 2.33",
+        "school_weights": {
+            "advaita": "MEDIUM",
+            "dvaita": "HIGH",
+            "mimamsa": "HIGH",
+            "nyaya": "MEDIUM",
+            "bhakti": "MEDIUM"
+        },
+        "varna": "kshatriya",
+        "ashrama": "grihastha"
+    },
+    {
+        "id": "rule_015",
+        "condition": "action = 'renounce_violence' AND agent.ashrama = 'sannyasa'",
+        "obligation": "Renunciant must not engage in violence even in self-defense",
+        "deontic_operator": "O",
+        "source": "Manusmriti 6.66",
+        "school_weights": {
+            "advaita": "HIGH",
+            "dvaita": "LOW",
+            "mimamsa": "LOW",
+            "nyaya": "LOW",
+            "bhakti": "HIGH"
+        },
+        "varna": "all",
+        "ashrama": "sannyasa"
+    }
+]

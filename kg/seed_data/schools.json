@@ -1,0 +1,205 @@
+[
+    {
+        "id": "advaita",
+        "label": "Advaita Vedānta",
+        "sanskrit": "advaita vedānta",
+        "founder": "Ādi Śaṅkarācārya",
+        "period": "8th century CE",
+        "core_doctrine": "Non-dualism: Brahman alone is real; the individual self (jīva) is identical to Brahman; the phenomenal world is māyā (illusion).",
+        "primary_texts": [
+            "brahma_sutras",
+            "mandukya_up",
+            "chandogya_up",
+            "brihadaranyaka_up",
+            "vivekachudamani",
+            "mandukya_karika"
+        ],
+        "prominent_commentators": [
+            "shankara",
+            "gaudapada",
+            "sureshvara",
+            "padmapada"
+        ],
+        "key_principles": [
+            "non-dualism",
+            "maya_doctrine",
+            "vivarta_causation",
+            "jnana_path"
+        ],
+        "accepts_pramanas": [
+            "pratyaksha",
+            "anumana",
+            "shabda",
+            "upamana",
+            "arthapatti",
+            "anupalabdhi"
+        ],
+        "stance_on_ishvara": "Saguna Brahman; ultimately subsumed in Nirguna Brahman"
+    },
+    {
+        "id": "dvaita",
+        "label": "Dvaita Vedānta",
+        "sanskrit": "dvaita vedānta",
+        "founder": "Madhvācārya",
+        "period": "13th century CE",
+        "core_doctrine": "Strict dualism: Brahman (Viṣṇu) and jīva are eternally distinct. Five fundamental differences (pañcabheda).",
+        "primary_texts": [
+            "brahma_sutras",
+            "bhagavad_gita",
+            "dvaita_tattva",
+            "anuvyakhyana",
+            "bhagavata_purana"
+        ],
+        "prominent_commentators": [
+            "madhva",
+            "jayatirtha",
+            "vyasatirtha",
+            "vadiraja"
+        ],
+        "key_principles": [
+            "panchabheda",
+            "bhakti_path",
+            "divine_grace",
+            "eternal_distinction"
+        ],
+        "accepts_pramanas": [
+            "pratyaksha",
+            "anumana",
+            "shabda"
+        ],
+        "stance_on_ishvara": "Viṣṇu (Brahman) is supreme, self-sufficient, uncaused cause"
+    },
+    {
+        "id": "vishishtadvaita",
+        "label": "Viśiṣṭādvaita",
+        "sanskrit": "viśiṣṭādvaita",
+        "founder": "Rāmānujācārya",
+        "period": "11th-12th century CE",
+        "core_doctrine": "Qualified non-dualism: Brahman is one, but jīvas and prakṛti are real attributes of Brahman (body of God).",
+        "primary_texts": [
+            "brahma_sutras",
+            "bhagavad_gita",
+            "sri_bhashya",
+            "bhagavata_purana",
+            "chandogya_up"
+        ],
+        "prominent_commentators": [
+            "ramanuja",
+            "vedanta_desika",
+            "pillai_lokacharya"
+        ],
+        "key_principles": [
+            "qualified_non-dualism",
+            "parinama_causation",
+            "body_of_god",
+            "bhakti_jnana_path"
+        ],
+        "accepts_pramanas": [
+            "pratyaksha",
+            "anumana",
+            "shabda"
+        ],
+        "stance_on_ishvara": "Saguna Brahman as Nārāyaṇa; jīvas and world are his body"
+    },
+    {
+        "id": "nyaya",
+        "label": "Nyāya-Vaiśeṣika",
+        "sanskrit": "nyāya-vaiśeṣika",
+        "founder": "Gautama (Nyāya) / Kaṇāda (Vaiśeṣika)",
+        "period": "400-200 BCE",
+        "core_doctrine": "Logical realism: valid knowledge through 4 pramāṇas; external world is real; atomic theory; theistic proofs.",
+        "primary_texts": [
+            "nyaya_sutras",
+            "vaisheshika_sutras",
+            "yoga_sutras"
+        ],
+        "prominent_commentators": [
+            "vatsyayana",
+            "uddyotakara",
+            "gangesa",
+            "udayana"
+        ],
+        "key_principles": [
+            "four_pramanas",
+            "atomic_theory",
+            "logical_inference",
+            "realism",
+            "natural_theology"
+        ],
+        "accepts_pramanas": [
+            "pratyaksha",
+            "anumana",
+            "shabda",
+            "upamana"
+        ],
+        "stance_on_ishvara": "Theistic: God is proven by inference as the efficient cause of the universe"
+    },
+    {
+        "id": "mimamsa",
+        "label": "Pūrva Mīmāṃsā",
+        "sanskrit": "mīmāṃsā",
+        "founder": "Jaiminī",
+        "period": "200 BCE",
+        "core_doctrine": "Vedic eternalism: dharma is the Vedic injunction; śabda (Vedic word) is self-validating; no omniscient God needed.",
+        "primary_texts": [
+            "mimamsa_sutras",
+            "rigveda",
+            "manusmriti",
+            "yajnavalkya_smriti"
+        ],
+        "prominent_commentators": [
+            "jaimini",
+            "shabara",
+            "kumarila_bhatta",
+            "prabhakara"
+        ],
+        "key_principles": [
+            "vedic_literalism",
+            "karma_mimamsa",
+            "sabda_pramana",
+            "svabhavika_dharma"
+        ],
+        "accepts_pramanas": [
+            "pratyaksha",
+            "anumana",
+            "shabda",
+            "upamana",
+            "arthapatti",
+            "anupalabdhi"
+        ],
+        "stance_on_ishvara": "Agnostic/atheistic: denies omniscient God; Vedas are eternal and authorless"
+    },
+    {
+        "id": "bhakti",
+        "label": "Bhakti Vedānta",
+        "sanskrit": "bhakti vedānta",
+        "founder": "Multiple (Nārada, Caitanya, Rāmānanda)",
+        "period": "6th–16th century CE",
+        "core_doctrine": "Devotional theism: liberation through love and surrender to a personal deity; grace is paramount.",
+        "primary_texts": [
+            "bhagavata_purana",
+            "narada_bhakti_sutras",
+            "bhagavad_gita",
+            "ramayana"
+        ],
+        "prominent_commentators": [
+            "narada",
+            "caitanya",
+            "tukaram",
+            "mirabai",
+            "ramananda"
+        ],
+        "key_principles": [
+            "divine_love",
+            "surrender",
+            "grace",
+            "devotional_practice",
+            "nama_japa"
+        ],
+        "accepts_pramanas": [
+            "pratyaksha",
+            "shabda"
+        ],
+        "stance_on_ishvara": "Personal God (Kṛṣṇa/Rāma/Viṣṇu) as ultimate reality and object of devotion"
+    }
+]

@@ -1,0 +1,201 @@
+[
+  {"id": "atman", "label": "Ātman", "sanskrit": "ātman", "type": "MetaphysicalConcept",
+   "definition": "The individual self or soul; pure consciousness underlying personal identity.",
+   "related_texts": ["chandogya_up", "brihadaranyaka_up", "brahma_sutras"]},
+
+  {"id": "brahman", "label": "Brahman", "sanskrit": "brahman", "type": "MetaphysicalConcept",
+   "definition": "The ultimate reality, cosmic ground of all being; absolute consciousness.",
+   "related_texts": ["brahma_sutras", "mandukya_up", "aitareya_up"]},
+
+  {"id": "maya", "label": "Māyā", "sanskrit": "māyā", "type": "MetaphysicalConcept",
+   "definition": "Cosmic illusion or creative power that causes the appearance of multiplicity.",
+   "related_texts": ["mandukya_karika", "vivekachudamani"]},
+
+  {"id": "moksha", "label": "Mokṣa", "sanskrit": "mokṣa", "type": "MetaphysicalConcept",
+   "definition": "Liberation from the cycle of birth and death (saṃsāra); the highest puruṣārtha.",
+   "related_texts": ["bhagavad_gita", "brahma_sutras", "katha_up"]},
+
+  {"id": "karma", "label": "Karma", "sanskrit": "karma", "type": "MetaphysicalConcept",
+   "definition": "Law of action and consequence; accumulated moral causation across lives.",
+   "related_texts": ["bhagavad_gita", "manusmriti"]},
+
+  {"id": "dharma", "label": "Dharma", "sanskrit": "dharma", "type": "EthicalConcept",
+   "definition": "Moral duty, cosmic order, righteous conduct; varies by context and role.",
+   "related_texts": ["bhagavad_gita", "manusmriti", "arthashastra"]},
+
+  {"id": "ahimsa", "label": "Ahiṃsā", "sanskrit": "ahiṃsā", "type": "EthicalConcept",
+   "definition": "Non-violence; the highest ethical duty in most Hindu schools.",
+   "related_texts": ["bhagavad_gita", "manusmriti", "yoga_sutras"]},
+
+  {"id": "satya", "label": "Satya", "sanskrit": "satya", "type": "EthicalConcept",
+   "definition": "Truthfulness; one of the cardinal virtues across all darśanas.",
+   "related_texts": ["manusmriti", "bhagavad_gita"]},
+
+  {"id": "asteya", "label": "Asteya", "sanskrit": "asteya", "type": "EthicalConcept",
+   "definition": "Non-stealing; refraining from taking what is not given.",
+   "related_texts": ["yoga_sutras", "manusmriti"]},
+
+  {"id": "brahmacharya", "label": "Brahmacarya", "sanskrit": "brahmacarya", "type": "EthicalConcept",
+   "definition": "Celibacy and self-restraint; one of the five yamas in Yoga.",
+   "related_texts": ["yoga_sutras", "manusmriti"]},
+
+  {"id": "aparigraha", "label": "Aparigraha", "sanskrit": "aparigraha", "type": "EthicalConcept",
+   "definition": "Non-covetousness; non-possessiveness toward material things.",
+   "related_texts": ["yoga_sutras", "bhagavad_gita"]},
+
+  {"id": "samsara", "label": "Saṃsāra", "sanskrit": "saṃsāra", "type": "MetaphysicalConcept",
+   "definition": "The cycle of birth, death, and rebirth driven by karma.",
+   "related_texts": ["bhagavad_gita", "katha_up"]},
+
+  {"id": "jiva", "label": "Jīva", "sanskrit": "jīva", "type": "MetaphysicalConcept",
+   "definition": "The individual living self; distinct from ātman in Dvaita; identical in Advaita.",
+   "related_texts": ["brahma_sutras", "dvaita_tattva"]},
+
+  {"id": "ishvara", "label": "Īśvara", "sanskrit": "īśvara", "type": "MetaphysicalConcept",
+   "definition": "The personal God; creator, sustainer, and dissolver of the universe.",
+   "related_texts": ["brahma_sutras", "bhagavad_gita", "bhagavata_purana"]},
+
+  {"id": "prakriti", "label": "Prakṛti", "sanskrit": "prakṛti", "type": "MetaphysicalConcept",
+   "definition": "Primordial matter/nature; material substrate of the universe (Sāṃkhya).",
+   "related_texts": ["samkhya_karika", "bhagavad_gita"]},
+
+  {"id": "purusha", "label": "Puruṣa", "sanskrit": "puruṣa", "type": "MetaphysicalConcept",
+   "definition": "Pure consciousness; the witness-self distinct from Prakṛti in Sāṃkhya.",
+   "related_texts": ["samkhya_karika", "yoga_sutras"]},
+
+  {"id": "avidya", "label": "Avidyā", "sanskrit": "avidyā", "type": "MetaphysicalConcept",
+   "definition": "Ignorance; the root cause of saṃsāra in Advaita Vedānta.",
+   "related_texts": ["vivekachudamani", "brahma_sutras"]},
+
+  {"id": "vidya", "label": "Vidyā", "sanskrit": "vidyā", "type": "EpistemicConcept",
+   "definition": "Knowledge; especially liberating knowledge of brahman/ātman identity.",
+   "related_texts": ["chandogya_up", "brihadaranyaka_up"]},
+
+  {"id": "pratyaksha", "label": "Pratyakṣa", "sanskrit": "pratyakṣa", "type": "EpistemicConcept",
+   "definition": "Perception; direct sensory knowledge. Valid pramāṇa in all schools.",
+   "related_texts": ["nyaya_sutras", "yoga_sutras"]},
+
+  {"id": "anumana", "label": "Anumāna", "sanskrit": "anumāna", "type": "EpistemicConcept",
+   "definition": "Inference; logical deduction. Central pramāṇa in Nyāya.",
+   "related_texts": ["nyaya_sutras"]},
+
+  {"id": "shabda", "label": "Śabda", "sanskrit": "śabda", "type": "EpistemicConcept",
+   "definition": "Testimony; valid knowledge from reliable authority, especially Vedas.",
+   "related_texts": ["nyaya_sutras", "mimamsa_sutras"]},
+
+  {"id": "upamana", "label": "Upamāna", "sanskrit": "upamāna", "type": "EpistemicConcept",
+   "definition": "Comparison/analogy; knowing the unknown through similarity to the known.",
+   "related_texts": ["nyaya_sutras"]},
+
+  {"id": "arthapatti", "label": "Arthāpatti", "sanskrit": "arthāpatti", "type": "EpistemicConcept",
+   "definition": "Postulation; inferring an unperceived fact to explain a perceived one.",
+   "related_texts": ["mimamsa_sutras"]},
+
+  {"id": "nirvana", "label": "Nirvāṇa", "sanskrit": "nirvāṇa", "type": "MetaphysicalConcept",
+   "definition": "Extinguishing of ego and desire; liberation concept shared with Buddhism.",
+   "related_texts": ["bhagavad_gita"]},
+
+  {"id": "turiya", "label": "Turīya", "sanskrit": "turīya", "type": "MetaphysicalConcept",
+   "definition": "The fourth state of consciousness: pure awareness beyond waking, dream, deep sleep.",
+   "related_texts": ["mandukya_up", "mandukya_karika"]},
+
+  {"id": "vivarta", "label": "Vivartavāda", "sanskrit": "vivartavāda", "type": "MetaphysicalConcept",
+   "definition": "Appearance/illusion theory of causation; Advaita holds the world is apparent transformation.",
+   "related_texts": ["vivekachudamani", "brahma_sutras"]},
+
+  {"id": "parinama", "label": "Pariṇāmavāda", "sanskrit": "pariṇāmavāda", "type": "MetaphysicalConcept",
+   "definition": "Real transformation theory; the world is a genuine transformation of brahman (Rāmānuja).",
+   "related_texts": ["sri_bhashya"]},
+
+  {"id": "bhakti", "label": "Bhakti", "sanskrit": "bhakti", "type": "EthicalConcept",
+   "definition": "Devotion to a personal deity; primary path to liberation in Bhakti schools.",
+   "related_texts": ["bhagavad_gita", "bhagavata_purana", "narada_bhakti_sutras"]},
+
+  {"id": "jnana", "label": "Jñāna", "sanskrit": "jñāna", "type": "EpistemicConcept",
+   "definition": "Liberating wisdom/knowledge; primary mokṣa path in Advaita.",
+   "related_texts": ["bhagavad_gita", "vivekachudamani"]},
+
+  {"id": "karma_yoga", "label": "Karma Yoga", "sanskrit": "karma yoga", "type": "EthicalConcept",
+   "definition": "Path of selfless action without attachment to fruits; taught in Bhagavad Gītā.",
+   "related_texts": ["bhagavad_gita"]},
+
+  {"id": "raja_yoga", "label": "Rāja Yoga", "sanskrit": "rāja yoga", "type": "EthicalConcept",
+   "definition": "Eight-limbed (aṣṭāṅga) path of meditation and mental discipline (Patañjali).",
+   "related_texts": ["yoga_sutras"]},
+
+  {"id": "nishkama_karma", "label": "Niṣkāma Karma", "sanskrit": "niṣkāma karma", "type": "EthicalConcept",
+   "definition": "Desireless action; performing duty without attachment to results.",
+   "related_texts": ["bhagavad_gita"]},
+
+  {"id": "varnashrama", "label": "Varṇāśrama", "sanskrit": "varṇāśrama", "type": "EthicalConcept",
+   "definition": "Social system of four varṇas and four āśramas defining contextual dharma.",
+   "related_texts": ["manusmriti", "bhagavad_gita"]},
+
+  {"id": "pramana", "label": "Pramāṇa", "sanskrit": "pramāṇa", "type": "EpistemicConcept",
+   "definition": "Valid means of knowledge. Nyāya accepts 4; Advaita accepts 6; Mīmāṃsā emphasizes śabda.",
+   "related_texts": ["nyaya_sutras", "mimamsa_sutras"]},
+
+  {"id": "loka", "label": "Loka", "sanskrit": "loka", "type": "MetaphysicalConcept",
+   "definition": "Planes of existence (worlds) in Hindu cosmology.",
+   "related_texts": ["bhagavata_purana", "manusmriti"]},
+
+  {"id": "rita", "label": "Ṛta", "sanskrit": "ṛta", "type": "EthicalConcept",
+   "definition": "Cosmic order and truth in Vedic thought; precursor to dharma.",
+   "related_texts": ["rigveda"]},
+
+  {"id": "tapas", "label": "Tapas", "sanskrit": "tapas", "type": "EthicalConcept",
+   "definition": "Austerity and disciplined effort; purifies and generates spiritual power.",
+   "related_texts": ["yoga_sutras", "manusmriti", "bhagavad_gita"]},
+
+  {"id": "sraddha", "label": "Śraddhā", "sanskrit": "śraddhā", "type": "EthicalConcept",
+   "definition": "Faith; sincere trust in the guru, scripture, and practice.",
+   "related_texts": ["bhagavad_gita", "katha_up"]},
+
+  {"id": "ahankara", "label": "Ahaṃkāra", "sanskrit": "ahaṃkāra", "type": "MetaphysicalConcept",
+   "definition": "Ego-sense; the false identification of ātman with the body-mind complex.",
+   "related_texts": ["samkhya_karika", "bhagavad_gita"]},
+
+  {"id": "chitta", "label": "Citta", "sanskrit": "citta", "type": "MetaphysicalConcept",
+   "definition": "Mind-stuff; the repository of impressions (saṃskāras) in Yoga.",
+   "related_texts": ["yoga_sutras"]},
+
+  {"id": "samskara", "label": "Saṃskāra", "sanskrit": "saṃskāra", "type": "MetaphysicalConcept",
+   "definition": "Mental impressions from past experiences; shape future tendencies.",
+   "related_texts": ["yoga_sutras", "bhagavad_gita"]},
+
+  {"id": "vasana", "label": "Vāsanā", "sanskrit": "vāsanā", "type": "MetaphysicalConcept",
+   "definition": "Latent tendencies/desires arising from saṃskāras; drive saṃsāric existence.",
+   "related_texts": ["yoga_sutras", "vivekachudamani"]},
+
+  {"id": "gunas", "label": "Guṇas", "sanskrit": "guṇa", "type": "MetaphysicalConcept",
+   "definition": "Three qualities of Prakṛti: sattva (clarity), rajas (activity), tamas (inertia).",
+   "related_texts": ["samkhya_karika", "bhagavad_gita"]},
+
+  {"id": "sattva", "label": "Sattva", "sanskrit": "sattva", "type": "MetaphysicalConcept",
+   "definition": "The quality of purity, harmony, and clarity; highest guṇa.",
+   "related_texts": ["samkhya_karika", "bhagavad_gita"]},
+
+  {"id": "rajas", "label": "Rajas", "sanskrit": "rajas", "type": "MetaphysicalConcept",
+   "definition": "The quality of activity, passion, and desire.",
+   "related_texts": ["samkhya_karika", "bhagavad_gita"]},
+
+  {"id": "tamas", "label": "Tamas", "sanskrit": "tamas", "type": "MetaphysicalConcept",
+   "definition": "The quality of inertia, darkness, and ignorance.",
+   "related_texts": ["samkhya_karika", "bhagavad_gita"]},
+
+  {"id": "sannyasa", "label": "Sannyāsa", "sanskrit": "sannyāsa", "type": "EthicalConcept",
+   "definition": "Renunciation of worldly life; 4th āśrama; path of complete detachment.",
+   "related_texts": ["manusmriti", "bhagavad_gita"]},
+
+  {"id": "viveka", "label": "Viveka", "sanskrit": "viveka", "type": "EpistemicConcept",
+   "definition": "Discriminative wisdom; ability to distinguish the real from the unreal.",
+   "related_texts": ["vivekachudamani"]},
+
+  {"id": "vairagya", "label": "Vairāgya", "sanskrit": "vairāgya", "type": "EthicalConcept",
+   "definition": "Dispassion toward worldly objects; prerequisite for Advaita practice.",
+   "related_texts": ["vivekachudamani", "yoga_sutras"]},
+
+  {"id": "prasad", "label": "Prasāda", "sanskrit": "prasāda", "type": "MetaphysicalConcept",
+   "definition": "Divine grace; in Dvaita and Bhakti, liberation requires God's grace.",
+   "related_texts": ["bhagavad_gita", "bhagavata_purana"]}
+]
